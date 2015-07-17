@@ -1,3 +1,7 @@
+## NC DESIGNS Jekyll-Bootstrap
+
+This is my Jekyll project which is the new home of NC Designs Studio website.
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
