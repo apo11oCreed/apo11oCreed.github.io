@@ -1,11 +1,11 @@
 
-https://github.com/apo11oCreed/apo11oCreed.github.io/archive.html
-https://github.com/apo11oCreed/apo11oCreed.github.io/atom.xml
-https://github.com/apo11oCreed/apo11oCreed.github.io/categories.html
-https://github.com/apo11oCreed/apo11oCreed.github.io/index.html
-https://github.com/apo11oCreed/apo11oCreed.github.io/pages.html
-https://github.com/apo11oCreed/apo11oCreed.github.io/rss.xml
-https://github.com/apo11oCreed/apo11oCreed.github.io/sitemap.txt
-https://github.com/apo11oCreed/apo11oCreed.github.io/tags.html
+https://apo11oCreed.github.io//archive.html
+https://apo11oCreed.github.io//atom.xml
+https://apo11oCreed.github.io//categories.html
+https://apo11oCreed.github.io//index.html
+https://apo11oCreed.github.io//pages.html
+https://apo11oCreed.github.io//rss.xml
+https://apo11oCreed.github.io//sitemap.txt
+https://apo11oCreed.github.io//tags.html
 
-https://github.com/apo11oCreed/apo11oCreed.github.io/lessons/2011/12/29/jekyll-introduction
+https://apo11oCreed.github.io//lessons/2011/12/29/jekyll-introduction
