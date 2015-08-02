@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: NC Designs Studio on Github
 tagline: Specializing in web coding
 ---
 {% include JB/setup %}
