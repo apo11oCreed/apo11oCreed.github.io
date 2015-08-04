@@ -11,4 +11,4 @@ Thumbs.db
 _config.yml
 *.less
 *.map
-*.codekit
+config.codekit
