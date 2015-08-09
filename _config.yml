@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : NC DESIGNS STUDIO - Jekyll Bootstrap
+title : NC DESIGNS STUDIO
 tagline: Specializing in web coding
 author :
   name : Nelson Correia
@@ -81,20 +81,20 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
-      short_name : jekyllbootstrap
+      short_name : ncdesignsstudi0
     livefyre :
       site_id : 123
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 544692632245376
       num_posts: 5
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : jekyllbootstrap
+      short_name : ncdesignsstudi0
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
