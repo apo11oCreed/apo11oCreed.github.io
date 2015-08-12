@@ -12,8 +12,21 @@
   float: right; }*/
 /* Jekyll Bootstrap Colors */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
-html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Ubuntu', sans-serif;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Ubuntu', sans-serif;
 }
 h1,
 h2,
@@ -23,6 +36,30 @@ h4 {
 }
 #footer {
   background-color: #fdcd60;
+}
+body {
+  background-image: url('http://i.imgur.com/Are9Hwl.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+@media all and (max-width: 768px) {
+  body {
+    background-image: url('http://i.imgur.com/aqFe5SL.jpg');
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #000000;
+}
+#footer {
+  background-color: #fdcd60;
+}
+.jumbotron {
+  background-color: transparent;
 }
 /* posts index */
 .post > h3.title {
@@ -79,3 +116,4 @@ h4 {
   border: 1px solid #4c964d;
   color: #FFF;
 }
+/*# sourceMappingURL=style.css.map */
