@@ -8,19 +8,19 @@ description: "NC Designs Studio Portfolio"
 <section>
 	<article>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
-			<img class="img-responsive" src="http://i.imgur.com/QX9iKlw.jpg"><br>
+			<img class="img-responsive" src="http://i.imgur.com/QX9iKlw.jpg" alt="Bishop&rsquo;s Training &amp; Fitness" /><br>
 			<figcaption>Bishop&rsquo;s Training &amp; Fitness</figcaption>
 		</figure>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
-			<img class="img-responsive" src="http://i.imgur.com/ieNZfe8.gif"><br>
+			<img class="img-responsive" src="http://i.imgur.com/ieNZfe8.gif" alt="Doctors&rsquo; Management Service, Inc." /><br>
 			<figcaption>Doctors&rsquo; Management Service, Inc.</figcaption>
 		</figure>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
-			<img class="img-responsive" src="http://i.imgur.com/SzJSEuH.jpg"><br>
+			<img class="img-responsive" src="http://i.imgur.com/SzJSEuH.jpg" alt="Stoughton Community Events" /><br>
 			<figcaption>Stoughton Community Events</figcaption>
 		</figure>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
-			<img class="img-responsive" src="http://i.imgur.com/vIxXhSg.gif">
+			<img class="img-responsive" src="http://i.imgur.com/vIxXhSg.gif" alt="Stoughton Bakery" />
 			<figcaption>Stoughton Bakery</figcaption>
 		</figure>
 	</article>
