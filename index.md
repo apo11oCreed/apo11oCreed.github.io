@@ -5,6 +5,10 @@ tagline: Specializing in web coding
 ---
 {% include JB/setup %}
 
+Hello Friends, I'm typing this with the help of a cloud editor. This is just another means of building websites&hellip; WHEREVER.I.MAY.ROAM.
+
+These days, i find spending more time exploring tech tools that will support my day-to-day. That's my idea of 'fun'.  
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
