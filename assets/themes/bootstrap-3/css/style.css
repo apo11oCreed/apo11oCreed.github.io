@@ -12,6 +12,7 @@
   float: right; }*/
 /* Jekyll Bootstrap Colors */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 html,
 body,
 h1,
@@ -27,13 +28,12 @@ h6,
 .h5,
 .h6 {
   font-family: 'Ubuntu', sans-serif;
+	color: #000000;
 }
-h1,
-h2,
-h3,
-h4 {
-  color: #000000;
+p {
+	font-family: 'Raleway', sans-serif;
 }
+
 #footer {
   background-color: #fdcd60;
 }
@@ -80,12 +80,6 @@ p.flex-item {
     -webkit-flex: 100%;
     flex: 100%;
   }
-}
-h1,
-h2,
-h3,
-h4 {
-  color: #000000;
 }
 #footer {
   background-color: #fdcd60;
