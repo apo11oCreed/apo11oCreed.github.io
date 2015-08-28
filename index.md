@@ -16,7 +16,7 @@ Hi, I typed this greeting with the help of a cloud editor. As I work through thi
 Moreso than coding, I find THIS is what makes my work a pleasure - problem solving to build sites quicker and leaner.
 </p>
 <p class="flex-item">
-And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the [ portfolio ](/portfolio.html) page. Incidently, these sites have been maintained, at times, right from my phone.
+And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a href="/portfolio.html">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
 </p>
 <p class="flex-item">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
