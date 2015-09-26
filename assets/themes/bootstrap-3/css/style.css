@@ -158,7 +158,7 @@ h4 {
 	font-weight:normal;
 	transition:all 0.5s ease-in-out;
 }
-.container ul(.pagination) li:hover::before{
+.container ul:not(.pagination) li:hover::before{
 	content:"=\003e\00a0\00a0";
 	color:rgba(194,111,31,1.0);
 	font-weight:bolder;
