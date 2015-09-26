@@ -149,14 +149,16 @@ h4 {
   border: 1px solid #4c964d;
   color: #FFF;
 }
-li{
+.container li{
 	list-style-type:none;
 }
-li:before{
+.container li:before{
 	content:"\003e\00a0\00a0";
 	color:rgba(37,64,143,1.0);
+	font-weight:normal;
 	transition:all 0.5s ease-in-out;
 }
-li:hover::before{
+.container li:hover::before{
 	color:rgba(194,111,31,1.0);
+	font-weight:bolder;
 }
