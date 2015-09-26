@@ -37,6 +37,9 @@ h4 {
 #footer {
   background-color: #fdcd60;
 }
+a:hover {
+	text-decoration:none;
+}
 body {
   background-image: url('http://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
@@ -143,7 +146,6 @@ h4 {
 }
 .tag_box a:hover {
   background-color: #e5e5e5;
-	text-decoration:none;
 }
 .tag_box a.active {
   background: #57A957;
