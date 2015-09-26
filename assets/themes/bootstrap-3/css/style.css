@@ -152,13 +152,13 @@ h4 {
 .container li{
 	list-style-type:none;
 }
-.container ul:not(.pagination) li:before, .container ul:not(.tag_box) li:before{
+.container ul:not(.pagination,.tag_box) li:before{
 	content:"\003e\00a0\00a0";
 	color:rgba(37,64,143,1.0);
 	font-weight:normal;
 	transition:all 0.5s ease-in-out;
 }
-.container ul:not(.pagination) li:hover::before, .container ul:not(.tag_box) li:hover::before{
+.container ul:not(.pagination,.tag_box) li:hover::before{
 	content:"=\003e\00a0\00a0";
 	color:rgba(194,111,31,1.0);
 	font-weight:bolder;
