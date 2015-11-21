@@ -37,9 +37,6 @@ h4 {
 #footer {
   background-color: #fdcd60;
 }
-a:hover {
-	text-decoration:none;
-}
 body {
   background-image: url('http://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
@@ -83,6 +80,11 @@ ul.flex-item {
   p.flex-item {
     -webkit-flex: 100%;
     flex: 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    right: 14px;
   }
 }
 h1,
@@ -151,18 +153,4 @@ h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF;
-}
-.container li{
-	list-style-type:none;
-}
-.container ul:not(.pagination):not(.tag_box) li a:before{
-	content:"\003e\00a0\00a0";
-	color:rgba(37,64,143,1.0);
-	font-weight:normal;
-	transition:all 0.5s ease-in-out;
-}
-.container ul:not(.pagination):not(.tag_box) li a:hover::before{
-	content:"=\003e\00a0\00a0";
-	color:rgba(194,111,31,1.0);
-	font-weight:bolder;
 }
