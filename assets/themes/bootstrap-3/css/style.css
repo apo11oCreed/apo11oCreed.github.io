@@ -94,7 +94,7 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 .jumbotron {
   background-color: transparent;
@@ -156,5 +156,5 @@ h4 {
 }
 ::selection {
   color:#ffffff;
-  background:#C26F1F;
+  background-color:#C26F1F;
 }
