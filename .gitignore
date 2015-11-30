@@ -12,3 +12,5 @@ _config.yml
 *.less
 *.map
 config.codekit
+.vscode
+.vscode/*
