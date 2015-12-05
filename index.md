@@ -5,7 +5,7 @@ tagline: Specializing in web coding
 ---
 {% include JB/setup %}
 
-<article class="flex-container">
+<main class="flex-container">
 <h2 class="flex-item">
 Work CAN be fun.
 </h2>
@@ -29,12 +29,10 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
 <li><a href="https://plus.google.com/+Ncdesigns-studio">Google+</a></li>
 <li>Phone: <a href="tel:7814360309">7814360309</a></li>
 </ul>
-</article>
-<article>
 <h3>Recent Posts</h3>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-</article>
+</main>
