@@ -5,7 +5,8 @@ tagline: Specializing in web coding
 ---
 {% include JB/setup %}
 
-<main class="flex-container">
+<main>
+<div class="flex-container">
 <h2 class="flex-item">
 Work CAN be fun.
 </h2>
@@ -21,6 +22,8 @@ And building this site is fun. These pages are a series of explorations into the
 <p class="flex-item">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
+</div>
+<div class="flex-container">
 <ul class="flex-item">
 <li>Email: <a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></li>
 <li><a href="https://www.facebook.com/ncdesignsstudi0">Facebook</a></li>
@@ -29,6 +32,7 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
 <li><a href="https://plus.google.com/+Ncdesigns-studio">Google+</a></li>
 <li>Phone: <a href="tel:7814360309">7814360309</a></li>
 </ul>
+</div>
 <h3>Recent Posts</h3>
 <ul class="posts">
   {% for post in site.posts %}
