@@ -5,10 +5,12 @@ description: "NC Designs Studio Portfolio"
 ---
 {% include JB/setup %}
 
-<section>
+<main role="main">
 	<article>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
-			<img class="img-responsive" src="http://i.imgur.com/QX9iKlw.jpg" alt="Bishop&rsquo;s Training &amp; Fitness" /><br>
+			<picture>
+			<source class="img-responsive" media="(max-width:480px)" srcset="http://i.imgur.com/AGzU0bj.jpg, http://i.imgur.com/A2eP7ZD.jpg 2x">
+			<img class="img-responsive" src="http://i.imgur.com/QX9iKlw.jpg" alt="Bishop&rsquo;s Training &amp; Fitness" /></picture><br>
 			<figcaption>Bishop&rsquo;s Training &amp; Fitness</figcaption>
 		</figure>
 		<figure class="col-xs-12 col-sm-3 thumbnail">
@@ -24,4 +26,4 @@ description: "NC Designs Studio Portfolio"
 			<figcaption>Stoughton Bakery</figcaption>
 		</figure>
 	</article>
-</section>
+</main role="main">

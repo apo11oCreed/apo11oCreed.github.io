@@ -2,7 +2,7 @@
 layout: post
 category : lessons
 tagline: "Living without preferences"
-tags : [blog, daily, journal]
+tags : [blog, journal]
 ---
 {% include JB/setup %}
 
