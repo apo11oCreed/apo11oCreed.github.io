@@ -32,4 +32,4 @@ description: "NC Designs Studio Portfolio"
 			<figcaption>Stoughton Bakery</figcaption>
 		</figure>
 	</article>
-</main role="main">
+</main>
