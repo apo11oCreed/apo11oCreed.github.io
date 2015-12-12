@@ -44,7 +44,7 @@ body {
   background-position: center top;
   background-attachment: fixed;
 }
-main.flex-container {
+.flex-container {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
