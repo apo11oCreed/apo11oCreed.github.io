@@ -5,11 +5,11 @@ tagline: Specializing in web coding
 ---
 {% include JB/setup %}
 
-<main class="flex-container" role="main">
+<main role="main">
 <h1 class="flex-item">
 Work CAN be fun.
 </h1>
-
+<div class="flex-container">
 <p class="flex-item">
 Hi, I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
 </p>
@@ -22,6 +22,7 @@ And building this site is fun. These pages are a series of explorations into the
 <p class="flex-item">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
+</div>
 <div class="flex-container">
 <ul class="flex-item">
 <li>Email: <a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></li>
