@@ -4,11 +4,10 @@ title: About Nelson
 ---
 {% include JB/setup %}
 
-<section>
-<article class="flex-container">
-<h2 class="flex-item">
+<main class="flex-container">
+<h1 class="flex-item">
 	Nelson Correia : Web Developer
-</h2>
+</h1>
 <p class="flex-item">
 	Nelson Correia has provided web support to local businesses for more than seven years. Muddling through several WYSIWYGs, traversing antiquated code, and taming a number of WordPress sites, Nelson has collaborated with business owners to bring their business sites back to life against the odds. 
 </p>
@@ -21,5 +20,4 @@ title: About Nelson
 <p class="flex-item">
 	Nelson's home studio is just south of Boston. Having lived in New England all his life, he enjoys reliving the local experiences with his wife and two children. When not coding, Nelson likes reading tech blogs and watching crime TV.
 </p>
-</article>
-</section>
+</main>
