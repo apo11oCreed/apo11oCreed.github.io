@@ -5,9 +5,9 @@ title: Sandbox Testing
 {% include JB/setup %}
 
 <script>
-$(document).ready( function() {
-$( "#ajaxcontent" ).load( "pages.html" );
-}
+$(document).ready( function(){
+$( "#ajaxcontent" ).load( "http://ncdesigns-studio.com/pages.html" );
+)}
 </script>
 <main class="flex-container">
 <h1 class="flex-item">
