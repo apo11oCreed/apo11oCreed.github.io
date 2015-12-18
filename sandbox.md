@@ -5,13 +5,13 @@ title: Sandbox Testing
 {% include JB/setup %}
 
 <script>
-$(document).ready(function(){
-$("#ajaxcontent").load("http://ncdesigns-studio.com/pages.html","#wrap");
-});
+//$(document).ready(function(){
+//$("#ajaxcontent").load("http://ncdesigns-studio.com/pages.html","#wrap");
+//});
 </script>
 <script>
-var stateObj = { foo: "bar" };
-history.pushState(stateObj, "page 2", "/test.html");
+//var stateObj = { foo: "bar" };
+//history.pushState(stateObj, "page 2", "/test.html");
 </script>
 <main class="flex-container">
 <h1 class="flex-item">
@@ -19,4 +19,5 @@ history.pushState(stateObj, "page 2", "/test.html");
 </h1>
 <div class="flex-item" id="ajaxcontent">
 </div>
+<div id="sampleArea"></div>
 </main>
