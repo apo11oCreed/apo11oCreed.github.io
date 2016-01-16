@@ -20,7 +20,7 @@ title: Sandbox Testing
 <div class="flex-item" id="ajaxcontent">
 </div>
 <div id="sampleArea"></div>
-
+</div>
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
   Link with href
 </a>
