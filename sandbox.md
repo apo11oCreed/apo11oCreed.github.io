@@ -13,7 +13,8 @@ title: Sandbox Testing
 //var stateObj = { foo: "bar" };
 //history.pushState(stateObj, "page 2", "/test.html");
 </script>
-<main class="flex-container">
+<main>
+<div class="flex-container">
 <h1 class="flex-item">
 	Sandbox Testing
 </h1>
