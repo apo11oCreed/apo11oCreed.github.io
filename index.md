@@ -2,6 +2,8 @@
 layout: page
 title: NC Designs Studio on Github
 tagline: Specializing in web coding
+description: NC Designs Studio provides web development services including web design, production, and maintenance.
+author: Nelson Correia
 ---
 {% include JB/setup %}
 
