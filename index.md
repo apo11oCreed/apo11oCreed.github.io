@@ -7,7 +7,7 @@ author: Nelson Correia
 ---
 {% include JB/setup %}
 
-<main role="main">
+<main role="main" itemscope itemtype="http://schema.org/ProfilePage">
 <h1 class="flex-item">
 Work CAN be fun.
 </h1>
@@ -25,7 +25,7 @@ And building this site is fun. These pages are a series of explorations into the
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
 </div>
-<div class="flex-container">
+<div class="flex-container" itemscope itemtype="http://schema.org/">
 <ul class="flex-item">
 <li>Email: <a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></li>
 <li><a href="https://www.facebook.com/ncdesignsstudi0">Facebook</a></li>
@@ -36,7 +36,7 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
 </ul>
 </div>
 </main>
-<footer role="contentinfo">
+<footer role="contentinfo" itemtype="WPFooter" itemscope itemtype="http://schema.org/WebPageElement">
 <h1>Recent Posts</h1>
 <ul class="posts">
   {% for post in site.posts %}

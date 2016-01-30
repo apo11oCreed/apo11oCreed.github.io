@@ -4,7 +4,7 @@ title: About Nelson
 ---
 {% include JB/setup %}
 
-<main class="flex-container">
+<main class="flex-container" itemscope itemtype="http://schema.org/AboutPage">
 <h1 class="flex-item">
 	Nelson Correia : Web Developer
 </h1>
