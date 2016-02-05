@@ -3,7 +3,7 @@ self.addEventListener('install', event =>{
 		return caches.open('static')
 		.then(cache =>
 			cache.addAll([
-				'/'
+				'/../../../../../../'
 				])
 			);
 	}
