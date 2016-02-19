@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sandbox Testing
+description: Sandbox testing page for new technologies
 ---
 {% include JB/setup %}
 

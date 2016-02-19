@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Nelson
+description: Nelson Correia has provided web support to local businesses for more than seven years.
 ---
 {% include JB/setup %}
 

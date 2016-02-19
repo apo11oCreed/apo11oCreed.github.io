@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Portfolio"
-description: "NC Designs Studio Portfolio"
+title: Portfolio
+description: NC Designs Studio Portfolio
 ---
 {% include JB/setup %}
 

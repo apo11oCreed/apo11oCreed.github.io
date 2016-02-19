@@ -3,6 +3,7 @@ layout: page
 title: Pages 
 header: Pages
 group: navigation
+description: Site pages
 ---
 {% include JB/setup %}
 
