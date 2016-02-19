@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-sitemap: http://ncdesigns-studio.com/sitemap.txt
+sitemap: https://ncdesigns-studio.com/sitemap.txt
