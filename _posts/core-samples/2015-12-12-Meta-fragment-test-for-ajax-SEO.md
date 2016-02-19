@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Meta fragment add for AJAX SEO web crawling
+category : lessons
+tagline: "Supporting tagline"
+tags : [testing]
 ---
 {% include JB/setup %}
 
