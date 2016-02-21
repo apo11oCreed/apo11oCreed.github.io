@@ -11,7 +11,7 @@ author: Nelson Correia
 <h1 class="flex-item">
 Work CAN be fun.
 </h1>
-<div class="flex-container">
+<div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
 <p class="flex-item">
 Hi, I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
 </p>
@@ -21,7 +21,7 @@ Moreso than coding, I find THIS is what makes my work a pleasure - problem solvi
 <p class="flex-item">
 And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a href="/portfolio.html" title="portfolio page">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
 </p>
-<p class="flex-item">
+<p class="flex-item" itemprop="specialty">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
 </div>
