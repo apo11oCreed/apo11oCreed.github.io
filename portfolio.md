@@ -5,7 +5,7 @@ description: NC Designs Studio Portfolio
 ---
 {% include JB/setup %}
 
-<main role="main" itemscope itemtype="http://schema.org/WebPageElement">
+<main role="main" itemscope itemtype="http://schema.org/WebPage">
 	<article itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork" >
 		<figure itemprop="workExample" class="col-xs-12 col-sm-3 thumbnail" >
 			<picture>
