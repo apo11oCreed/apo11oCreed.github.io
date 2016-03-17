@@ -1,5 +1,5 @@
 if('serviceWorker' in navigator){
-	navigator.serviceWorker.register('serviceWorker.js',{
+	navigator.serviceWorker.register('https://ncdesigns-studio.com/serviceWorker.js',{
 		scope: '/'
 	});
 }
