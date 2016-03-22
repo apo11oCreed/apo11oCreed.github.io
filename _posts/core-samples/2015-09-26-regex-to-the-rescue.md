@@ -6,7 +6,7 @@ tags : [blog,tools]
 ---
 {% include JB/setup %}
 
-##Find and Replace on Steroids
+## Find and Replace on Steroids
 
 To this day, I am still fascinated by how powerful regular expressions are when used to automate tasks in large volumes of source code.
 

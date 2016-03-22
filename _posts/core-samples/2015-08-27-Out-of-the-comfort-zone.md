@@ -6,7 +6,7 @@ tags : [blog, journal]
 ---
 {% include JB/setup %}
 
-##Not a Rant
+## Not a Rant
 
 If you run your own kitchen, how long did it take to make it YOURS? An invaluable characteristic of what makes an environment YOURS is every aspect that supports the way you like to work.
 
