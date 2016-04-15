@@ -1,7 +1,7 @@
 ---
 layout: post
 category : blog
-tagline: "Living without preferences"
+tagline: "Mentoring"
 tags : [blog, journal]
 ---
 {% include JB/setup %}
