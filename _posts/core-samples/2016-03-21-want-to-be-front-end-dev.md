@@ -8,7 +8,7 @@ tags : [blog, journal]
 
 ## Want to be a Front End Dev?
 
-I recently attended a student exhibition at a school I gradutate from almost a decade ago. A freshman was introduced to me by my former mentor and he told me about her desire to be a web developer. I saw this was a chance opportunity to enlighten and/or inspire a dev newbie.
+I recently attended a student exhibition at a school I gradutated from almost a decade ago. A freshman was introduced to me by my former mentor and he told me about her desire to be a web developer. I saw this was a chance opportunity to enlighten and/or inspire a dev newbie.
 
 For myself, this is a rare occasion, and it is these moments that make me very conscience of my own personal experience. But, when tasked to provide perspective, it is important to filter out the struggles and long hours of debugging. Everyone is entitled to build their own experiences, after all, and TMI might have a detrimental impact.
 
