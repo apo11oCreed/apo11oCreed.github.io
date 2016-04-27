@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 html,
 body,
 h1,
@@ -35,22 +35,29 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: #ffffff;
+  background-color: #fdcd60;
 }
 body {
-  background-image: url('https://i.imgur.com/Are9Hwl.png');
+  background-image: url('http://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;
   background-attachment: fixed;
 }
-.flex-container {
+article.flex-container {
   display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .jumbotron h1 {
   color: #25408f;
@@ -62,24 +69,33 @@ body {
 }
 h2.flex-item {
   -webkit-flex: 100%;
-  flex: 100%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
 }
 p.flex-item,
 ul.flex-item {
   -webkit-flex: 48%;
-  flex: 48%;
-  flex-grow: 1;
+  -webkit-box-flex: 48%;
+      -ms-flex: 48%;
+          flex: 48%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin-right: 1%;
   margin-left: 1%;
   background-color: #ffffff;
 }
 @media all and (max-width: 768px) {
   body {
-    background-image: url('https://i.imgur.com/aqFe5SL.jpg');
+    background-image: url('http://i.imgur.com/aqFe5SL.jpg');
   }
   p.flex-item {
     -webkit-flex: 100%;
-    flex: 100%;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
   }
 }
 @media all and (min-width: 768px) {
@@ -94,7 +110,7 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: #ffffff;
+  background-color: #fdcd60;
 }
 .jumbotron {
   background-color: transparent;
@@ -154,7 +170,11 @@ h4 {
   border: 1px solid #4c964d;
   color: #FFF;
 }
-::selection {
-  color:#ffffff;
-  background-color:#C26F1F;
+.page-header {
+  display: none;
 }
+.hr_color-grid {
+  -ms-grid-columns: (minmax(100px, 200px))[autofill];
+      grid-template-columns: repeat(autofill, minmax(100px, 200px));
+}
+/*# sourceMappingURL=style.css.map */
