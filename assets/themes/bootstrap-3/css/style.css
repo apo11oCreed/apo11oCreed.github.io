@@ -171,7 +171,7 @@ h4 {
   color: #FFF;
 }
 .page-header {
-  display: none;
+  border-bottom: none;
 }
 .hr_color-grid {
   -ms-grid-columns: (minmax(100px, 200px))[autofill];
