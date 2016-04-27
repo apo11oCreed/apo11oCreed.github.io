@@ -21,11 +21,11 @@ Moreso than coding, I find THIS is what makes my work a pleasure - problem solvi
 <p class="flex-item">
 And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a href="/portfolio.html" title="portfolio page">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
 </p>
-<div><svg></svg></div>
 <p class="flex-item" itemprop="specialty">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
 </div>
+<div class="svg-container"></div>
 <div class="flex-container" itemscope itemtype="http://schema.org/">
 <ul class="flex-item">
 <li>Email: <a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></li>
