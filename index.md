@@ -25,7 +25,6 @@ And building this site is fun. These pages are a series of explorations into the
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
 </div>
-<div></div>
 <div itemscope itemtype="http://schema.org/">
 <ul class="grid_contact-info">
 <li><span id="envelope" class="glyphicon glyphicon-envelope"></span><span id="email">Email: </span><span id="email-address"><a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></span></li>
