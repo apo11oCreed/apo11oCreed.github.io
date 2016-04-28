@@ -21,19 +21,19 @@ Moreso than coding, I find THIS is what makes my work a pleasure - problem solvi
 <p class="flex-item">
 And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a href="/portfolio.html" title="portfolio page">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
 </p>
-<div><svg></svg></div>
 <p class="flex-item" itemprop="specialty">
 If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 </p>
 </div>
-<div class="flex-container" itemscope itemtype="http://schema.org/">
-<ul class="flex-item">
-<li>Email: <a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></li>
-<li><a href="https://www.facebook.com/ncdesignsstudi0">Facebook</a></li>
-<li><a href="https://www.behance.net/ncdesigns">Behance</a></li>
-<li><a href="https://www.linkedin.com/pub/nelson-correia/10/493/b14">LinkedIn</a></li>
-<li><a href="https://plus.google.com/+Ncdesigns-studio">Google+</a></li>
-<li>Phone: <a href="tel:7814360309">7814360309</a></li>
+<div></div>
+<div itemscope itemtype="http://schema.org/">
+<ul class="grid_contact-info">
+<li><span id="envelope" class="glyphicon glyphicon-envelope"></span><span id="email">Email: </span><span id="email-address"><a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></span></li>
+<li><span id="f"></span><span id="facebook"><a href="https://www.facebook.com/ncdesignsstudi0">Facebook</a></span><span id="facebook-url"></span></li>
+<li><span id="be"></span><span id="behance"><a href="https://www.behance.net/ncdesigns">Behance</a></span><span id="behance-url"></span></li>
+<li><span id="li"></span><span id="linkedin"><a href="https://www.linkedin.com/pub/nelson-correia/10/493/b14">LinkedIn</a></span><span id="linkedin-url"></span></li>
+<li><span id="g"></span><span id="google-plus"><a href="https://plus.google.com/+Ncdesigns-studio">Google+</a></span><span id="google-plus-url"></span></li>
+<li><span id="phone" class="glyphicon glyphicon-phone"></span><span id="phone-label">Phone: </span><span id="phone-no"><a href="tel:7814360309">7814360309</a></span></li>
 </ul>
 </div>
 </main>

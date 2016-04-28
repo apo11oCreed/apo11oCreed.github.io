@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 html,
 body,
 h1,
@@ -35,10 +35,10 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: #ffffff;
+  background-color: #fdcd60;
 }
 body {
-  background-image: url('https://i.imgur.com/Are9Hwl.png');
+  background-image: url('http://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;
@@ -46,11 +46,18 @@ body {
 }
 .flex-container {
   display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .jumbotron h1 {
   color: #25408f;
@@ -62,24 +69,33 @@ body {
 }
 h2.flex-item {
   -webkit-flex: 100%;
-  flex: 100%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
 }
 p.flex-item,
 ul.flex-item {
   -webkit-flex: 48%;
-  flex: 48%;
-  flex-grow: 1;
+  -webkit-box-flex: 48%;
+      -ms-flex: 48%;
+          flex: 48%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin-right: 1%;
   margin-left: 1%;
   background-color: #ffffff;
 }
 @media all and (max-width: 768px) {
   body {
-    background-image: url('https://i.imgur.com/aqFe5SL.jpg');
+    background-image: url('http://i.imgur.com/aqFe5SL.jpg');
   }
   p.flex-item {
     -webkit-flex: 100%;
-    flex: 100%;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
   }
 }
 @media all and (min-width: 768px) {
@@ -94,7 +110,7 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: #ffffff;
+  background-color: #fdcd60;
 }
 .jumbotron {
   background-color: transparent;
@@ -154,7 +170,37 @@ h4 {
   border: 1px solid #4c964d;
   color: #FFF;
 }
-::selection {
-  color:#ffffff;
-  background-color:#C26F1F;
+.page-header {
+  border-bottom: none;
 }
+.hr_color-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 1px;
+}
+.hr_color-grid .color {
+  width: 1%;
+  background: -webkit-radial-gradient(#c26f1f, #25408f);
+  background: radial-gradient(#c26f1f, #25408f);
+  rotate: 90deg;
+}
+.hr_color-grid .color:nth-child(odd) {
+  background: #c26f1f;
+}
+.grid_contact-info {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-no phone-no-spacer";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 2em 2em 2em 2em 2em 2em;
+      grid-template-rows: 2em 2em 2em 2em 2em 2em;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
