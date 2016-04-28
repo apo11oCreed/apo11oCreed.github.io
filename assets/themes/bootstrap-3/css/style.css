@@ -174,7 +174,33 @@ h4 {
   border-bottom: none;
 }
 .hr_color-grid {
-  -ms-grid-columns: (minmax(100px, 200px))[autofill];
-      grid-template-columns: repeat(autofill, minmax(100px, 200px));
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 1px;
+}
+.hr_color-grid .color {
+  width: 1%;
+  background: -webkit-radial-gradient(#c26f1f, #25408f);
+  background: radial-gradient(#c26f1f, #25408f);
+  rotate: 90deg;
+}
+.hr_color-grid .color:nth-child(odd) {
+  background: #c26f1f;
+}
+.grid_contact-info {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-no phone-no-spacer";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 2em 2em 2em 2em 2em 2em;
+      grid-template-rows: 2em 2em 2em 2em 2em 2em;
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */
