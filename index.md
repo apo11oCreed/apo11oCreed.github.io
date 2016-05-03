@@ -8,8 +8,8 @@ author: Nelson Correia
 {% include JB/setup %}
 
 <main role="main" itemscope itemtype="http://schema.org/ProfilePage">
-<h1 class="flex-item">
-Work CAN be fun.
+<h1 class="flex-item" id="special-header">
+Shadow DOM Test
 </h1>
 <div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
 <p class="flex-item">
@@ -45,3 +45,19 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
   {% endfor %}
 </ul>
 </footer>
+<template id="shadowDOMTemplateTest">
+<style>
+h1.flex-item{
+color:blue;
+}
+</style>
+<div>
+Work CAN be fun.
+</div>
+</template>
+<script>
+var shadow = document.querySelector('#special-header').createShadowRoot();
+var template = document.querySelector('#shadowDOMTemplateTest');
+var clone = document.importNode(template.content, true);
+shadow.appendChild(clone);
+</script>
