@@ -9,7 +9,7 @@ author: Nelson Correia
 
 <main role="main" itemscope itemtype="http://schema.org/ProfilePage">
 <h1 class="flex-item" id="special-header">
-Shadow DOM Test
+You're browser does not support shadow DOM:(
 </h1>
 <div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
 <p class="flex-item">
@@ -51,7 +51,7 @@ color:blue;
 }
 </style>
 <div>
-Work CAN be fun.
+You're browser supports shadow DOM:)
 </div>
 </template>
 <script>
