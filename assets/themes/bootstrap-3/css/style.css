@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 html,
 body,
 h1,
@@ -196,7 +196,7 @@ h4 {
 .grid_contact-info {
   display: -ms-grid;
   display: grid;
-  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-no phone-no-spacer";
+  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-label phone-no";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   -ms-grid-rows: 2em 2em 2em 2em 2em 2em;
