@@ -3,6 +3,7 @@ layout: post
 category : lessons
 tagline: "Living without preferences"
 tags : [blog, journal]
+description: For the past two days, I have been removed from all of my keyboard custom shortcuts and workflow apps.
 ---
 {% include JB/setup %}
 

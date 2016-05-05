@@ -3,6 +3,7 @@ layout: post
 category : lessons
 tagline: "Find and Replace on Steroids"
 tags : [blog,tools]
+description: I am still fascinated by how powerful regular expressions are when used to automate tasks in large volumes of source code.
 ---
 {% include JB/setup %}
 

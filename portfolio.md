@@ -2,6 +2,7 @@
 layout: page
 title: Portfolio
 description: NC Designs Studio Portfolio
+author: Nelson Correia
 ---
 {% include JB/setup %}
 
