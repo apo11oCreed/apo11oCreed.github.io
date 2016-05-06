@@ -3,6 +3,7 @@ layout: post
 category : lessons
 tagline: "NC Designs Studio Blog"
 tags : [journal, history, redesign]
+description: Testing blog functionality, quick question.
 ---
 {% include JB/setup %}
 

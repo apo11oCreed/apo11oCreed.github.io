@@ -4,6 +4,7 @@ title: Pages
 header: Pages
 group: navigation
 description: Site pages
+author: Nelson Correia
 ---
 {% include JB/setup %}
 
