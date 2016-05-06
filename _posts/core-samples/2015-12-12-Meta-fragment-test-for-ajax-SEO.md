@@ -7,7 +7,7 @@ tags : [testing]
 {% include JB/setup %}
 
 <script>
-$( "#ajaxcontent" ).load( "http://ncdesigns-studio.com/pages.html #ajaxcontent" );
+$( "#ajaxcontent" ).load( "http://ncdesigns-studio.com/pages.html h2" );
 </script>
 <main class="flex-container">
 <h1 class="flex-item">
