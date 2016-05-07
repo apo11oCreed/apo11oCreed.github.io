@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NC Designs Studio
+title: NC Designs Studio on Github
 tagline: Specializing in web coding
 description: NC Designs Studio provides web development services including web design, production, and maintenance.
 author: Nelson Correia
@@ -9,7 +9,7 @@ author: Nelson Correia
 
 <main role="main" itemscope itemtype="http://schema.org/ProfilePage">
 <h1 class="flex-item" id="special-header">
-You're browser does not support shadow DOM:(
+Work can be fun
 </h1>
 <div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
 <p class="flex-item">
@@ -51,7 +51,7 @@ color:blue;
 }
 </style>
 <div>
-You're browser supports shadow DOM:)
+<content></content>
 </div>
 </template>
 <script>
@@ -59,4 +59,5 @@ var shadow = document.querySelector('#special-header').createShadowRoot();
 var template = document.querySelector('#shadowDOMTemplateTest');
 var clone = document.importNode(template.content, true);
 shadow.appendChild(clone);
+document.querySelector('#special-header').textContent = 'Work can be fun.';
 </script>
