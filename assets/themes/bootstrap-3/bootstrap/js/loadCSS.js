@@ -77,4 +77,3 @@
 		w.loadCSS = loadCSS;
 	}
 }( typeof global !== "undefined" ? global : this ));
-}( typeof global !== "undefined" ? global : this ));
