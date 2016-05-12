@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 html,
 body,
 h1,
@@ -102,6 +102,27 @@ ul.flex-item {
   .navbar-right .dropdown-menu {
     right: 14px;
   }
+}
+a.navbar-brand {
+  position: relative;
+}
+.logo-icon {
+  float: left;
+  width: 18px;
+  margin-right: 1em;
+}
+.clip_filter_testing {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 28px;
+  background: -webkit-linear-gradient(top, #c26f1f, #25408f);
+  background: linear-gradient(180deg, #c26f1f, #25408f);
+  border-radius: 5px;
+  height: 28px;
+  display: block;
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
 }
 h1,
 h2,
@@ -196,7 +217,7 @@ h4 {
 .grid_contact-info {
   display: -ms-grid;
   display: grid;
-  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-no phone-no-spacer";
+  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-label phone-no";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   -ms-grid-rows: 2em 2em 2em 2em 2em 2em;

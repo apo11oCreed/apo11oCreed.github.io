@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -266,24 +266,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_site\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/404.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/404.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -302,103 +284,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap-theme.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap-theme.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bs-sticky-footer.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bs-sticky-footer.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/bootstrap.min.js": {
+	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/cssrelpreload.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/min\/bootstrap.min-min.js",
+		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/cssrelpreload.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/min\/cssrelpreload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/data.js": {
+	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/loadCSS.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/data.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/min\/data-min.js",
+		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/loadCSS.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/js\/min\/loadCSS-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/assets\/themes\/bootstrap-3\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8777,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12799,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/2016\/03\/21\/want-to-be-front-end-dev.html": {
 		"fileType": 8192,
@@ -417,70 +323,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/data.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/data.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/_site\/data-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/_site\/Gemfile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/Gemfile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/images\/081815ncdesigns-logo-114x114.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2070,
-		"inputAbbreviatedPath": "\/_site\/images\/081815ncdesigns-logo-114x114.png",
-		"outputAbbreviatedPath": "\/_site\/images\/081815ncdesigns-logo-114x114.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/apple-touch-icon-72x72.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1382,
-		"inputAbbreviatedPath": "\/_site\/images\/apple-touch-icon-72x72.png",
-		"outputAbbreviatedPath": "\/_site\/images\/apple-touch-icon-72x72.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1686,
-		"inputAbbreviatedPath": "\/_site\/images\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/_site\/images\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 381,
-		"inputAbbreviatedPath": "\/_site\/images\/favicon.png",
-		"outputAbbreviatedPath": "\/_site\/images\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -609,48 +451,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/_site\/serviceWorker.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/serviceWorker.js",
-		"outputAbbreviatedPath": "\/_site\/min\/serviceWorker-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/site.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/site.js",
-		"outputAbbreviatedPath": "\/_site\/min\/site-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/style.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/style.less",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/assets\/themes\/bootstrap-3\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
 		},
 	"\/_site\/tags.html": {
 		"fileType": 8192,
