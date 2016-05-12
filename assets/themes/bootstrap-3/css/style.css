@@ -103,6 +103,27 @@ ul.flex-item {
     right: 14px;
   }
 }
+a.navbar-brand {
+  position: relative;
+}
+.logo-icon {
+  float: left;
+  width: 18px;
+  margin-right: 1em;
+}
+.clip_filter_testing {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 28px;
+  background: -webkit-linear-gradient(top, #c26f1f, #25408f);
+  background: linear-gradient(180deg, #c26f1f, #25408f);
+  border-radius: 5px;
+  height: 28px;
+  display: block;
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
 h1,
 h2,
 h3,

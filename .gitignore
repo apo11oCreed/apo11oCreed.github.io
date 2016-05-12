@@ -14,3 +14,4 @@ _config.yml
 *.codekit
 .vscode
 .vscode/*
+config.codekit
