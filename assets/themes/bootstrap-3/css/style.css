@@ -224,4 +224,7 @@ h4 {
       grid-template-rows: 2em 2em 2em 2em 2em 2em;
   list-style-type: none;
 }
+form-control:focus {
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
