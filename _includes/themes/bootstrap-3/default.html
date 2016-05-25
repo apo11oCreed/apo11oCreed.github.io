@@ -43,8 +43,8 @@
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript">
+    <script data-cfasync="true" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script data-cfasync="true" type="text/javascript">
 
     function getSearchJSON()
     {
@@ -146,7 +146,7 @@
         <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NXBD7J"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -203,11 +203,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </p>
       </div>
     </div>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/loadCSS.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/cssrelpreload.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="{{ site.url }}/site.js"></script>
+    <script data-cfasync="true" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script data-cfasync="true" src="{{ ASSET_PATH }}/bootstrap/js/loadCSS.js"></script>
+    <script data-cfasync="true" src="{{ ASSET_PATH }}/bootstrap/js/cssrelpreload.js"></script>
+    <script data-cfasync="true" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script data-cfasync="false" src="{{ site.url }}/site.js"></script>
     {% include JB/analytics %}
 
   </body>
