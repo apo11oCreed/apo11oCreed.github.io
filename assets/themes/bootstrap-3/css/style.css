@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
 html,
 body,
 h1,
@@ -59,11 +59,11 @@ body {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
-.jumbotron h1 {
+.page-header h1 {
   color: #25408f;
   text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.5);
 }
-.jumbotron h1 small {
+.page-header h1 small {
   color: #c26f1f;
   text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.5);
 }
@@ -133,7 +133,7 @@ h4 {
 #footer {
   background-color: #fdcd60;
 }
-.jumbotron {
+.page-header {
   background-color: transparent;
 }
 /* posts index */
