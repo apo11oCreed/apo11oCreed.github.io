@@ -34,8 +34,9 @@ description: Sandbox testing page for new technologies
     ...
   </div>
 </div>
-<script type="text/javascript" src="http://feed.informer.com/widgets/CLN29YWOKM.js"></script>
-<noscript><a href="http://feed.informer.com/widgets/CLN29YWOKM.html">"alilyloveaffair"</a>
+<script type="text/javascript" src="https://feed.informer.com/widgets/CLN29YWOKM.js"></script>
+<noscript><a href="https://feed.informer.com/widgets/CLN29YWOKM.html">"alilyloveaffair"</a>
 Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
+    
 
 </main>
