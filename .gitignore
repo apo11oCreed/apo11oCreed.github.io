@@ -1,3 +1,4 @@
+.gitignore
 _site/*
 _theme_packages/*
 
@@ -15,3 +16,6 @@ _config.yml
 .vscode
 .vscode/*
 config.codekit
+514DD64D0399F5BD.jpeg
+514DD64D0399F5BF.jpeg
+Artboard 1 copy.svg
