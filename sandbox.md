@@ -38,6 +38,7 @@ description: Sandbox testing page for new technologies
 <script type="text/javascript" src="https://feed.informer.com/widgets/CLN29YWOKM.js"></script>
 <noscript><a href="https://feed.informer.com/widgets/CLN29YWOKM.html">"alilyloveaffair"</a>
 Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
-
+<h2>Loader Image Test</h2>
+<img border="0" style="display:block;" src="/images/042914_natalie.JPG" alt="Natalie" />
 
 </main>
