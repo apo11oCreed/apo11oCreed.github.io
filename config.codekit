@@ -489,6 +489,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/images\/042914_natalie.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.71498e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/042914_natalie.JPG",
+		"outputAbbreviatedPath": "\/_site\/images\/042914_natalie.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/081815ncdesigns-logo-114x114.png": {
 		"fileType": 32768,
 		"ignore": 0,
