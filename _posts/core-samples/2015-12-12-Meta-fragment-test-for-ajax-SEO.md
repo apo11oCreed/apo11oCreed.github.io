@@ -6,11 +6,6 @@ tags : [testing]
 ---
 {% include JB/setup %}
 
-<script>
-$( document ).ready(function() {
-$( "#ajaxcontent" ).load( "https://ncdesigns-studio.com/pages.html h2" );
-});
-</script>
 <main class="flex-container">
 <h1 class="flex-item">
 	Let the games begin!
@@ -18,3 +13,8 @@ $( "#ajaxcontent" ).load( "https://ncdesigns-studio.com/pages.html h2" );
 <div class="flex-item" id="ajaxcontent">
 </div>
 </main>
+<script>
+$( document ).ready(function() {
+$( "#ajaxcontent" ).load( "https://ncdesigns-studio.com/pages.html h2" );
+});
+</script>
