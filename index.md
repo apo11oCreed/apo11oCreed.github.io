@@ -8,7 +8,7 @@ author: Nelson Correia
 {% include JB/setup %}
 
 <main role="main" itemscope itemtype="http://schema.org/ProfilePage">
-<h1 class="flex-item" id="special-header">
+<h1 role="heading" class="flex-item" id="special-header">
 Work can be fun
 </h1>
 <div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
@@ -26,18 +26,18 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
 </p>
 </div>
 <div itemscope itemtype="http://schema.org/">
-<ul class="grid_contact-info">
-<li><span id="envelope" class="glyphicon glyphicon-envelope"></span><span id="email">Email: </span><span id="email-address"><a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></span></li>
-<li><span id="f"></span><span id="facebook"><a target="_blank" title="facebook.com/ncdesignsstudi0" href="https://www.facebook.com/ncdesignsstudi0" class="btn btn-default" role="button">Facebook</a></span><span id="facebook-url"></span></li>
-<li><span id="be"></span><span id="behance"><a title="behance.net/ncdesigns" target="_blank" href="https://www.behance.net/ncdesigns" class="btn btn-default" role="button">Behance</a></span><span id="behance-url"></span></li>
-<li><span id="li"></span><span id="linkedin"><a title="linkedin.com/pub/nelson-correia" target="_blank" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="btn btn-default" role="button">LinkedIn</a></span><span id="linkedin-url"></span></li>
-<li><span id="g"></span><span id="google-plus"><a title="plus.google.com/+Ncdesigns-studio" target="_blank" href="https://plus.google.com/+Ncdesigns-studio" class="btn btn-default" role="button">Google+</a></span><span id="google-plus-url"></span></li>
-<li><span id="phone" class="glyphicon glyphicon-phone"></span><span id="phone-label">Phone: </span><span id="phone-no"><a href="tel:7814360309">7814360309</a></span></li>
+<ul role="list" class="grid_contact-info">
+<li role="listitem"><span id="envelope" class="glyphicon glyphicon-envelope"></span><span id="email">Email: </span><span id="email-address"><a href="mailto:info@ncdesigns-studio.com">info@ncdesigns-studio.com</a></span></li>
+<li role="listitem"><span id="f"></span><span id="facebook"><a target="_blank" title="facebook.com/ncdesignsstudi0" href="https://www.facebook.com/ncdesignsstudi0" class="btn btn-default" role="button">Facebook</a></span><span id="facebook-url"></span></li>
+<li role="listitem"><span id="be"></span><span id="behance"><a title="behance.net/ncdesigns" target="_blank" href="https://www.behance.net/ncdesigns" class="btn btn-default" role="button">Behance</a></span><span id="behance-url"></span></li>
+<li role="listitem"><span id="li"></span><span id="linkedin"><a title="linkedin.com/pub/nelson-correia" target="_blank" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="btn btn-default" role="button">LinkedIn</a></span><span id="linkedin-url"></span></li>
+<li role="listitem"><span id="g"></span><span id="google-plus"><a title="plus.google.com/+Ncdesigns-studio" target="_blank" href="https://plus.google.com/+Ncdesigns-studio" class="btn btn-default" role="button">Google+</a></span><span id="google-plus-url"></span></li>
+<li role="listitem"><span id="phone" class="glyphicon glyphicon-phone"></span><span id="phone-label">Phone: </span><span id="phone-no"><a href="tel:7814360309">7814360309</a></span></li>
 </ul>
 </div>
 </main>
 <footer role="contentinfo" itemtype="WPFooter" itemscope itemtype="http://schema.org/WebPageElement">
-<h1>Recent Posts</h1>
+<h1 role="heading">Recent Posts</h1>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
