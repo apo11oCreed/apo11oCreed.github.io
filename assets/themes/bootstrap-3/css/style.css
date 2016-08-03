@@ -11,7 +11,7 @@
 /*.navbar .nav {
   float: right; }*/
 /* Jekyll Bootstrap Colors */
-
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 html,
 body,
 h1,
