@@ -37,7 +37,7 @@ description: Sandbox testing page for new technologies
 	img#loaderImageTest {
   width: 600px;
   height: 450px;
-  background: url(http://blog.teamtreehouse.com/wp-content/uploads/2015/05/loading.gif) 50% no-repeat;
+  background: url('images/loader.gif') 50% no-repeat;
   border: 1px solid black;
   border-radius: 5px;
 }

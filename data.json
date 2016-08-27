@@ -1,3 +1,20 @@
-{ "name" : "joe",
-"skills" : "art"
-}
+"portfolio":[{ "title" : "Bishop's Training & Fitness",
+"imgurl1x" : "https://i.imgur.com/AGzU0bj.jpg",
+"imgurl2x" : "https://i.imgur.com/A2eP7ZD.jpg",
+"description":""
+},
+{ "title" : "Doctors' Management Service, Inc.",
+"imgurl1x" : "https://i.imgur.com/ysjPEXp.jpg?1",
+"imgurl2x" : "https://i.imgur.com/NSIP9lF.jpg?1",
+"description":""
+},
+{ "title" : "Stoughton Community Events",
+"imgurl1x" : "https://i.imgur.com/jl9SVXH.png",
+"imgurl2x" : "https://i.imgur.com/OCBk87j.png",
+"description":""
+},
+{ "title" : "Stoughton Bakery",
+"imgurl1x" : "https://i.imgur.com/S3aVcZP.png",
+"imgurl2x" : "https://i.imgur.com/4OXZIeq.jpg",
+"description":""
+}]
