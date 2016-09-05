@@ -179,6 +179,14 @@
         </script>
         <!-- End Intelligent Search -->
 
+        <script data-cfasync="true" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+        <!-- Start Service Worker -->
+        <script data-cfasync="false" src="{{ site.url }}/site.js"></script>
+        <!-- End Service Worker -->
+
+        {% include JB/analytics %}
+
         <!-- Google Tag Manager -->
         <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W79S8P"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -188,13 +196,5 @@
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
         <!-- End Google Tag Manager -->
-
-        <script data-cfasync="true" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-        <!-- Start Service Worker -->
-        <script data-cfasync="false" src="{{ site.url }}/site.js"></script>
-        <!-- End Service Worker -->
-
-        {% include JB/analytics %}
       </body>
     </html>
