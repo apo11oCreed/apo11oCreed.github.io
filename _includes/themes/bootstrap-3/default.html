@@ -198,5 +198,13 @@
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
         <!-- End Google Tag Manager -->
+
+        <script type="text/javascript">
+            var XFoo = document.registerElement('first-customtag', {
+                prototype: Object.create(HTMLButtonElement.prototype),
+                extends: 'button'
+            });
+            document.body.appendChild(new XFoo());
+        </script>
       </body>
     </html>
