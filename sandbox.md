@@ -96,12 +96,10 @@ Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
 
 </main>
 <script type="text/javascript">
-		window.onload = function(){
       var loaderImageTestImg=document.getElementById('loaderImageTest');
 		var downLoadImage=new Image();
 		downLoadImage.onload=function(){
 			loaderImageTestImg.src = this.src;
 		};
 		downLoadImage.src="/images/042914_natalie.JPG";
-  }
 </script>
