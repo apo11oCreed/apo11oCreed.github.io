@@ -7,6 +7,6 @@ author: Nelson Correia
 {% include JB/setup %}
 
 <main ng-app="Portfolio" role="main" itemscope itemtype="http://schema.org/CreativeWork">
-	<article class="ng-include:portfolio.html">
+	<article class="ng-include:assets/templates/portfolio.html">
 	</article>
 </main>
