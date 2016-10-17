@@ -1,7 +1,7 @@
-var Porfolio = angular.module('portfolio', []);
+var portfolio = angular.module('portfolio',[]);
 
-Portfolio.controller('TodoCtrl', function($scope, $http) {
-  $http.get('data.json')
+portfolio.controller('TodoCtrl', function($scope, $http) {
+  $http.get('../data.json')
        .then(function(res){
           $scope.todos = res.data;                
         });

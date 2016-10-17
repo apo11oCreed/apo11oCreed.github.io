@@ -1,7 +1,7 @@
-<figure itemprop="workExample" class="col-xs-12 col-sm-3 thumbnail" >
+<figure ng-repeat="x in portfoliosamples" itemprop="workExample" class="col-xs-12 col-sm-3 thumbnail" >
 	<picture>
-	<source class="img-responsive" media="(max-width:480px)" srcset="{{ portfolio.imgurl1x }}, {{ portfolio.imgurl2x }} 2x">
-	<img itemprop="image" class="img-responsive" src="{{ portfolio.imgurl1x }}" alt="{{ portfolio.name }}" /></picture><br>
-	<h2 itemprop="title">{{ portfolio.title }}</h2>
-	<p itemprop="description">{{ portfolio.description }}</p>
+	<source class="img-responsive" media="(max-width:480px)" srcset="{{ x.imgurl1x }}, {{ x.imgurl2x }} 2x">
+	<img itemprop="image" class="img-responsive" ng-src="{{ x.imgurl1x }}" alt="{{ x.title }}" /></picture><br>
+	<h2 itemprop="item">{{x.title}}</h2>
+	<p itemprop="description">{{x.description}}</p>
 </figure>
