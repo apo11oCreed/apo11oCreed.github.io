@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="amphtml" href="{{ page.url }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Cache-control" content="public">
     <meta name="expires" content="sun, 20 Dec 2015 23:59:59 GMT">
@@ -11,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <link rel="amphtml" href="{{ site.production_url }}{{ page.url }}">
     <link rel="alternate" href="{{ site.production_url }}{{ page.url }}" hreflang="en-us">
     <!-- Bootstrap styles -->
     <link rel="preload" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
