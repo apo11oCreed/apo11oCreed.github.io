@@ -1,0 +1,78 @@
+<!doctype html> <html amp lang="en">
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<title>NC Designs AMP</title> <link rel="canonical" href="https://ncdesigns-studio.com/index.html" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Open-source framework for publishing content",
+    "datePublished": "2015-10-07T12:02:41Z",
+    "image": [ "logo.jpg"]
+}
+</script>
+<style amp-boilerplate>
+body{
+    -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    animation: -amp-start 8s steps(1, end) 0s 1 normal both
+}
+@-webkit-keyframes -amp-start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+@-moz-keyframes -amp-start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+@-ms-keyframes -amp-start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+@-o-keyframes -amp-start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+@keyframes -amp-start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+</style>
+<noscript>
+<style amp-boilerplate>body {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none
+}
+</style>
+</noscript>
+</head>
+<body>
+<h1>NC Designs Studio AMP</h1>
+<amp-img src="http://placehold.it/480x50/25408/FFFFFF?text=AMP%20Can%20Be%20Fun!" layout="responsive" alt="AMP Can Be Fun" height="400" width="800"></amp-img>
+</body>
+</html>
