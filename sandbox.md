@@ -41,9 +41,6 @@ description: Sandbox testing page for new technologies
   border: 1px solid black;
   border-radius: 5px;
 }
-first-customtag{
-  background-color:red;
-}
 </style>
 <script>
 //$(document).ready(function(){

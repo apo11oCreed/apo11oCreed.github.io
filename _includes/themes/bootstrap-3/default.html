@@ -184,7 +184,18 @@
 
         <script data-cfasync="true" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
+        <!-- Custom Web Components -->
         <script type="text/javascript" data-cfasync="true" src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.js"></script>
+        <script type="text/javascript">
+            var XFoo = document.registerElement('first-customtag', {
+                prototype: Object.create(HTMLButtonElement.prototype),
+                extends: 'button'
+            });
+            document.body.appendChild(new XFoo());
+            customElements.whenDefined('first-customtag').then(() => {
+          console.log('first-customtag defined');
+        });
+        </script>
 
         <!-- Start Service Worker -->
         <script data-cfasync="false" src="{{ site.url }}/site.js"></script>
@@ -202,12 +213,5 @@
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
         <!-- End Google Tag Manager -->
 
-        <script type="text/javascript">
-            var XFoo = document.registerElement('first-customtag', {
-                prototype: Object.create(HTMLButtonElement.prototype),
-                extends: 'button'
-            });
-            document.body.appendChild(new XFoo());
-        </script>
       </body>
     </html>

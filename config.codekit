@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19137",
+"creatorBuild": "19142",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -266,15 +266,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_site\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -301,17 +292,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/angular\/angular-feed.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/angular\/angular-feed.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/angular\/min\/angular-feed-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/_site\/assets\/controllers\/portfolio.js": {
 		"fileType": 64,
@@ -406,18 +386,9 @@
 		},
 	"\/_site\/assets\/themes\/bootstrap-3\/css\/style.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/ncdesignsstudi0\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/ncdesignsstudi0\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -490,15 +461,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/_site\/Gemfile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/Gemfile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/images\/042914_natalie.JPG": {
 		"fileType": 16384,
@@ -643,6 +605,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/index-amp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index-amp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -661,29 +632,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/lessons\/2011\/12\/29\/jekyll-introduction\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2011\/12\/29\/jekyll-introduction\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -697,29 +650,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/lessons\/2015\/08\/27\/Out-of-the-comfort-zone\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/08\/27\/Out-of-the-comfort-zone\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -802,7 +737,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/style.less",
-		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -843,14 +778,26 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/archive.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/archive.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/archive.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/archive.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/archive.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/assets\/controllers\/portfolio.js": {
 		"fileType": 64,
@@ -992,14 +939,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/categories.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/categories.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/categories.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/categories.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/categories.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/changelog.md": {
 		"criticStyle": 0,
@@ -1032,15 +991,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/Gemfile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Gemfile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/images\/042914_natalie.JPG": {
 		"fileType": 16384,
@@ -1185,6 +1135,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index-amp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index-amp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -1325,32 +1284,44 @@
 		},
 	"\/style.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.less",
-		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "\/assets\/themes\/bootstrap-3\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/tags.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/tags.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tags.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/tags.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/tags.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		}
 	},
 "hooks": [
@@ -1918,7 +1889,7 @@
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathEnabled": 1,
 	"lessAutoOutputPathFilenamePattern": "*.css",
-	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathRelativePath": "assets\/themes\/bootstrap-3\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
 	"lessAutoOutputPathStyle": 2,
