@@ -104,3 +104,13 @@ Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
 		};
 		downLoadImage.src="/images/042914_natalie.JPG";
 </script>
+<script>
+            var XFoo = document.registerElement('first-customtag', {
+                prototype: Object.create(HTMLButtonElement.prototype),
+                extends: 'button'
+            });
+            document.body.appendChild(new XFoo());
+            customElements.whenDefined('first-customtag').then(() => {
+          console.log('first-customtag defined');
+        });
+        </script>

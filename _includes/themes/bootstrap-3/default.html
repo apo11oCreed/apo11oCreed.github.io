@@ -67,6 +67,7 @@
             </ul>
             <form class="navbar-form navbar-right" role="search">
               <div class="form-group">
+              <label for="search_input" style="display:none;">Search</label>
                 <!-- Search text box -->
                 <input id="search_input" data-toggle="dropdown" type="text" class="form-control" placeholder="Search" autofocus="autofocus" autocomplete="off" onkeyup="checkTextField();" />
                 <!-- Search results styled as a dropdown menu -->
@@ -185,16 +186,6 @@
 
         <!-- Custom Web Components -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.js"></script>
-        <script>
-            var XFoo = document.registerElement('first-customtag', {
-                prototype: Object.create(HTMLButtonElement.prototype),
-                extends: 'button'
-            });
-            document.body.appendChild(new XFoo());
-            customElements.whenDefined('first-customtag').then(() => {
-          console.log('first-customtag defined');
-        });
-        </script>
 
         <!-- Start Service Worker -->
         <script data-cfasync="true" src="{{ site.url }}/site.js"></script>
