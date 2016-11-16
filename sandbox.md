@@ -72,9 +72,6 @@ description: Sandbox testing page for new technologies
   </div>
 </div>
 <br><br>
-<script type="text/javascript" src="https://feed.informer.com/widgets/CLN29YWOKM.js"></script>
-<noscript><a href="https://feed.informer.com/widgets/CLN29YWOKM.html">"alilyloveaffair"</a>
-Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
 <hr style="border-top:1px solid rbga(0,0,0,0.25);height:1px;">
 <h2>Loader Image Test</h2>
 <img class="img-responsive" id="loaderImageTest" border="0" style="display:block;" src="/images/spacer.gif" alt="Natalie" />
@@ -100,17 +97,23 @@ Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
       var loaderImageTestImg=document.getElementById('loaderImageTest');
 		var downLoadImage=new Image();
 		downLoadImage.onload=function(){
-			loaderImageTestImg.src = this.src;
+      loaderImageTestImg.src = this.src;
+      loaderImageTestImg.alt = "Image loader";
 		};
 		downLoadImage.src="/images/042914_natalie.JPG";
 </script>
+
+<!-- Custom Web Components -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.js"></script>
+
 <script>
-            var XFoo = document.registerElement('first-customtag', {
-                prototype: Object.create(HTMLButtonElement.prototype),
-                extends: 'button'
-            });
-            document.body.appendChild(new XFoo());
-            customElements.whenDefined('first-customtag').then(() => {
-          console.log('first-customtag defined');
-        });
-        </script>
+    var XFoo = document.registerElement('first-customtag', {
+        prototype: Object.create(HTMLButtonElement.prototype),
+        extends: 'button'
+    });
+    document.body.appendChild(new XFoo());
+</script>
+<script type="text/javascript">
+  var newtag=document.getElementsByTagName('first-customtag');
+    newtag.alt="First Custom Tag";
+</script>
