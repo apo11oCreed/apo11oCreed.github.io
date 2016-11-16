@@ -1,7 +1,7 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
+category : testing
+tagline: "Sandbox"
 tags : [testing]
 ---
 {% include JB/setup %}

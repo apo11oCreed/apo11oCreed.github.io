@@ -3,7 +3,7 @@ layout: page
 title: Tags
 header: Posts By Tag
 group: navigation
-description: Posts by tag
+description: These are NC Designs Studio posts arranged by tag.
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: page
 title: Categories
 header: Posts By Category
 group: navigation
-description: Posts by category
+description: These are NC Designs Studio posts arranged by category.
 ---
 {% include JB/setup %}
 

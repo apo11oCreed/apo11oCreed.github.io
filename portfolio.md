@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-description: NC Designs Studio Portfolio
+description: These are samples of my work which demonstrate all stages of a site build - design, production, testing, launch and maintenance.
 author: Nelson Correia
 ---
 {% include JB/setup %}

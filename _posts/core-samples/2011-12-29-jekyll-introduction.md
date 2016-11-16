@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+category : intro
+tagline: "Getting started with Jekyll Bootstrap Theme"
+tags : [intro]
 ---
 {% include JB/setup %}
 

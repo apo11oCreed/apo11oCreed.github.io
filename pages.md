@@ -3,7 +3,7 @@ layout: page
 title: Pages 
 header: Pages
 group: navigation
-description: Site pages
+description: This is a list of all pages in the NC Designs Studio website.
 author: Nelson Correia
 ---
 {% include JB/setup %}

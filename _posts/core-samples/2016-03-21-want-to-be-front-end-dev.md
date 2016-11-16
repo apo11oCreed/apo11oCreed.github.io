@@ -2,7 +2,7 @@
 layout: post
 category : blog
 tagline: "Mentoring"
-tags : [blog, journal]
+tags : [blog]
 description: This was a chance opportunity to enlighten and/or inspire a dev newbie.
 ---
 {% include JB/setup %}
