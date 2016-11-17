@@ -13,6 +13,7 @@ Thumbs.db
 _config.yml
 *.map
 *.codekit
+config.codekit3
 .vscode
 .vscode/*
 config.codekit
