@@ -179,11 +179,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 105)
   guard
   guard-jekyll-plus
   guard-livereload
   jekyll
+  json
 
 BUNDLED WITH
    1.13.6
