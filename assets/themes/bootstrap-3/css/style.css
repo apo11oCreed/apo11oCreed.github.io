@@ -34,9 +34,6 @@ h3,
 h4 {
   color: #000000;
 }
-#footer {
-  background-color: #fdcd60;
-}
 body {
   background-image: url('https://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
@@ -84,7 +81,7 @@ ul.flex-item {
   body {
     background-image: url('https://i.imgur.com/aqFe5SL.jpg');
   }
-  p.flex-item {
+  body p.flex-item {
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
@@ -124,7 +121,7 @@ h4 {
   color: #000000;
 }
 #footer {
-  background-color: #fdcd60;
+  background-color: #c26f1f;
 }
 .page-header {
   background-color: transparent;
@@ -187,6 +184,7 @@ h4 {
 .page-header {
   border-bottom: none;
 }
+/* Flexbox CSS for global hr element */
 .hr_color-grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,6 +203,7 @@ h4 {
 .hr_color-grid .color:nth-child(odd) {
   background: #c26f1f;
 }
+/* Grid CSS for contact options on homepage */
 .grid_contact-info {
   display: -ms-grid;
   display: grid;
@@ -215,9 +214,11 @@ h4 {
       grid-template-rows: 4em 4em;
   list-style-type: none;
 }
+/* Form CSS to reduce auto sizing of search input on mobile */
 .form-control:focus {
   font-size: 16px;
 }
+/* Custom Element CSS for test on Sandbox page */
 first-customtag {
   background-color: red;
 }
