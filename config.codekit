@@ -266,6 +266,27 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/_posts\/core-samples\/2016-11-15-selling-out-to-google.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/core-samples\/2016-11-15-selling-out-to-google.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/_posts\/core-samples\/2016-11-15-selling-out-to-google.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/_site\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -433,11 +454,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/blog\/2015\/08\/27\/Out-of-the-comfort-zone.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2015\/08\/27\/Out-of-the-comfort-zone.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2015\/09\/26\/regex-to-the-rescue.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2015\/09\/26\/regex-to-the-rescue.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/blog\/2016\/03\/21\/want-to-be-front-end-dev.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/2016\/03\/21\/want-to-be-front-end-dev.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2016\/11\/15\/selling-out-to-google.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2016\/11\/15\/selling-out-to-google.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -623,47 +671,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/lessons\/2011\/12\/29\/jekyll-introduction.html": {
+	"\/_site\/intro\/2011\/12\/29\/jekyll-introduction.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2011\/12\/29\/jekyll-introduction.html",
+		"inputAbbreviatedPath": "\/_site\/intro\/2011\/12\/29\/jekyll-introduction.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html": {
+	"\/_site\/intro\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/lessons\/2015\/08\/27\/Out-of-the-comfort-zone.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/08\/27\/Out-of-the-comfort-zone.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/09\/26\/regex-to-the-rescue.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/lessons\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/lessons\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html",
+		"inputAbbreviatedPath": "\/_site\/intro\/2015\/08\/21\/NC-Designs-Studio-on-Jekyll.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -757,6 +778,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/testing\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/testing\/2015\/12\/12\/Meta-fragment-test-for-ajax-SEO.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/about.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -778,26 +808,14 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/archive.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 1,
+	"\/archive.html": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/archive.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/archive.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/archive.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/controllers\/portfolio.js": {
 		"fileType": 64,
