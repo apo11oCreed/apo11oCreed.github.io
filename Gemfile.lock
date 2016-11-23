@@ -184,6 +184,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   growl
+  github-pages (= 105)
   guard
   guard-jekyll-plus
   guard-livereload
