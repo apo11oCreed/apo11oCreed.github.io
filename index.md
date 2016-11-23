@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ampindex
 title: NC Designs Studio on Github
 tagline: Specializing in web coding
 description: NC Designs Studio provides web development services including web design, production, and maintenance.
