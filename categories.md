@@ -3,7 +3,7 @@ layout: page
 title: Categories
 header: Posts By Category
 group: navigation
-description: These are NC Designs Studio posts arranged by category.
+description: This page contains lists of NC Designs Studio posts arranged by category. The list includes static introductory, standard blog and random testing posts.
 ---
 {% include JB/setup %}
 

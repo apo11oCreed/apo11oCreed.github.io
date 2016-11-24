@@ -2,12 +2,13 @@
 layout: post
 category : intro
 tagline: "Getting started with Jekyll Bootstrap Theme"
+description: This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it. Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 tags : [intro]
 ---
 {% include JB/setup %}
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
-Directly following the intro we'll learn exactly _how_ Jekyll does what it does. This sounds really cool.
+Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview
 

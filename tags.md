@@ -3,7 +3,7 @@ layout: page
 title: Tags
 header: Posts By Tag
 group: navigation
-description: These are NC Designs Studio posts arranged by tag.
+description: This page contains NC Designs Studio posts arranged by tag allowing for quicker navigation. The list includes static introductory, standard blog and random testing posts.
 ---
 {% include JB/setup %}
 
