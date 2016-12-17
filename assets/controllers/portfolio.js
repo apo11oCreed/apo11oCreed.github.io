@@ -1,8 +1,8 @@
-var portfolio = angular.module('portfolio',[]);
+var app = angular.module('portfolio',[]);
 
-portfolio.controller('TodoCtrl', function($scope, $http) {
+app.controller('portfolioCtrl', function($scope,$http) {
   $http.get('../data.json')
-       .then(function(res){
-          $scope.todos = res.data;                
+       .then(function(response){
+          $scope.myPortfolio = response.data.portfolio;                
         });
 });

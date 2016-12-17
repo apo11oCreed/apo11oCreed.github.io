@@ -3,3 +3,4 @@ Allow: /
 sitemap: https://ncdesigns-studio.com/sitemap.txt
 Disallow: https://ncdesigns-studio.com/cdn-cgi/l/email-protection
 Disallow: https://ncdesigns-studio.com/cdn-cgi/nexp/dok3v=1613a3a185/
+Disallow: https://ncdesigns-studio.com/sandbox

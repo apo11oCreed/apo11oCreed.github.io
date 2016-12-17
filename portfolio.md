@@ -7,7 +7,7 @@ author: Nelson Correia
 {% include JB/setup %}
 
 <main ng-app="portfolio" role="main" itemscope itemtype="http://schema.org/CreativeWork">
-<div ng-controller="TodoCtrl">
+<div ng-controller="portfolioCtrl">
 	<article ng-include="'/assets/templates/portfolio.html'">
 	</article>
 	</div>
