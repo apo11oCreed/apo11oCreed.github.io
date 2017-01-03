@@ -76,18 +76,18 @@
             </form>
             </div><!-- /.navbar-collapse -->
           </nav>
-          <div class="container">
+          <main class="container">
             {{ content }}
-          </div>
+          </main>
         </div>
-        <div id="footer">
+        <footer id="footer">
           <div class="container">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
               with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
               and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
             </p>
           </div>
-        </div>
+        </footer>
 
         <!-- Start Preloaders -->
         <script data-cfasync="true" src="{{ ASSET_PATH }}/bootstrap/js/loadCSS.js"></script>
@@ -101,7 +101,7 @@
         <script src="/assets/controllers/portfolio.js"></script>
 
         <!-- Start Intelligent Search -->
-        <script type="text/javascript">
+        <script DEFER type="text/javascript">
         function getSearchJSON()
         {
         $.getJSON("/search.json", function(e) {
@@ -184,7 +184,7 @@
         <!-- End Intelligent Search -->
 
         <!-- Start Service Worker -->
-        <script data-cfasync="true" src="{{ site.url }}/site.js"></script>
+        <script DEFER src="{{ site.url }}/site.js"></script>
         <!-- End Service Worker -->
 
         {% include JB/analytics %}
@@ -199,7 +199,7 @@
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
         <!-- End Google Tag Manager -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script DEFER src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
       </body>
     </html>

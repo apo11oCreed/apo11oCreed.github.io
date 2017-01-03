@@ -104,19 +104,20 @@
           </div>
         </div>
 
-        <div class="row">
+        <main class="row">
           <div class="col-xs-12">
             {{ content }}
           </div>
+        </main>
         </div>
-        <div id="footer">
+        <footer id="footer">
           <div class="container">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
               with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
               and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
             </p>
           </div>
-        </div>
+        </footer>
 
         <!-- Start Preloaders -->
         <script data-cfasync="true" src="{{ ASSET_PATH }}/bootstrap/js/loadCSS.js"></script>
