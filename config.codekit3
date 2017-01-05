@@ -203,7 +203,7 @@
 		},
 	"\/_includes\/themes\/bootstrap-3\/default.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/themes\/bootstrap-3\/default.html",
 		"oF": 0
 		},
@@ -971,7 +971,7 @@
 		},
 	"\/archive.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/archive.html",
 		"oF": 0
 		},
@@ -986,7 +986,7 @@
 		},
 	"\/assets\/templates\/portfolio.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/templates\/portfolio.html",
 		"oF": 0
 		},
@@ -1366,7 +1366,7 @@
 		},
 	"\/index-amp.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index-amp.html",
 		"oF": 0
 		},
