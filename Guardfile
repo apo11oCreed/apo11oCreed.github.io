@@ -4,5 +4,5 @@ guard 'jekyll-plus', :serve => true do
 end
 
 guard 'livereload' do
-  watch /.*/
+  watch(%r{(.+\.html|css|js)$})
 end

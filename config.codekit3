@@ -7,7 +7,7 @@
 		"uuidString": "CF003599-F531-4D8B-9B6C-EDA02A149FB7"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -676,12 +676,6 @@
 		"oAP": "\/_site\/Guardfile",
 		"oF": 0
 		},
-	"\/_site\/History.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/History.markdown",
-		"oF": 0
-		},
 	"\/_site\/images\/042914_natalie.JPG": {
 		"ft": 16384,
 		"iS": 1714977,
@@ -835,6 +829,12 @@
 		"oAP": "\/_site\/images\/spacer.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/index-amp.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/index-amp.html",
+		"oF": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -1208,12 +1208,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Guardfile",
-		"oF": 0
-		},
-	"\/History.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/History.markdown",
 		"oF": 0
 		},
 	"\/images\/042914_natalie.JPG": {
@@ -2010,6 +2004,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -2173,6 +2171,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -2538,6 +2540,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -2769,6 +2775,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -3602,6 +3612,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
