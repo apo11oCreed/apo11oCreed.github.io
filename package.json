@@ -1,0 +1,26 @@
+{
+  "name": "apo11ocreed.github.io",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "serviceWorker.js",
+  "dependencies": {
+    "imgcat": "^2.3.0",
+    "livereload": "^0.6.0"
+  },
+  "devDependencies": {
+    "less": "^2.7.2"
+  },
+  "scripts": {
+    "test": "-h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apo11oCreed/apo11oCreed.github.io.git"
+  },
+  "author": "nelson correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apo11oCreed/apo11oCreed.github.io/issues"
+  },
+  "homepage": "https://github.com/apo11oCreed/apo11oCreed.github.io"
+}

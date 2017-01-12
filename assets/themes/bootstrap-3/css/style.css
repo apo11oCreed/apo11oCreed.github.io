@@ -26,7 +26,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubunt', sans-serif;
 }
 h1,
 h2,
@@ -118,7 +118,8 @@ h1,
 h2,
 h3,
 h4 {
-  color: #000000;
+  --black: #000000;
+  color: var(--black);
 }
 #footer {
   background-color: #c26f1f;
@@ -207,7 +208,6 @@ h4 {
 .grid_contact-info {
   display: -ms-grid;
   display: grid;
-  grid-template-areas: "envelope email email-address" "f facebook facebook-url" "be behance behance-url" "li linkedin linkedin-url" "g google-plus google-plus-url" "phone phone-label phone-no";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 4em 4em;
