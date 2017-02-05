@@ -7,7 +7,7 @@ author: Nelson Correia
 ---
 {% include JB/setup %}
 
-<main class="flex-container" itemscope itemtype="http://schema.org/AboutPage">
+<section role="main" class="flex-container" itemscope itemtype="http://schema.org/AboutPage">
 <h1 class="flex-item">
 	Nelson Correia : Web Developer
 </h1>
@@ -23,4 +23,4 @@ author: Nelson Correia
 <p class="flex-item">
 	Nelson's home studio is just south of Boston. Having lived in New England all his life, he enjoys reliving the local experiences with his wife and two children. When not coding, Nelson likes reading tech blogs and watching crime TV.
 </p>
-</main>
+</section>

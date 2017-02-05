@@ -7,10 +7,10 @@ author: Nelson Correia
 ---
 {% include JB/setup %}
 
-<main role="main" itemscope itemtype="http://schema.org/ProfilePage">
-<h1 role="heading" class="flex-item" id="special-header">
+<section role="main" itemscope itemtype="http://schema.org/ProfilePage">
+<h2 role="heading" class="flex-item" id="special-header">
 Work can be fun
-</h1>
+</h2>
 <div class="flex-container" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement">
 <p class="flex-item">
 How, I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
@@ -35,15 +35,15 @@ If you're looking for help on maintaining or upgrading your site, I can be reach
 <li role="listitem"><span id="phone" class="glyphicon glyphicon-phone"></span><span id="phone-label">Phone: </span><span id="phone-no"><a href="tel:7814360309">7814360309</a></span></li>
 </ul>
 </div>
-</main>
-<footer role="contentinfo" itemtype="WPFooter" itemscope itemtype="http://schema.org/WebPageElement">
-<h1 role="heading">Recent Posts</h1>
+</section>
+<section role="contentinfo" itemtype="WPFooter" itemscope itemtype="http://schema.org/WebPageElement">
+<h2 role="heading">Recent Posts</h2>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-</footer>
+</section>
 <template id="shadowDOMTemplateTest">
 <style>
 h1.flex-item{
