@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sandbox Testing
-description: Sandbox testing page for new technologies
+description: This is my sandbox where I do all of my testing for new technologies.
 ---
 {% include JB/setup %}
 <style type="text/css">
@@ -51,11 +51,8 @@ description: Sandbox testing page for new technologies
 //var stateObj = { foo: "bar" };
 //history.pushState(stateObj, "page 2", "/test.html");
 </script>
-<main>
+<section role="main">
 <div class="flex-container">
-<h1 class="flex-item">
-	Sandbox Testing
-</h1>
 <div class="flex-item" id="ajaxcontent">
 </div>
 <div id="sampleArea"></div>
@@ -92,7 +89,7 @@ description: Sandbox testing page for new technologies
 </ul>
 <first-customtag>First Custom Tag</first-customtag>
 
-</main>
+</section>
 <script type="text/javascript">
       var loaderImageTestImg=document.getElementById('loaderImageTest');
 		var downLoadImage=new Image();
