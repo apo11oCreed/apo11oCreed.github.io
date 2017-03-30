@@ -106,6 +106,8 @@ JB :
         site_id : '28110933'
     google :
         tracking_id : 'UA-28110933-1'
+    googleUA :
+        tracking_id : 'UA-28110933-1'
     getclicky :
       site_id :
     mixpanel :
