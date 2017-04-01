@@ -51,7 +51,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ HOME_PATH }}">
+          <a class="navbar-brand" href="{{ HOME_PATH }}" onClick=”_gaq.push([‘_trackEvent’, ‘Internal Link’, ‘Home Link’, ‘Home – Words’]);">
             <div class="clip_filter_testing">&nbsp;</div>
             <div class="logo-icon">
               <svg itemprop="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path d="M3.9 13.3c-.4-1.2 0-2.5-1-3.7-.6-.7.6-3.6 1.4-4.3.5-.4.5-1 .5-1.6C4.9 2 6 1.2 7.4.7c0 .4-.6.3-.5.9C8.2 1 9.5.6 11.2.5 9.6 0 8.5.5 7.4.8c1.6-1.3 5.1-1 7.1.5 1.5 1.2 2.4 2.6 2.1 4.6-.2 1.7-.5 3.4-1.1 5-.3.8-.5 1.6-1.6 1.9-.4.1-1.1.8-.3 1.6.2.2.5.5.4.8-.1 1.5.9 2.2 2 2.8h-5c.3-.9 1.2-1.3 1.2-2.6-1.5 2-3.4 2.7-5.6 2.2-.3-.1-.3.2-.3.4H6c-.7-1.6-1.4-3.2-2.1-4.7zM13.3 9c.1-1.1-.1-2 .7-2.6.3-.2.2-.6 0-.7-.7-.4-1.4-1.1-2.2-1.1-1.1 0-2-.1-2.9-.8-1.4-1-2.4-.7-2.9.9C5.5 6 4.5 6.9 4.1 8.3c-.5-1 .7-1.7-.2-2.8-.1 1.7-1.5 3.1 0 4.6.1.1 0 .3 0 .5.1 2.7 1.8 4.8 4.3 5.3.7.1 3-.8 3-1.3-.1-1.6.5-2.9 1.8-4 .3-.2.6-.7-.3-.8-1.8-.1-3.3-1.4-5.1-1.2-.2 0-.5 0-.4-.4.1-.7-.4-.6-.8-.7-.4 0-1 .1-.8-.6.1-.6.5-.9 1.2-.7.9.3 1.9.6 2.4 1.6.5 0 .1-1 .8-.7 1 .8 2.3.7 3.3 1.9zM8.6 1.7c.9.3 1.3.9 1.9 1.4.2.2.5.2.6-.1.1-.2.2-.5-.1-.5-.8-.1-1.3-1-2.4-.8zM3.9 13.2c-.3 1.2.5 2.4-.2 3.6 0-.8.1-1.5-.1-2.4-1 1.1-.8 2.4-1.2 3.5h-.3c-1-1.1-1-1.6.1-3.1.3-.4.7-.8 1.1-1.3-.6-.1-1 .4-1.6.4.7-.3 1.2-1.1 2.2-.7zM5.6 11c.7.1 1.3.6 2 .3.3-.4-.6-.5-.2-1 .7.4 1.5.9 2.4.5.3-.4-.8-.5-.2-.9.5-.3.6.2.9.5 1.3 1.6 1.2 2.8-.4 4.1-.3.3-.8.4-1 0-.8-1.4-2.4-1.9-3.4-3-.1-.2-.1-.3-.1-.5z"/></svg>
@@ -103,85 +103,70 @@
 
         <!-- Start Intelligent Search -->
         <script DEFER type="text/javascript">
-        function getSearchJSON()
-        {
-        $.getJSON("/search.json", function(e) {
-        console.log("[search.json loaded for instant search]");
-        $("#search_results").html("");
-        searchJSON = e;
-        });
+        function getSearchJSON() {
+            $.getJSON("/search.json", function (e) {
+            console.log("[search.json loaded for instant search]");
+                $("#search_results").html("");
+                searchJSON = e;
+            });
         }
-        function doSearch(e)
-        {
-        results = [];
-        if (e != "")
-        {
-        $.each(searchJSON, function(t, n) {
-        var r = n.title, i = n.title.toLowerCase(), s = n.href, o = n.date;
-        i.indexOf(e)!==-1 && results.push([r, s, o])
-        });
-        printResults();
+        function doSearch(e) {
+            results = [];
+            if (e != "") {
+                $.each(searchJSON, function(t, n) {
+                    var r = n.title, i = n.title.toLowerCase(), s = n.href, o = n.date;
+                    i.indexOf(e)!==-1 && results.push([r, s, o])
+                });
+                printResults();
+            } else {
+                $("#search_results").html();
+                results = [];
+                printResults();
+            }
         }
-        else
-        {
-        $("#search_results").html();
-        results = [];
-        printResults();
-        }
-        }
-        function printResults()
-        {
-        var e = $("#search_results");
-        e.html("");
-        e.html(function() {
-        if (results.length == 0)
-        {
-        e.append('<li style="padding-top: 3px; padding-bottom: 3px"><a style="color: #999; word-wrap: break-word; white-space: normal" href="#">No results found</a></li>');
-        }
-        else
-        {
-        $.each(results, function(t, n) {
-        e.append('<li style="padding-top: 3px; padding-bottom: 3px"><a style="color: #999; word-wrap: break-word; white-space: normal" href="' + n[1] + '">' + n[0] + '</a></li>');
-        });
-        }
-        });
+        function printResults() {
+            var e = $("#search_results");
+            e.html("");
+            e.html(function() {
+                if (results.length == 0) {
+                    e.append('<li style="padding-top: 3px; padding-bottom: 3px"><a style="color: #999; word-wrap: break-word; white-space: normal" href="#">No results found</a></li>');
+                } else {
+                    $.each(results, function(t, n) {
+                        e.append('<li style="padding-top: 3px; padding-bottom: 3px"><a style="color: #999; word-wrap: break-word; white-space: normal" href="' + n[1] + '">' + n[0] + '</a></li>');
+                    });
+                }
+            });
         }
         // Show the dropdown menu as long as there are characters in the text field
-        function checkTextField()
-        {
+        function checkTextField() {
         // If the value of id search_input is not empty show id search_results otherwise hide it
-        if ($('#search_input').val() != '')
-        {
-        $('#search_results').show();
+        if ($('#search_input').val() != '') {
+            $('#search_results').show();
+        } else {
+            $('#search_results').hide();
         }
-        else
-        {
-        $('#search_results').hide();
-        }
-        }
-        // Hide the dropdown menu if there is a left mouse click outside of it
-        $(document).mouseup(function (e)
-        {
+    }
+    // Hide the dropdown menu if there is a left mouse click outside of it
+    $(document).mouseup(function (e) {
         var container = $("#search_results");
         // if the target of the click isn't the
         // container nor a descendant of the container
-        if (!container.is(e.target) && container.has(e.target).length === 0)
-        {
-        container.hide();
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            container.hide();
         }
-        });
-        $(document).ready(function() {
-        // Create the search index on page load
-        getSearchJSON();
-        // Continually update search results as characters are typed
-        $("#search_input").keyup(function() {
-        // Make search inputs are case insensitive
-        var e = $(this).val().toLowerCase();
-        // Do the actual search
-        doSearch(e);
-        });
-        });
-        </script>
+    });
+    $(document).ready(function() {
+    // Create the search index on page load
+    getSearchJSON();
+    // Continually update search results as characters are typed
+    $("#search_input").keyup(function() {
+    // Make search inputs are case insensitive
+    var e = $(this).val().toLowerCase();
+    // Do the actual search
+    doSearch(e);
+});
+});
+</script>
         <!-- End Intelligent Search -->
 
         <!-- Start Service Worker -->
