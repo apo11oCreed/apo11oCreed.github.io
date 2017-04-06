@@ -6,4 +6,5 @@
 
   ga('create', '{{ site.JB.analytics.googleUA.tracking_id }}', {% if site.JB.analytics.googleUA.property_name %}{{ site.JB.analytics.googleUA.property_name }}{% else %}'auto'{% endif %});
   ga('send', 'pageview');
+  var _gaq = _gaq || [];
 </script>
