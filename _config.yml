@@ -65,7 +65,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : /assets/themes/bootstrap-3
+  ASSET_PATH : //assets/themes/bootstrap-3
 
   # Path to images folder
   IMAGE_PATH : /images
