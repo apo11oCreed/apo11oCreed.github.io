@@ -110,9 +110,9 @@
         </div>
         <footer id="footer">
           <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-              with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-              and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+            <p>&copy; {{ site.time | date: '%Y' }} <span itemprop="copyrightHolder">{{ site.author.name }}</span>
+                with help from <a href="http://jekyllbootstrap.com" target="_blank" rel="noopener" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+                and <a href="http://getbootstrap.com" target="_blank" rel="noopener" title="Bootstrap">Bootstrap</a>
             </p>
           </div>
         </footer>

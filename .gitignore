@@ -1,4 +1,5 @@
 .gitignore
+*gitignore
 _site/*
 _theme_packages/*
 node_modules/
@@ -21,3 +22,5 @@ config.codekit
 514DD64D0399F5BD.jpeg
 514DD64D0399F5BF.jpeg
 Artboard 1 copy.svg
+package.json
+Gruntfile.js
