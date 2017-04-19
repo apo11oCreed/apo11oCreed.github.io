@@ -7,7 +7,7 @@
 		"uuidString": "CF003599-F531-4D8B-9B6C-EDA02A149FB7"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -572,6 +572,26 @@
 		"oAP": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css.map",
 		"oF": 0
 		},
+	"\/_site\/assets\/themes\/bootstrap-3\/css\/styles-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/themes\/bootstrap-3\/css\/styles-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_site\/assets\/themes\/bootstrap-3\/css\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/themes\/bootstrap-3\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -585,21 +605,23 @@
 	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png": {
 		"ft": 32768,
 		"iS": 8777,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png": {
 		"ft": 32768,
 		"iS": 12799,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/assets\/themes\/twitter\/css\/style.css": {
@@ -674,6 +696,15 @@
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/_site\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/min\/Gruntfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/_site\/Guardfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -686,6 +717,7 @@
 		"oA": 0,
 		"oAP": "\/_site\/images\/042914_natalie.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -710,11 +742,12 @@
 	"\/_site\/images\/081815ncdesigns-logo-114x114.png": {
 		"ft": 32768,
 		"iS": 2070,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/081815ncdesigns-logo-114x114.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/514DD64D0399F5BD.jpeg": {
@@ -723,6 +756,7 @@
 		"oA": 0,
 		"oAP": "\/_site\/images\/514DD64D0399F5BD.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -732,27 +766,30 @@
 		"oA": 0,
 		"oAP": "\/_site\/images\/514DD64D0399F5BF.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/_site\/images\/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1382,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/apple-touch-icon-72x72.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1686,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/Artboard 1 copy.svg": {
@@ -774,71 +811,78 @@
 	"\/_site\/images\/favicon.png": {
 		"ft": 32768,
 		"iS": 381,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/favicon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home1024x768.png": {
 		"ft": 32768,
 		"iS": 142812,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home1024x768.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home320x480.png": {
 		"ft": 32768,
 		"iS": 46476,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home320x480.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home480x320.png": {
 		"ft": 32768,
 		"iS": 145016,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home480x320.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home600x800.png": {
 		"ft": 32768,
 		"iS": 168183,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home600x800.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home768x1024.png": {
 		"ft": 32768,
 		"iS": 109307,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home768x1024.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/feed\/home800x600.png": {
 		"ft": 32768,
 		"iS": 219841,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/images\/feed\/home800x600.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/images\/loader.gif": {
@@ -1086,6 +1130,26 @@
 		"oAP": "\/assets\/themes\/bootstrap-3\/css\/style.css.map",
 		"oF": 0
 		},
+	"\/assets\/themes\/bootstrap-3\/css\/styles-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/themes\/bootstrap-3\/css\/styles-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/themes\/bootstrap-3\/css\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/themes\/bootstrap-3\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1099,21 +1163,23 @@
 	"\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png": {
 		"ft": 32768,
 		"iS": 8777,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png": {
 		"ft": 32768,
 		"iS": 12799,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/themes\/twitter\/css\/style.css": {
@@ -1194,6 +1260,15 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/Gruntfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/Guardfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -1206,6 +1281,7 @@
 		"oA": 0,
 		"oAP": "\/images\/042914_natalie.JPG",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1230,11 +1306,12 @@
 	"\/images\/081815ncdesigns-logo-114x114.png": {
 		"ft": 32768,
 		"iS": 2070,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/081815ncdesigns-logo-114x114.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/514DD64D0399F5BD.jpeg": {
@@ -1243,6 +1320,7 @@
 		"oA": 0,
 		"oAP": "\/images\/514DD64D0399F5BD.jpeg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1252,27 +1330,30 @@
 		"oA": 0,
 		"oAP": "\/images\/514DD64D0399F5BF.jpeg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/images\/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1382,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon-72x72.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1686,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Artboard 1 copy.svg": {
@@ -1294,71 +1375,78 @@
 	"\/images\/favicon.png": {
 		"ft": 32768,
 		"iS": 381,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/favicon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home1024x768.png": {
 		"ft": 32768,
 		"iS": 142812,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home1024x768.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home320x480.png": {
 		"ft": 32768,
 		"iS": 46476,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home320x480.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home480x320.png": {
 		"ft": 32768,
 		"iS": 145016,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home480x320.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home600x800.png": {
 		"ft": 32768,
 		"iS": 168183,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home600x800.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home768x1024.png": {
 		"ft": 32768,
 		"iS": 109307,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home768x1024.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/feed\/home800x600.png": {
 		"ft": 32768,
 		"iS": 219841,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/feed\/home800x600.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/loader.gif": {
@@ -1539,7 +1627,7 @@
 		},
 	"\/style.less": {
 		"aP": 1,
-		"bl": 1,
+		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
 		"ie": 1,
@@ -2541,6 +2629,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -3365,14 +3457,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -3435,7 +3519,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
