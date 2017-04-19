@@ -95,7 +95,7 @@
         <script src="/assets/controllers/portfolio.js"></script>
         <!-- Start Intelligent Search -->
         <script DEFER type="text/javascript">
-        $(document).ready(function() {
+        (function() {
             function getSearchJSON() {
             $.getJSON("/search.json", function (e) {
             console.log("[search.json loaded for instant search]");
@@ -157,7 +157,6 @@
             var e = $(this).val().toLowerCase();
             // Do the actual search
             doSearch(e);
-            });
             });
             });
         </script>
