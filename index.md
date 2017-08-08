@@ -12,7 +12,7 @@ author: Nelson Correia
 	</h2>
 	<div class="flex-container">
 		<p class="flex-item" itemprop="description">
-			How, I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
+			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
 		</p>
 		<p class="flex-item" itemprop="description">
 			Moreso than coding, I find THIS is what makes my work a pleasure - problem solving to build sites quicker and leaner.

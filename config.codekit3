@@ -7,8 +7,14 @@
 		"uuidString": "CF003599-F531-4D8B-9B6C-EDA02A149FB7"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/404.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -565,16 +571,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css.map",
 		"oF": 0
-		},
-	"\/_site\/assets\/themes\/bootstrap-3\/css\/styles-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/themes\/bootstrap-3\/css\/styles-min-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/assets\/themes\/bootstrap-3\/css\/styles.css": {
 		"aP": 0,
@@ -1157,11 +1153,31 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/themes\/bootstrap-3\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/themes\/bootstrap-3\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/themes\/bootstrap-3\/css\/style.css.map": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/themes\/bootstrap-3\/css\/style.css.map",
 		"oF": 0
+		},
+	"\/assets\/themes\/bootstrap-3\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/themes\/bootstrap-3\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css": {
 		"aP": 0,
@@ -1637,6 +1653,23 @@
 		"oA": 2,
 		"oAP": "\/sitemap.txt",
 		"oF": 0
+		},
+	"\/style.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
 		},
 	"\/tags.md": {
 		"cS": 0,
@@ -3601,6 +3634,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
