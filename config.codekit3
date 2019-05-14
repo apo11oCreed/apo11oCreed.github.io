@@ -252,6 +252,30 @@
 		"oAP": "/_includes/JB/tags_list",
 		"oF": 1
 		},
+	"/_includes/themes/bootstrap-3/ampindex.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/themes/bootstrap-3/ampindex.html",
+		"oF": 0
+		},
+	"/_includes/themes/bootstrap-3/default.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/themes/bootstrap-3/default.html",
+		"oF": 0
+		},
+	"/_includes/themes/bootstrap-3/page.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/themes/bootstrap-3/page.html",
+		"oF": 0
+		},
 	"/_includes/themes/bootstrap-3/post.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -267,6 +291,14 @@
 		"oA": 1,
 		"oAP": "/_includes/themes/bootstrap-3/settings.yml",
 		"oF": 1
+		},
+	"/_includes/themes/ncdesignsstudi0/default.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/themes/ncdesignsstudi0/default.html",
+		"oF": 0
 		},
 	"/_includes/themes/ncdesignsstudi0/page.html": {
 		"cB": 0,
@@ -501,9 +533,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/404.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/about.html": {
 		"cB": 0,
@@ -526,9 +558,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/controllers/portfolio-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -536,18 +568,18 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/templates/portfolio.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css": {
@@ -555,9 +587,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css": {
@@ -565,25 +597,25 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -592,26 +624,26 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -620,9 +652,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -631,9 +663,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/data-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -642,9 +674,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/loadCSS-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -653,18 +685,18 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/css/style-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/bootstrap-3/css/style.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/css/style.css.map",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/themes/bootstrap-3/css/styles-min.css": {
 		"aP": 1,
@@ -681,9 +713,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/bootstrap-3/css/styles-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css": {
@@ -691,17 +723,17 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png": {
 		"ft": 32768,
 		"iS": 8777,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -710,9 +742,9 @@
 	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png": {
 		"ft": 32768,
 		"iS": 12799,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -723,9 +755,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/themes/twitter/css/style-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/atom.xml": {
@@ -780,15 +812,15 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/CNAME",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/data.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/_site/data-min.json",
-		"oF": 1,
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
@@ -796,37 +828,26 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/Gemfile",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/Gemfile.lock",
-		"oF": 1
-		},
-	"/_site/Gruntfile-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/Gruntfile-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oF": 0
 		},
 	"/_site/Gruntfile.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/Gruntfile-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -834,17 +855,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/Guardfile",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/images/042914_natalie.JPG": {
 		"ft": 16384,
 		"iS": 1714977,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/042914_natalie.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -852,17 +873,17 @@
 	"/_site/images/062514profileavatar.gif": {
 		"ft": 4194304,
 		"iS": 10889,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/062514profileavatar.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/_site/images/062514profileavatar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/images/062514profileavatar.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -870,9 +891,9 @@
 	"/_site/images/081815ncdesigns-logo-114x114.png": {
 		"ft": 32768,
 		"iS": 2070,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/081815ncdesigns-logo-114x114.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -882,9 +903,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/514DD64D0399F5BD.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -893,9 +914,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/514DD64D0399F5BF.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -903,9 +924,9 @@
 	"/_site/images/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1382,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/apple-touch-icon-72x72.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -914,9 +935,9 @@
 	"/_site/images/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1686,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/apple-touch-icon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -925,9 +946,9 @@
 	"/_site/images/Artboard 1 copy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/images/Artboard 1 copy.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -936,16 +957,16 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/images/favicon.ico",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/images/favicon.png": {
 		"ft": 32768,
 		"iS": 381,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/favicon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -954,9 +975,9 @@
 	"/_site/images/feed/home1024x768.png": {
 		"ft": 32768,
 		"iS": 142812,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home1024x768.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -965,9 +986,9 @@
 	"/_site/images/feed/home320x480.png": {
 		"ft": 32768,
 		"iS": 46476,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home320x480.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -976,9 +997,9 @@
 	"/_site/images/feed/home480x320.png": {
 		"ft": 32768,
 		"iS": 145016,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home480x320.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -987,9 +1008,9 @@
 	"/_site/images/feed/home600x800.png": {
 		"ft": 32768,
 		"iS": 168183,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home600x800.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -998,9 +1019,9 @@
 	"/_site/images/feed/home768x1024.png": {
 		"ft": 32768,
 		"iS": 109307,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home768x1024.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1009,9 +1030,9 @@
 	"/_site/images/feed/home800x600.png": {
 		"ft": 32768,
 		"iS": 219841,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/feed/home800x600.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1020,26 +1041,26 @@
 	"/_site/images/loader.gif": {
 		"ft": 4194304,
 		"iS": 48250,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/loader.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/_site/images/spacer.gif": {
 		"ft": 4194304,
 		"iS": 43,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/images/spacer.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/_site/index-amp.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/index-amp.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/index.html": {
 		"cB": 0,
@@ -1075,7 +1096,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/_site/package-min.json",
-		"oF": 1,
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
@@ -1099,9 +1120,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/robots.txt",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/rss.xml": {
 		"cB": 0,
@@ -1132,9 +1153,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/serviceWorker-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1143,9 +1164,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/site-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1184,9 +1205,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/style.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -1387,6 +1408,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/themes/bootstrap-3/css/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/themes/bootstrap-3/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/themes/bootstrap-3/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},

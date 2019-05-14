@@ -20,6 +20,7 @@ config.codekit3
 config.codekit
 config.codekit3
 *.codekit
+*.codekit*
 514DD64D0399F5BD.jpeg
 514DD64D0399F5BF.jpeg
 Artboard 1 copy.svg
