@@ -18,6 +18,7 @@ config.codekit3
 .vscode
 .vscode/*
 config.codekit
+config.codekit3
 *.codekit
 514DD64D0399F5BD.jpeg
 514DD64D0399F5BF.jpeg

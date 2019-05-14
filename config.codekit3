@@ -13,17 +13,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/404.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_config.yml": {
 		"cB": 0,
@@ -44,7 +44,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_drafts/jekyll-introduction-draft.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -56,345 +56,313 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/gauges": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/gauges",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/getclicky": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/getclicky",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/google": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/google",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/google-universal": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/google-universal",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/mixpanel": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/mixpanel",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/analytics-providers/piwik": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/analytics-providers/piwik",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/categories_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/categories_list",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments-providers/disqus": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments-providers/disqus",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments-providers/duoshuo": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments-providers/duoshuo",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments-providers/facebook": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments-providers/facebook",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments-providers/intensedebate": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments-providers/intensedebate",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/comments-providers/livefyre": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/comments-providers/livefyre",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/feedburner": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/feedburner",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/file_exists": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/file_exists",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/gist": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/gist",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/is_production": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/is_production",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/liquid_raw": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/liquid_raw",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/pages_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/pages_list",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/posts_collate": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/posts_collate",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/setup": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/setup",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/sharing": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/sharing",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/sort_collection": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/sort_collection",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/JB/tags_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/JB/tags_list",
-		"oF": 0
-		},
-	"/_includes/themes/bootstrap-3/ampindex.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/themes/bootstrap-3/ampindex.html",
-		"oF": 0
-		},
-	"/_includes/themes/bootstrap-3/default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/themes/bootstrap-3/default.html",
-		"oF": 0
-		},
-	"/_includes/themes/bootstrap-3/page.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/themes/bootstrap-3/page.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/bootstrap-3/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/bootstrap-3/post.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/bootstrap-3/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/themes/bootstrap-3/settings.yml",
-		"oF": 0
-		},
-	"/_includes/themes/ncdesignsstudi0/default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/themes/ncdesignsstudi0/default.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/ncdesignsstudi0/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/ncdesignsstudi0/page.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/ncdesignsstudi0/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/ncdesignsstudi0/post.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/ncdesignsstudi0/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/themes/ncdesignsstudi0/settings.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/twitter/default.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/twitter/default.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/twitter/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/twitter/page.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/twitter/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_includes/themes/twitter/post.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_includes/themes/twitter/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_includes/themes/twitter/settings.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"/_layouts/ampindex.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_layouts/ampindex.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_layouts/default.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_layouts/default.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_layouts/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_layouts/page.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_layouts/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_layouts/post.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_plugins/debug.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_plugins/debug.rb",
-		"oF": 0
+		"oF": 1
 		},
 	"/_posts/core-samples/2011-12-29-jekyll-introduction.md": {
 		"cB": 0,
@@ -407,7 +375,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2011-12-29-jekyll-introduction.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -426,7 +394,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-08-21-NC-Designs-Studio-on-Jekyll.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -445,7 +413,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-08-27-Out-of-the-comfort-zone.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -464,7 +432,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-09-26-regex-to-the-rescue.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -483,7 +451,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-12-12-Meta-fragment-test-for-ajax-SEO.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -502,7 +470,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2016-03-21-want-to-be-front-end-dev.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -521,7 +489,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2016-11-15-selling-out-to-google.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -529,105 +497,585 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/_site/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/404.html",
+		"oF": 1
+		},
 	"/_site/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/about.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/archive.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/archive.html",
-		"oF": 0
+		"oF": 1
+		},
+	"/_site/assets/controllers/portfolio.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/assets/controllers/portfolio-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/templates/portfolio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/templates/portfolio.html",
+		"oF": 1
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot",
+		"oF": 1
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+		"oF": 1
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff",
+		"oF": 1
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/js/data.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/data-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/themes/bootstrap-3/bootstrap/js/loadCSS.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/loadCSS-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/themes/bootstrap-3/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/css/style-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/bootstrap-3/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/css/style.css.map",
+		"oF": 1
+		},
+	"/_site/assets/themes/bootstrap-3/css/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/themes/bootstrap-3/css/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/_site/assets/themes/bootstrap-3/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/bootstrap-3/css/styles-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png": {
+		"ft": 32768,
+		"iS": 8777,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png": {
+		"ft": 32768,
+		"iS": 12799,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/assets/themes/twitter/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_site/assets/themes/twitter/css/style-min.css",
+		"oF": 1,
+		"oS": 3
 		},
 	"/_site/atom.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_site/atom.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/blog/2015/08/27/Out-of-the-comfort-zone.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/blog/2015/08/27/Out-of-the-comfort-zone.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/blog/2015/09/26/regex-to-the-rescue.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/blog/2015/09/26/regex-to-the-rescue.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/blog/2016/03/21/want-to-be-front-end-dev.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/blog/2016/03/21/want-to-be-front-end-dev.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/blog/2016/11/15/selling-out-to-google.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/blog/2016/11/15/selling-out-to-google.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/categories.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/categories.html",
-		"oF": 0
+		"oF": 1
+		},
+	"/_site/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/CNAME",
+		"oF": 1
+		},
+	"/_site/data.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/_site/data-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/_site/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/Gemfile",
+		"oF": 1
+		},
+	"/_site/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/Gemfile.lock",
+		"oF": 1
+		},
+	"/_site/Gruntfile-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_site/Gruntfile-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/Gruntfile.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_site/Gruntfile-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/Guardfile": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/Guardfile",
+		"oF": 1
+		},
+	"/_site/images/042914_natalie.JPG": {
+		"ft": 16384,
+		"iS": 1714977,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/_site/images/042914_natalie.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/062514profileavatar.gif": {
+		"ft": 4194304,
+		"iS": 10889,
+		"oA": 1,
+		"oAP": "/_site/images/062514profileavatar.gif",
+		"oF": 1,
+		"opt": 0
+		},
+	"/_site/images/062514profileavatar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/_site/images/062514profileavatar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_site/images/081815ncdesigns-logo-114x114.png": {
+		"ft": 32768,
+		"iS": 2070,
+		"oA": 1,
+		"oAP": "/_site/images/081815ncdesigns-logo-114x114.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/514DD64D0399F5BD.jpeg": {
+		"ft": 16384,
+		"iS": 4225,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/_site/images/514DD64D0399F5BD.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/514DD64D0399F5BF.jpeg": {
+		"ft": 16384,
+		"iS": 4225,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/_site/images/514DD64D0399F5BF.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 1382,
+		"oA": 1,
+		"oAP": "/_site/images/apple-touch-icon-72x72.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1686,
+		"oA": 1,
+		"oAP": "/_site/images/apple-touch-icon.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/Artboard 1 copy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/_site/images/Artboard 1 copy.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_site/images/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/images/favicon.ico",
+		"oF": 1
+		},
+	"/_site/images/favicon.png": {
+		"ft": 32768,
+		"iS": 381,
+		"oA": 1,
+		"oAP": "/_site/images/favicon.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home1024x768.png": {
+		"ft": 32768,
+		"iS": 142812,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home1024x768.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home320x480.png": {
+		"ft": 32768,
+		"iS": 46476,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home320x480.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home480x320.png": {
+		"ft": 32768,
+		"iS": 145016,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home480x320.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home600x800.png": {
+		"ft": 32768,
+		"iS": 168183,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home600x800.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home768x1024.png": {
+		"ft": 32768,
+		"iS": 109307,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home768x1024.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/feed/home800x600.png": {
+		"ft": 32768,
+		"iS": 219841,
+		"oA": 1,
+		"oAP": "/_site/images/feed/home800x600.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/images/loader.gif": {
+		"ft": 4194304,
+		"iS": 48250,
+		"oA": 1,
+		"oAP": "/_site/images/loader.gif",
+		"oF": 1,
+		"opt": 0
+		},
+	"/_site/images/spacer.gif": {
+		"ft": 4194304,
+		"iS": 43,
+		"oA": 1,
+		"oAP": "/_site/images/spacer.gif",
+		"oF": 1,
+		"opt": 0
+		},
+	"/_site/index-amp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_site/index-amp.html",
+		"oF": 1
 		},
 	"/_site/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/intro/2011/12/29/jekyll-introduction.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/intro/2011/12/29/jekyll-introduction.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/node_modules": {
 		"ft": 65536,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/_site/node_modules",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/package.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/_site/package-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -635,47 +1083,47 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/pages.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/portfolio.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_site/robots.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/rss.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_site/rss.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/sandbox.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/sandbox.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/search.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/_site/search-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -684,9 +1132,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/serviceWorker-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -695,9 +1143,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/site-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -705,9 +1153,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/_site/sitemap.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/style.css": {
 		"aP": 1,
@@ -736,9 +1184,9 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -748,17 +1196,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/tags.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/testing/2015/12/12/Meta-fragment-test-for-ajax-SEO.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_site/testing/2015/12/12/Meta-fragment-test-for-ajax-SEO.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/about.md": {
 		"cB": 0,
@@ -783,9 +1231,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/archive.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/assets/controllers/portfolio.js": {
 		"bF": 0,
@@ -942,16 +1390,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/assets/themes/bootstrap-3/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/themes/bootstrap-3/css/styles-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -998,9 +1436,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/atom.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"/categories.md": {
 		"cB": 0,
@@ -1044,9 +1482,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/CNAME",
-		"oF": 0
+		"oF": 1
 		},
 	"/data.json": {
 		"ft": 524288,
@@ -1060,37 +1498,26 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/Gemfile",
-		"oF": 0
+		"oF": 1
 		},
 	"/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/Gemfile.lock",
-		"oF": 0
-		},
-	"/Gruntfile-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/Gruntfile-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oF": 1
 		},
 	"/Gruntfile.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
-		"oA": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "/Gruntfile-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1098,17 +1525,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/Guardfile",
-		"oF": 0
+		"oF": 1
 		},
 	"/images/042914_natalie.JPG": {
 		"ft": 16384,
 		"iS": 1714980,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/042914_natalie.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1116,17 +1543,17 @@
 	"/images/062514profileavatar.gif": {
 		"ft": 4194304,
 		"iS": 10889,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/062514profileavatar.gif",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0
 		},
 	"/images/062514profileavatar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/images/062514profileavatar.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1134,9 +1561,9 @@
 	"/images/081815ncdesigns-logo-114x114.png": {
 		"ft": 32768,
 		"iS": 2070,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/081815ncdesigns-logo-114x114.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1146,9 +1573,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/514DD64D0399F5BD.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1157,9 +1584,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/514DD64D0399F5BF.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1167,9 +1594,9 @@
 	"/images/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1382,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/apple-touch-icon-72x72.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1178,9 +1605,9 @@
 	"/images/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1686,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/apple-touch-icon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1189,9 +1616,9 @@
 	"/images/Artboard 1 copy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/images/Artboard 1 copy.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1200,16 +1627,16 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/images/favicon.ico",
-		"oF": 0
+		"oF": 1
 		},
 	"/images/favicon.png": {
 		"ft": 32768,
 		"iS": 381,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/favicon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1218,9 +1645,9 @@
 	"/images/feed/home1024x768.png": {
 		"ft": 32768,
 		"iS": 142812,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home1024x768.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1229,9 +1656,9 @@
 	"/images/feed/home320x480.png": {
 		"ft": 32768,
 		"iS": 46476,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home320x480.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1240,9 +1667,9 @@
 	"/images/feed/home480x320.png": {
 		"ft": 32768,
 		"iS": 145016,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home480x320.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1251,9 +1678,9 @@
 	"/images/feed/home600x800.png": {
 		"ft": 32768,
 		"iS": 168183,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home600x800.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1262,9 +1689,9 @@
 	"/images/feed/home768x1024.png": {
 		"ft": 32768,
 		"iS": 109307,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home768x1024.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1273,9 +1700,9 @@
 	"/images/feed/home800x600.png": {
 		"ft": 32768,
 		"iS": 219841,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/feed/home800x600.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1284,26 +1711,26 @@
 	"/images/loader.gif": {
 		"ft": 4194304,
 		"iS": 48250,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/loader.gif",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0
 		},
 	"/images/spacer.gif": {
 		"ft": 4194304,
 		"iS": 43,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/spacer.gif",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0
 		},
 	"/index-amp.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/index-amp.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/index.md": {
 		"cB": 0,
@@ -1380,9 +1807,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/Rakefile",
-		"oF": 0
+		"oF": 1
 		},
 	"/README.md": {
 		"cB": 0,
@@ -1407,17 +1834,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/robots.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"/rss.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/rss.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"/sandbox.md": {
 		"cB": 0,
@@ -1450,10 +1877,10 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/serviceWorker-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1461,10 +1888,10 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/site-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1472,9 +1899,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/sitemap.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"/style.css": {
 		"aP": 1,
