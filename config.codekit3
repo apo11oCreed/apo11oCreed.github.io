@@ -13,17 +13,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/.gitignore",
-		"oF": 1
+		"oF": 0
 		},
 	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/404.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_config.yml": {
 		"cB": 0,
@@ -44,7 +44,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_drafts/jekyll-introduction-draft.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -56,201 +56,201 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/gauges": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/gauges",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/getclicky": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/getclicky",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/google": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/google",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/google-universal": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/google-universal",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/mixpanel": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/mixpanel",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/analytics-providers/piwik": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/analytics-providers/piwik",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/categories_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/categories_list",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments-providers/disqus": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments-providers/disqus",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments-providers/duoshuo": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments-providers/duoshuo",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments-providers/facebook": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments-providers/facebook",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments-providers/intensedebate": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments-providers/intensedebate",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/comments-providers/livefyre": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/comments-providers/livefyre",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/feedburner": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/feedburner",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/file_exists": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/file_exists",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/gist": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/gist",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/is_production": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/is_production",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/liquid_raw": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/liquid_raw",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/pages_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/pages_list",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/posts_collate": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/posts_collate",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/setup": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/setup",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/sharing": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/sharing",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/sort_collection": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/sort_collection",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/JB/tags_list": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/JB/tags_list",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/bootstrap-3/ampindex.html": {
 		"cB": 0,
@@ -280,17 +280,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/bootstrap-3/post.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/bootstrap-3/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/themes/bootstrap-3/settings.yml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/ncdesignsstudi0/default.html": {
 		"cB": 0,
@@ -304,97 +304,97 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/ncdesignsstudi0/page.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/ncdesignsstudi0/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/ncdesignsstudi0/post.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/ncdesignsstudi0/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/themes/ncdesignsstudi0/settings.yml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/twitter/default.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/twitter/default.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/twitter/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/twitter/page.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/twitter/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_includes/themes/twitter/post.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_includes/themes/twitter/settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_includes/themes/twitter/settings.yml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_layouts/ampindex.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_layouts/ampindex.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_layouts/default.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_layouts/default.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_layouts/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_layouts/page.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_layouts/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_layouts/post.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_plugins/debug.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_plugins/debug.rb",
-		"oF": 1
+		"oF": 0
 		},
 	"/_posts/core-samples/2011-12-29-jekyll-introduction.md": {
 		"cB": 0,
@@ -407,7 +407,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2011-12-29-jekyll-introduction.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -426,7 +426,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-08-21-NC-Designs-Studio-on-Jekyll.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -445,7 +445,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-08-27-Out-of-the-comfort-zone.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -464,7 +464,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-09-26-regex-to-the-rescue.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -483,7 +483,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2015-12-12-Meta-fragment-test-for-ajax-SEO.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -502,7 +502,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2016-03-21-want-to-be-front-end-dev.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -521,7 +521,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2016-11-15-selling-out-to-google.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -529,705 +529,163 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_site/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/404.html",
-		"oF": 0
-		},
 	"/_site/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/about.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/archive.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/archive.html",
-		"oF": 1
-		},
-	"/_site/assets/controllers/portfolio.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/controllers/portfolio-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/templates/portfolio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/templates/portfolio.html",
 		"oF": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot",
-		"oF": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf",
-		"oF": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff",
-		"oF": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/js/data.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/data-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/themes/bootstrap-3/bootstrap/js/loadCSS.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/bootstrap/js/loadCSS-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/themes/bootstrap-3/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/bootstrap-3/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/assets/themes/bootstrap-3/css/style.css.map",
-		"oF": 0
-		},
-	"/_site/assets/themes/bootstrap-3/css/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/css/styles-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/bootstrap-3/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png": {
-		"ft": 32768,
-		"iS": 8777,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png": {
-		"ft": 32768,
-		"iS": 12799,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/assets/themes/twitter/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/themes/twitter/css/style-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/_site/atom.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/atom.xml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/2015/08/27/Out-of-the-comfort-zone.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/2015/08/27/Out-of-the-comfort-zone.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/2015/09/26/regex-to-the-rescue.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/2015/09/26/regex-to-the-rescue.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/2016/03/21/want-to-be-front-end-dev.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/2016/03/21/want-to-be-front-end-dev.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/2016/11/15/selling-out-to-google.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/2016/11/15/selling-out-to-google.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/categories.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/categories.html",
-		"oF": 1
-		},
-	"/_site/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/CNAME",
-		"oF": 0
-		},
-	"/_site/data.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/_site/data-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/_site/Gemfile": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/Gemfile",
-		"oF": 0
-		},
-	"/_site/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/Gemfile.lock",
-		"oF": 0
-		},
-	"/_site/Gruntfile.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/Gruntfile-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/Guardfile": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/Guardfile",
-		"oF": 0
-		},
-	"/_site/images/042914_natalie.JPG": {
-		"ft": 16384,
-		"iS": 1714977,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/images/042914_natalie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_site/images/062514profileavatar.gif": {
-		"ft": 4194304,
-		"iS": 10889,
-		"oA": 0,
-		"oAP": "/_site/images/062514profileavatar.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/_site/images/062514profileavatar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/_site/images/062514profileavatar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/_site/images/081815ncdesigns-logo-114x114.png": {
-		"ft": 32768,
-		"iS": 2070,
-		"oA": 0,
-		"oAP": "/_site/images/081815ncdesigns-logo-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/514DD64D0399F5BD.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/images/514DD64D0399F5BD.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_site/images/514DD64D0399F5BF.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/images/514DD64D0399F5BF.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_site/images/apple-touch-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 1382,
-		"oA": 0,
-		"oAP": "/_site/images/apple-touch-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 1686,
-		"oA": 0,
-		"oAP": "/_site/images/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/Artboard 1 copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/_site/images/Artboard 1 copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/_site/images/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/images/favicon.ico",
-		"oF": 0
-		},
-	"/_site/images/favicon.png": {
-		"ft": 32768,
-		"iS": 381,
-		"oA": 0,
-		"oAP": "/_site/images/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home1024x768.png": {
-		"ft": 32768,
-		"iS": 142812,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home1024x768.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home320x480.png": {
-		"ft": 32768,
-		"iS": 46476,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home320x480.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home480x320.png": {
-		"ft": 32768,
-		"iS": 145016,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home480x320.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home600x800.png": {
-		"ft": 32768,
-		"iS": 168183,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home600x800.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home768x1024.png": {
-		"ft": 32768,
-		"iS": 109307,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home768x1024.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/feed/home800x600.png": {
-		"ft": 32768,
-		"iS": 219841,
-		"oA": 0,
-		"oAP": "/_site/images/feed/home800x600.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_site/images/loader.gif": {
-		"ft": 4194304,
-		"iS": 48250,
-		"oA": 0,
-		"oAP": "/_site/images/loader.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/_site/images/spacer.gif": {
-		"ft": 4194304,
-		"iS": 43,
-		"oA": 0,
-		"oAP": "/_site/images/spacer.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/_site/index-amp.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/index-amp.html",
 		"oF": 0
 		},
 	"/_site/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/intro/2011/12/29/jekyll-introduction.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/intro/2011/12/29/jekyll-introduction.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/node_modules": {
 		"ft": 65536,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/_site/node_modules",
 		"oF": 1
-		},
-	"/_site/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/_site/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"/_site/pages.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/pages.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/portfolio.html",
-		"oF": 1
-		},
-	"/_site/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/robots.txt",
 		"oF": 0
 		},
 	"/_site/rss.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/rss.xml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/sandbox.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/sandbox.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/search.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/_site/search-min.json",
-		"oF": 1,
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/_site/serviceWorker.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/serviceWorker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/site.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/site-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/_site/sitemap.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/sitemap.txt",
-		"oF": 1
-		},
-	"/_site/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
 		"oA": 2,
-		"oAP": "/_site/style.css.map",
+		"oAP": "/_site/sitemap.txt",
 		"oF": 0
-		},
-	"/_site/style.less": {
-		"aP": 0,
-		"bl": 0,
-		"eJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"mS": 0,
-		"oA": 0,
-		"oAP": "/_site/style.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
 		},
 	"/_site/tags.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/tags.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/testing/2015/12/12/Meta-fragment-test-for-ajax-SEO.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/testing/2015/12/12/Meta-fragment-test-for-ajax-SEO.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/about.md": {
 		"cB": 0,
@@ -1252,9 +710,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/archive.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/assets/controllers/portfolio.js": {
 		"bF": 0,
@@ -1262,7 +720,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/controllers/portfolio-min.js",
+		"oAP": "/assets/controllers/min/portfolio-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1290,10 +748,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css": {
 		"aP": 0,
@@ -1345,7 +803,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min-min.js",
+		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/min/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1356,7 +814,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/cssrelpreload-min.js",
+		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/min/cssrelpreload-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1367,7 +825,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/data-min.js",
+		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/min/data-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1378,20 +836,20 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/loadCSS-min.js",
+		"oAP": "/assets/themes/bootstrap-3/bootstrap/js/min/loadCSS-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"/assets/themes/bootstrap-3/css/style.css": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/assets/themes/bootstrap-3/css/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/assets/themes/bootstrap-3/css/style.css.map": {
 		"cB": 0,
@@ -1402,21 +860,21 @@
 		"oF": 0
 		},
 	"/assets/themes/bootstrap-3/css/styles-min.css": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/assets/themes/bootstrap-3/css/styles-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
 	"/assets/themes/bootstrap-3/css/styles.css": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/assets/themes/bootstrap-3/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
@@ -1467,9 +925,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/atom.xml",
-		"oF": 1
+		"oF": 0
 		},
 	"/categories.md": {
 		"cB": 0,
@@ -1513,9 +971,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/CNAME",
-		"oF": 1
+		"oF": 0
 		},
 	"/data.json": {
 		"ft": 524288,
@@ -1529,26 +987,26 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/Gemfile",
-		"oF": 1
+		"oF": 0
 		},
 	"/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/Gemfile.lock",
-		"oF": 1
+		"oF": 0
 		},
 	"/Gruntfile.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/Gruntfile-min.js",
-		"oF": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/min/Gruntfile-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1556,17 +1014,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/Guardfile",
-		"oF": 1
+		"oF": 0
 		},
 	"/images/042914_natalie.JPG": {
 		"ft": 16384,
 		"iS": 1714980,
 		"jF": 0,
-		"oA": 1,
-		"oAP": "/images/042914_natalie.jpg",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/images/042914_natalie.JPG",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1574,17 +1032,17 @@
 	"/images/062514profileavatar.gif": {
 		"ft": 4194304,
 		"iS": 10889,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/062514profileavatar.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/images/062514profileavatar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/images/062514profileavatar.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1592,9 +1050,9 @@
 	"/images/081815ncdesigns-logo-114x114.png": {
 		"ft": 32768,
 		"iS": 2070,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/081815ncdesigns-logo-114x114.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1604,9 +1062,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 1,
-		"oAP": "/images/514DD64D0399F5BD.jpg",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/images/514DD64D0399F5BD.jpeg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1615,9 +1073,9 @@
 		"ft": 16384,
 		"iS": 4225,
 		"jF": 0,
-		"oA": 1,
-		"oAP": "/images/514DD64D0399F5BF.jpg",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/images/514DD64D0399F5BF.jpeg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1625,9 +1083,9 @@
 	"/images/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1382,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/apple-touch-icon-72x72.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1636,9 +1094,9 @@
 	"/images/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1686,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/apple-touch-icon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1647,9 +1105,9 @@
 	"/images/Artboard 1 copy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/images/Artboard 1 copy.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1658,16 +1116,16 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/images/favicon.ico",
-		"oF": 1
+		"oF": 0
 		},
 	"/images/favicon.png": {
 		"ft": 32768,
 		"iS": 381,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/favicon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1676,9 +1134,9 @@
 	"/images/feed/home1024x768.png": {
 		"ft": 32768,
 		"iS": 142812,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home1024x768.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1687,9 +1145,9 @@
 	"/images/feed/home320x480.png": {
 		"ft": 32768,
 		"iS": 46476,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home320x480.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1698,9 +1156,9 @@
 	"/images/feed/home480x320.png": {
 		"ft": 32768,
 		"iS": 145016,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home480x320.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1709,9 +1167,9 @@
 	"/images/feed/home600x800.png": {
 		"ft": 32768,
 		"iS": 168183,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home600x800.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1720,9 +1178,9 @@
 	"/images/feed/home768x1024.png": {
 		"ft": 32768,
 		"iS": 109307,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home768x1024.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1731,9 +1189,9 @@
 	"/images/feed/home800x600.png": {
 		"ft": 32768,
 		"iS": 219841,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/feed/home800x600.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1742,26 +1200,26 @@
 	"/images/loader.gif": {
 		"ft": 4194304,
 		"iS": 48250,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/loader.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/images/spacer.gif": {
 		"ft": 4194304,
 		"iS": 43,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/images/spacer.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/index-amp.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/index-amp.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/index.md": {
 		"cB": 0,
@@ -1781,6 +1239,17 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/min/Gruntfile-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/min/min/Gruntfile-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -1838,9 +1307,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/Rakefile",
-		"oF": 1
+		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -1865,17 +1334,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/robots.txt",
-		"oF": 1
+		"oF": 0
 		},
 	"/rss.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/rss.xml",
-		"oF": 1
+		"oF": 0
 		},
 	"/sandbox.md": {
 		"cB": 0,
@@ -1908,10 +1377,10 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/serviceWorker-min.js",
-		"oF": 1,
+		"oAP": "/min/serviceWorker-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1919,10 +1388,10 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/site-min.js",
-		"oF": 1,
+		"oAP": "/min/site-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1930,39 +1399,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/sitemap.txt",
-		"oF": 1
-		},
-	"/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
 		"oA": 2,
-		"oAP": "/style.css.map",
+		"oAP": "/sitemap.txt",
 		"oF": 0
 		},
 	"/style.less": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"mS": 0,
 		"oA": 0,
-		"oAP": "/style.css",
+		"oAP": "/assets/themes/bootstrap-3/css/style.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -2005,7 +1456,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerEnableIEGrid": 0,
+	"autoprefixerEnableIEGrid": 1,
 	"babel7PresetType": 1,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
@@ -2843,8 +2294,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -2863,7 +2314,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -3075,7 +2526,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -3103,7 +2554,7 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -3159,12 +2610,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -3172,11 +2623,11 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			"optionString": "{'functions': true, 'classes': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -3187,7 +2638,7 @@
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -3316,7 +2767,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			"optionString": "'double', 'avoid-escape'"
 			},
 		"radix": {
 			"active": 0,
@@ -3332,14 +2783,14 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
 			},
 		"require-unicode-regexp": {
 			"active": 0,
 			"optionString": ""
 			},
 		"require-yield": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -3818,7 +3269,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3826,7 +3277,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -3869,7 +3320,7 @@
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
@@ -3890,8 +3341,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "kit",
-		"autoOutputPathReplace2": "html",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
@@ -3900,23 +3351,23 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "assets/themes/bootstrap-3/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
 		"enableJavascript": 0,
 		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"strictImports": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3974,7 +3425,7 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -4004,7 +3455,7 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -4028,7 +3479,7 @@
 		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 0,
