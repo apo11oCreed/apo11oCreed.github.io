@@ -6,7 +6,7 @@ description: NC Designs Studio provides web development services including web d
 author: Nelson Correia
 ---
 {% include JB/setup %}
-<section itemscope itemtype="http://schema.org/Organization" class="grid_homepage" style="display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: auto;grid-column-gap: 2em;grid-row-gap: 2em;">
+<section itemscope itemtype="http://schema.org/Organization" class="grid_homepage">
 	<h2 role="heading" id="special-header" style="grid-column: 1/span 2;grid-row: 1/span 1;">Work can be fun
 	</h2>
 		<p itemprop="description" style="grid-column: 1/span 1;grid-row: 2/span 1;">
@@ -32,8 +32,6 @@ author: Nelson Correia
 			<li role="listitem"><a itemprop="sameAs" title="behance" target="_blank" rel="noopener" href="https://www.behance.net/ncdesigns" class="intcmp_content" onClick="_gaq.push(['_trackEvent', 'Social Link', 'Behance Link', 'Behance – Words']);">Behance</a></li>
 
 			<li role="listitem"><a itemprop="sameAs" title="linkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="intcmp_content" onClick="_gaq.push(['_trackEvent', 'Social Link', 'LinkedIn Link', 'LinkedIn – Words']);">LinkedIn</a></li>
-
-			<li role="listitem"><a itemprop="sameAs" title="Google+" target="_blank" rel="noopener" href="https://plus.google.com/+Ncdesigns-studio" class="intcmp_content" onClick="_gaq.push(['_trackEvent', 'Social Link', 'Google+ Link', 'Google+ – Words']);">Google+</a></li>
 
 			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309">7814360309</a></li>
 		</ul>
