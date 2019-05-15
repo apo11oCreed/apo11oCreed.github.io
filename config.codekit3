@@ -686,7 +686,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/themes/bootstrap-3/css/style.css",
+		"oAP": "/_site/assets/themes/bootstrap-3/css/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -694,7 +694,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/_site/assets/themes/bootstrap-3/css/style.css.map",
 		"oF": 0
 		},
@@ -1188,6 +1188,24 @@
 		"oA": 1,
 		"oAP": "/_site/sitemap.txt",
 		"oF": 1
+		},
+	"/_site/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/_site/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/_site/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/style.css.map",
+		"oF": 0
 		},
 	"/_site/style.less": {
 		"aP": 0,

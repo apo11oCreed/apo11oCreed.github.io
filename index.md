@@ -54,7 +54,7 @@ color:blue;
 </div>
 </template>
 <script>
-    var shadow = document.querySelector('#special-header').createShadowRoot();
+    var shadow = document.querySelector('#special-header').attachShadow({mode: 'open'});
     var template = document.querySelector('#shadowDOMTemplateTest');
     var clone = document.importNode(template.content, true);
     shadow.appendChild(clone);
