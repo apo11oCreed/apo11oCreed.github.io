@@ -7,21 +7,21 @@ author: Nelson Correia
 ---
 {% include JB/setup %}
 <section itemscope itemtype="http://schema.org/Organization" class="grid_homepage">
-	<h2 role="heading" id="special-header" style="grid-column: 1/span 2;grid-row: 1/span 1;">Work can be fun
+	<h2 role="heading" id="special-header" style="-ms-grid-column:1;-ms-grid-column-span:2;grid-column: 1/span 2;-ms-grid-row:1;-ms-grid-row-span:1;grid-row: 1/span 1;">Work can be fun
 	</h2>
-		<p itemprop="description" style="grid-column: 1/span 1;grid-row: 2/span 1;">
+		<p itemprop="description" style="-ms-grid-column:1;-ms-grid-column-span:1;grid-column: 1/span 1;-ms-grid-row:2;-ms-grid-row-span:1;grid-row: 2/span 1;">
 			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
 		</p>
-		<p itemprop="description" style="grid-column: 1/span 1;grid-row: 3/span 1;">
+		<p itemprop="description" style="-ms-grid-column:1;-ms-grid-column-span:1;grid-column: 1/span 1;-ms-grid-row:3;-ms-grid-row-span:1;grid-row: 3/span 1;">
 			Moreso than coding, I find <span style="text-transform:uppercase;">this</span> is what makes my work a pleasure &emdash; problem solving to build sites quicker and leaner.
 		</p>
-		<p itemprop="description" style="grid-column: 2/span 1;grid-row: 2/span 1;">
+		<p itemprop="description" style="-ms-grid-column:2;-ms-grid-column-span:1;grid-column: 2/span 1;-ms-grid-row:2;-ms-grid-row-span:1;grid-row: 2/span 1;">
 			And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a class="intcmp_content" href="/portfolio.html" title="portfolio" onClick="_gaq.push(['_trackEvent', 'Internal Link', 'Portfolio Link', 'Portfolio – Words']);">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
 		</p>
-		<p itemprop="specialty" style="grid-column: 2/span 1;grid-row: 3/span 1;">
+		<p itemprop="specialty" style="-ms-grid-column:2;-ms-grid-column-span:1;grid-column: 2/span 1;-ms-grid-row:3;-ms-grid-row-span:1;grid-row: 3/span 1;">
 			If you're looking for help on maintaining or upgrading your site, I can be reached through several channels:
 		</p>
-	<div style="grid-column: 1/span 2;grid-row: 4/span 1;">
+	<div style="-ms-grid-column:1;-ms-grid-column-span:2;grid-column: 1/span 2;-ms-grid-row:4;-ms-grid-row-span:1;grid-row: 4/span 1;">
 		<ul role="list" class="grid_contact-info">
 			<link itemprop="url" href="https://ncdesigns-studio.com">
 
@@ -36,8 +36,8 @@ author: Nelson Correia
 			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309">7814360309</a></li>
 		</ul>
 	</div>
-	<h2 role="heading" style="grid-column: 1/span 2;grid-row: 5/span 1;">Recent Posts</h2>
-	<ul class="posts" style="grid-column: 1/span 2;grid-row: 6/span 1;">
+	<h2 role="heading" style="-ms-grid-column:1;-ms-grid-column-span:2;grid-column: 1/span 2;-ms-grid-row:5;-ms-grid-row-span:1;grid-row: 5/span 1;">Recent Posts</h2>
+	<ul class="posts" style="-ms-grid-column:1;-ms-grid-column-span:2;grid-column: 1/span 2;-ms-grid-row:6;-ms-grid-row-span:1;grid-row: 6/span 1;">
 		{% for post in site.posts %}
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a class="intcmp_content" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
@@ -45,7 +45,7 @@ author: Nelson Correia
 </section>
 <template id="shadowDOMTemplateTest">
 <style>
-h2.flex-item{
+div{
 color:blue;
 }
 </style>
