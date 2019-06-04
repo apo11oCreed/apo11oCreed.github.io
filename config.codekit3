@@ -680,6 +680,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/_site/assets/themes/bootstrap-3/css/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/themes/bootstrap-3/css/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/_site/assets/themes/bootstrap-3/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1075,17 +1085,6 @@
 		"oA": 1,
 		"oAP": "/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html",
 		"oF": 1
-		},
-	"/_site/min/Gruntfile-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/min/Gruntfile-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/_site/node_modules": {
 		"ft": 65536,
@@ -1536,9 +1535,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/Gemfile.lock",
-		"oF": 0
+		"oF": 1
 		},
 	"/Gruntfile.js": {
 		"bF": 0,
@@ -1771,26 +1770,15 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/index.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/min/Gruntfile-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/min/Gruntfile-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -1927,7 +1915,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/serviceWorker-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -1938,7 +1926,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/site-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -1980,9 +1968,9 @@
 		"ma": 1,
 		"mS": 0,
 		"oA": 0,
-		"oAP": "/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "/assets/themes/bootstrap-3/css/style.css",
+		"oF": 2,
+		"oS": 1,
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
@@ -2023,7 +2011,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerEnableIEGrid": 0,
+	"autoprefixerEnableIEGrid": 1,
 	"babel7PresetType": 1,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
