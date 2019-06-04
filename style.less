@@ -252,41 +252,105 @@ hr {
         grid-template-rows: auto;
         grid-column-gap: 2em;
         grid-row-gap: 0.5em;
+        grid-template-areas:
+        "a a"
+        "b c"
+        "d c"
+        "e e"
+        "f f"
+        "g g"
+        "h h"
+        "i i";
         h2#special-header{
             grid-column: 1/span 2;
             grid-row: 1/span 1;
+            grid-area:a;
         }
         p[itemprop="description"]:nth-child(2){
             grid-column: 1/span 1;
             grid-row: 2/span 1;
+            grid-area:b;
         }
         p[itemprop="description"]:nth-child(3){
             grid-column: 1/span 1;
             grid-row: 3/span 1;
+            grid-area:d;
         }
         p[itemprop="description"]:nth-child(4){
             grid-column: 2/span 1;
             grid-row: 2/span 2;
+            grid-area:c;
         }
         hr:nth-of-type(1){
             grid-column: 1/span 2;
             grid-row: 4/span 1;
+            grid-area:e;
         }
         p[itemprop="specialty"]{
             grid-column: 1/span 2;
             grid-row: 5/span 1;
+            grid-area:f;
         }
         > div{
             grid-column: 1/span 2;
             grid-row: 6/span 1;
+            grid-area:g;
         }
         h2[role="heading"]{
             grid-column: 1/span 2;
             grid-row: 7/span 1;
+            grid-area:h;
         }
         ul.posts{
             grid-column: 1/span 2;
             grid-row: 8/span 1;
+            grid-area:i;
+        }
+    }
+}
+@media all and (max-width:767px) {
+    .grid_homepage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 2em;
+        grid-row-gap: 0.5em;
+        grid-template-areas:
+        "a"
+        "b"
+        "d"
+        "c"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i";
+        h2#special-header{
+            grid-area:a;
+        }
+        p[itemprop="description"]:nth-child(2){
+            grid-area:b;
+        }
+        p[itemprop="description"]:nth-child(3){
+            grid-area:d;
+        }
+        p[itemprop="description"]:nth-child(4){
+            grid-area:c;
+        }
+        hr:nth-of-type(1){
+            grid-area:e;
+        }
+        p[itemprop="specialty"]{
+            grid-area:f;
+        }
+        > div{
+            grid-area:g;
+        }
+        h2[role="heading"]{
+            grid-area:h;
+        }
+        ul.posts{
+            grid-area:i;
         }
     }
 }
