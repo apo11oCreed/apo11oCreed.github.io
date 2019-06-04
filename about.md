@@ -8,19 +8,29 @@ author: Nelson Correia
 {% include JB/setup %}
 
 <section role="main" class="flex-container" itemscope itemtype="http://schema.org/Person">
-<h1 class="flex-item">
-	<span itemprop="name">Nelson Correia</span> : <span itemprep="rolename">Web Developer</span>
-</h1>
-<p class="flex-item" itemprop="disambiguatingDescription">
-	Nelson Correia has provided web support to local businesses for more than seven years. Muddling through several WYSIWYGs, traversing antiquated code, and taming a number of WordPress sites, Nelson has collaborated with business owners to bring their business sites back to life against the odds. 
-</p>
-<p class="flex-item" itemprop="disambiguatingDescription">
-	Nelson is a full time web developer by day and a volunteer/contract webmaster by night.	Years of volunteer support has provided the means for Nelson to move into front end development. Fortunately, his background in graphic design has aided as the basis for problem solving on many levels.
-</p>
-<p class="flex-item" itemprop="disambiguatingDescription">
-	Whenever possible, Nelson gives back to the undergrad community. He has spoken at Best of New England college presentations and recruited college students to collaborate on 'real world' projects.
-</p>
-<p class="flex-item" itemprop="disambiguatingDescription">
-	Nelson's home studio is just south of Boston. Having lived in New England all his life, he enjoys reliving the local experiences with his wife and two children. When not coding, Nelson likes reading tech blogs and watching crime TV.
-</p>
+	<h1 class="flex-item">
+		<span itemprop="name">Nelson Correia</span> : <span itemprep="rolename">Web Developer</span>
+	</h1>
+	<p class="flex-item" itemprop="disambiguatingDescription">
+		Nelson Correia has provided web support to local businesses for more than seven years. Muddling through several WYSIWYGs, traversing antiquated code, and taming a number of WordPress sites, Nelson has collaborated with business owners to bring their business sites back to life against the odds. 
+	</p>
+	<p class="flex-item" itemprop="disambiguatingDescription">
+		Nelson is a full time web developer by day and a volunteer/contract webmaster by night.	Years of volunteer support has provided the means for Nelson to move into front end development. Fortunately, his background in graphic design has aided as the basis for problem solving on many levels.
+	</p>
+	<hr>
+	<p class="flex-item" itemprop="disambiguatingDescription">
+		Whenever possible, Nelson gives back to the undergrad community. He has spoken at Best of New England college presentations and recruited college students to collaborate on 'real world' projects.
+	</p>
+	<picture style="
+    transform: rotate(84deg) scale(0.65);
+    filter: drop-shadow(0px 0px 10px #BF5E09);
+    /* shape-outside: border-box; */
+    /* float: right; */
+">
+	    <source type="image/webp" srcset="images/20190417_185121.webp" itemprop="image" aria-labelledby="img_fallback">
+	    <img alt="Nelson Correia &amp; family." class="img-responsive" src="images/20190417_185111.jpg" id="img_fallback" itemprop="image">
+    </picture>
+	<p class="flex-item" itemprop="disambiguatingDescription">
+		Nelson's home studio is just south of Boston. Having lived in New England all his life, he enjoys reliving the local experiences with his wife and two children. When not coding, Nelson likes reading tech blogs and watching crime TV.
+	</p>
 </section>
