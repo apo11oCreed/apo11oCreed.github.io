@@ -6,3 +6,12 @@ app.controller('portfolioCtrl', function($scope,$http) {
           $scope.myPortfolio = response.data.portfolio;                
         });
 });
+
+// var app2 = angular.module('portfoliowebp',[]);
+
+app.controller('portfolioCtrlWebP', function($scope,$http) {
+  $http.get('../data-webp.json')
+       .then(function(response){
+          $scope.myPortfolioWebP = response.data.portfoliowebp;                
+        });
+});
