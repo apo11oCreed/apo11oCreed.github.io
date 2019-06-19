@@ -564,6 +564,14 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/_site/assets/templates/portfolio-webp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/templates/portfolio-webp.html",
+		"oF": 0
+		},
 	"/_site/assets/templates/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -816,6 +824,14 @@
 		"oAP": "/_site/CNAME",
 		"oF": 0
 		},
+	"/_site/data-webp.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/_site/data-webp-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/_site/data.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -870,6 +886,120 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_site/images/060419aimhighfoundation-desktop.jpg": {
+		"ft": 16384,
+		"iS": 78355,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419aimhighfoundation-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419aimhighfoundation-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419aimhighfoundation-desktop.webp",
+		"oF": 0
+		},
+	"/_site/images/060419aimhighfoundation-mobile.jpg": {
+		"ft": 16384,
+		"iS": 38122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419aimhighfoundation-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419aimhighfoundation-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419aimhighfoundation-mobile.webp",
+		"oF": 0
+		},
+	"/_site/images/060419bobkphotography-desktop.jpg": {
+		"ft": 16384,
+		"iS": 76810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419bobkphotography-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419bobkphotography-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419bobkphotography-desktop.webp",
+		"oF": 0
+		},
+	"/_site/images/060419bobkphotography-mobile.jpg": {
+		"ft": 16384,
+		"iS": 32710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419bobkphotography-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419bobkphotography-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419bobkphotography-mobile.webp",
+		"oF": 0
+		},
+	"/_site/images/060419stoughtonpipeandwelding-desktop.jpg": {
+		"ft": 16384,
+		"iS": 103998,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419stoughtonpipeandwelding-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419stoughtonpipeandwelding-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419stoughtonpipeandwelding-desktop.webp",
+		"oF": 0
+		},
+	"/_site/images/060419stoughtonpipeandwelding-mobile.jpg": {
+		"ft": 16384,
+		"iS": 38010,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/060419stoughtonpipeandwelding-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/060419stoughtonpipeandwelding-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/060419stoughtonpipeandwelding-mobile.webp",
+		"oF": 0
+		},
 	"/_site/images/062514profileavatar.gif": {
 		"ft": 4194304,
 		"iS": 10889,
@@ -898,6 +1028,25 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/_site/images/20190417_185121.jpg": {
+		"ft": 16384,
+		"iS": 552735,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/20190417_185121.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/images/20190417_185121.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/images/20190417_185121.webp",
+		"oF": 0
 		},
 	"/_site/images/514DD64D0399F5BD.jpeg": {
 		"ft": 16384,
@@ -1275,6 +1424,14 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/templates/portfolio-webp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/templates/portfolio-webp.html",
+		"oF": 0
+		},
 	"/assets/templates/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1515,6 +1672,14 @@
 		"oAP": "/CNAME",
 		"oF": 1
 		},
+	"/data-webp.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/data-webp-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/data.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1569,6 +1734,120 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/060419aimhighfoundation-desktop.jpg": {
+		"ft": 16384,
+		"iS": 78355,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419aimhighfoundation-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419aimhighfoundation-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419aimhighfoundation-desktop.webp",
+		"oF": 0
+		},
+	"/images/060419aimhighfoundation-mobile.jpg": {
+		"ft": 16384,
+		"iS": 38122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419aimhighfoundation-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419aimhighfoundation-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419aimhighfoundation-mobile.webp",
+		"oF": 0
+		},
+	"/images/060419bobkphotography-desktop.jpg": {
+		"ft": 16384,
+		"iS": 76810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419bobkphotography-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419bobkphotography-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419bobkphotography-desktop.webp",
+		"oF": 0
+		},
+	"/images/060419bobkphotography-mobile.jpg": {
+		"ft": 16384,
+		"iS": 32710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419bobkphotography-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419bobkphotography-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419bobkphotography-mobile.webp",
+		"oF": 0
+		},
+	"/images/060419stoughtonpipeandwelding-desktop.jpg": {
+		"ft": 16384,
+		"iS": 103998,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419stoughtonpipeandwelding-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419stoughtonpipeandwelding-desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419stoughtonpipeandwelding-desktop.webp",
+		"oF": 0
+		},
+	"/images/060419stoughtonpipeandwelding-mobile.jpg": {
+		"ft": 16384,
+		"iS": 38010,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/060419stoughtonpipeandwelding-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/060419stoughtonpipeandwelding-mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/060419stoughtonpipeandwelding-mobile.webp",
+		"oF": 0
+		},
 	"/images/062514profileavatar.gif": {
 		"ft": 4194304,
 		"iS": 10889,
@@ -1597,6 +1876,25 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/20190417_185121.jpg": {
+		"ft": 16384,
+		"iS": 552735,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/20190417_185121.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/20190417_185121.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/images/20190417_185121.webp",
+		"oF": 0
 		},
 	"/images/514DD64D0399F5BD.jpeg": {
 		"ft": 16384,
@@ -1945,21 +2243,21 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/style-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/style.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/style.css.map",
-		"oF": 0
+		"oF": 1
 		},
 	"/style.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
