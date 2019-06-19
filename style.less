@@ -41,6 +41,14 @@ h4 {
     color: #000000;
 }
 
+p {
+    font-size:1.25em;
+}
+
+figure p {
+    font-size:1em;
+}
+
 body {
     background-image: url('https://i.imgur.com/Are9Hwl.png');
     background-repeat: no-repeat;
@@ -351,6 +359,97 @@ hr {
         }
         ul.posts{
             grid-area:i;
+        }
+    }
+}
+
+/* Grid CSS for about us page */
+@media all and (min-width:768px) {
+    .grid_aboutus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 2em;
+        grid-row-gap: 0.5em;
+        grid-template-areas:
+        "a a"
+        "b e"
+        "c e"
+        "d e"
+        "f f"
+        "g g";
+        h2{
+            grid-column: 1/span 2;
+            grid-row: 1/span 1;
+            grid-area:a;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(2){
+            grid-column: 1/span 1;
+            grid-row: 2/span 1;
+            grid-area:b;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(3){
+            grid-column: 1/span 1;
+            grid-row: 3/span 1;
+            grid-area:c;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(4){
+            grid-column: 1/span 1;
+            grid-row: 4/span 1;
+            grid-area:d;
+        }
+        picture{
+            grid-column: 2/span 1;
+            grid-row: 2/span 3;
+            grid-area:e;
+        }
+        hr:nth-of-type(1){
+            grid-column: 1/span 2;
+            grid-row: 5/span 1;
+            grid-area:f;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(7){
+            grid-column: 1/span 2;
+            grid-row: 6/span 1;
+            grid-area:g;
+        }
+    }
+}
+@media all and (max-width:767px) {
+    .grid_aboutus {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 2em;
+        grid-row-gap: 0.5em;
+        grid-template-areas:
+        "a"
+        "b"
+        "d"
+        "c"
+        "e"
+        "f"
+        "g";
+        h2{
+            grid-area:a;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(2){
+            grid-area:b;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(3){
+            grid-area:c;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(4){
+            grid-area:d;
+        }
+        picture{
+            grid-area:e;
+        }
+        hr:nth-of-type(1){
+            grid-area:f;
+        }
+        p[itemprop="disambiguatingDescription"]:nth-child(7){
+            grid-area:g;
         }
     }
 }

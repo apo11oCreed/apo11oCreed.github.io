@@ -10,10 +10,10 @@ author: Nelson Correia
 	<h2 role="heading" id="special-header">Work can be fun
 	</h2>
 		<p itemprop="description">
-			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I'm spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
+			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I&apos;m spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
 		</p>
 		<p itemprop="description">
-			Moreso than coding, I find <span style="text-transform:uppercase;">this</span> is what makes my work a pleasure &emdash; problem solving to build sites quicker and leaner.
+			Moreso than coding, I find <span style="text-transform:uppercase;">this</span> is what makes my work a pleasure &mdash; problem solving to build sites quicker and leaner.
 		</p>
 		<p itemprop="description">
 			And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a class="intcmp_content" href="/portfolio.html" title="portfolio" onClick="_gaq.push(['_trackEvent', 'Internal Link', 'Portfolio Link', 'Portfolio – Words']);">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
@@ -34,7 +34,7 @@ author: Nelson Correia
 
 			<li role="listitem"><a itemprop="sameAs" title="linkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="intcmp_content" onClick="_gaq.push(['_trackEvent', 'Social Link', 'LinkedIn Link', 'LinkedIn – Words']);">LinkedIn</a></li>
 
-			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309">7814360309</a></li>
+			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309" style="visible-xs">7814360309</a><span style="hidden-xs">7814360309</span></li>
 		</ul>
 	</div>
 	<h2 role="heading">Recent Posts</h2>
