@@ -34,7 +34,7 @@ author: Nelson Correia
 
 			<li role="listitem"><a itemprop="sameAs" title="linkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="intcmp_content" onClick="_gaq.push(['_trackEvent', 'Social Link', 'LinkedIn Link', 'LinkedIn – Words']);">LinkedIn</a></li>
 
-			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309" style="visible-xs">7814360309</a><span style="hidden-xs">7814360309</span></li>
+			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309" class="visible-xs counter_bootstrap_a">7814360309</a><span class="hidden-xs counter_bootstrap_a">7814360309</span></li>
 		</ul>
 	</div>
 	<h2 role="heading">Recent Posts</h2>
