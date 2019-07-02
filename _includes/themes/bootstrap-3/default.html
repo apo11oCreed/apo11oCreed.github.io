@@ -81,7 +81,7 @@
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
-        <!-- End Google Tag Manager -->
+        <!-- .Google Tag Manager -->
 </head>
 <body itemscope itemtype="https://schema.org/WebPage"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W79S8P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id="wrap">
@@ -134,15 +134,16 @@
             </p>
         </div>
     </footer>
-    <!-- Start Preloaders -->
-    <script data-cfasync="true" src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/loadCSS.js"></script>
-    <script data-cfasync="true" src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/cssrelpreload.js"></script>
-    <!-- End Preloaders -->
+    <!-- Preloaders -->
+    <script src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/loadCSS.js"></script>
+    <script src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/cssrelpreload.js"></script>
+    <!-- .Preloaders -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
     <script src="/assets/controllers/portfolio.js"></script> -->
-    <!-- Start Intelligent Search -->
+
+    <!-- Intelligent Search -->
     <script DEFER type="text/javascript">
 (function () {
     'use strict';
@@ -215,10 +216,19 @@
     });
 });
 </script>
-    <!-- End Intelligent Search -->
-    <!-- Start Service Worker -->
+<!-- .Intelligent Search -->
+
+<!-- Custom Scripts -->
+<script>
+    if(window.location.href=='https://ncdesigns-studio.com/testing/2015/12/12/Meta-fragment-test-for-ajax-SEO'){
+        $("#ajaxcontent").load("https://ncdesigns-studio.com/pages.html h2");
+    }
+</script>
+<!-- .Custom Scripts -->
+
+    <!-- Service Worker -->
     <script DEFER src="{{ site.url }}/site.js"></script>
-    <!-- End Service Worker -->
+    <!-- .Service Worker -->
 
     <script DEFER src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </body>
