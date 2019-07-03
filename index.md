@@ -7,7 +7,7 @@ author: Nelson Correia
 ---
 {% include JB/setup %}
 <section itemscope itemtype="http://schema.org/Organization" class="grid_homepage">
-	<h2 role="heading" id="special-header">Work can be fun
+	<h2 id="special-header">Work can be fun
 	</h2>
 		<p itemprop="description">
 			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I&apos;m spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.

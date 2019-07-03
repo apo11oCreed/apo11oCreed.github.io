@@ -396,63 +396,6 @@
 		"oAP": "/_plugins/debug.rb",
 		"oF": 1
 		},
-	"/_posts/core-samples/2011-12-29-jekyll-introduction.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_posts/core-samples/2011-12-29-jekyll-introduction.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/_posts/core-samples/2015-08-21-NC-Designs-Studio-on-Jekyll.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_posts/core-samples/2015-08-21-NC-Designs-Studio-on-Jekyll.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/_posts/core-samples/2015-08-27-Out-of-the-comfort-zone.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_posts/core-samples/2015-08-27-Out-of-the-comfort-zone.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/_posts/core-samples/2015-09-26-regex-to-the-rescue.md": {
 		"cB": 0,
 		"cS": 0,
@@ -522,6 +465,25 @@
 		"oA": 1,
 		"oAP": "/_posts/core-samples/2016-11-15-selling-out-to-google.html",
 		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/_posts/core-samples/2019-07-01-taking-care-of-errors.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_posts/core-samples/2019-07-01-taking-care-of-errors.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -766,14 +728,6 @@
 		"oAP": "/_site/atom.xml",
 		"oF": 1
 		},
-	"/_site/blog/2015/08/27/Out-of-the-comfort-zone.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/2015/08/27/Out-of-the-comfort-zone.html",
-		"oF": 1
-		},
 	"/_site/blog/2015/09/26/regex-to-the-rescue.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -797,6 +751,14 @@
 		"oA": 1,
 		"oAP": "/_site/blog/2016/11/15/selling-out-to-google.html",
 		"oF": 1
+		},
+	"/_site/blog/2019/07/01/taking-care-of-errors.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/blog/2019/07/01/taking-care-of-errors.html",
+		"oF": 0
 		},
 	"/_site/categories.html": {
 		"cB": 0,
@@ -1207,22 +1169,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_site/index.html",
-		"oF": 1
-		},
-	"/_site/intro/2011/12/29/jekyll-introduction.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/intro/2011/12/29/jekyll-introduction.html",
-		"oF": 1
-		},
-	"/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/intro/2015/08/21/NC-Designs-Studio-on-Jekyll.html",
 		"oF": 1
 		},
 	"/_site/node_modules": {
