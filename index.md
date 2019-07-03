@@ -37,7 +37,7 @@ author: Nelson Correia
 			<li role="listitem">Phone: <a class="intcmp_content" href="tel:7814360309" title="784360309" class="visible-xs counter_bootstrap_a">7814360309</a><span class="hidden-xs counter_bootstrap_a">7814360309</span></li>
 		</ul>
 	</div>
-	<h2 role="heading">Recent Posts</h2>
+	<h2>Recent Posts</h2>
 	<ul class="posts">
 		{% for post in site.posts %}
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a class="intcmp_content" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>

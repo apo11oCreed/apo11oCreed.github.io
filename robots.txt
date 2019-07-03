@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-sitemap: /sitemap.txt
+sitemap: https://ncdesigns-studio.com/sitemap.txt
 Disallow: /cdn-cgi/l/email-protection
 Disallow: /cdn-cgi/nexp/dok3v=1613a3a185/
 Disallow: /sandbox
