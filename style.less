@@ -333,6 +333,24 @@ hr {
         }
     }
 }
+
+ul.grid_contact-info {
+    list-style-type:none;
+    .btn-info {
+        background-image:none;
+        background-repeat:no-repeat;
+        background-color:@blue;
+        border-color:@blue;
+        margin-bottom:16px;
+    }
+}
+
+section.grid_homepage p a.intcmp_content.btn.btn-info {
+    background-image:none;
+    background-repeat:no-repeat;
+    background-color:@blue;
+    border-color:@blue;
+}
 @media all and (max-width:767px) {
     .grid_homepage {
         display: grid;
@@ -371,7 +389,7 @@ hr {
         > div{
             grid-area:g;
         }
-        h2[role="heading"]{
+        h2#recent_posts{
             grid-area:h;
         }
         ul.posts{
