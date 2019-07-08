@@ -53,7 +53,14 @@ a {
     display: inline!important;
   }
 }
-body {
+.webp body {
+  background-image: url('/images/Are9Hwl.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.no-webp body {
   background-image: url('https://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
   background-size: 100%;

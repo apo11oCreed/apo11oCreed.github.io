@@ -66,7 +66,15 @@ a {
     }
 }
 
-body {
+.webp body {
+    background-image: url('/images/Are9Hwl.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.no-webp body {
     background-image: url('https://i.imgur.com/Are9Hwl.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -121,11 +129,13 @@ ul.flex-item {
 }
 
 @media all and (max-width:768px) {
-    body {
+
+    .webp body {
+        background-image: url('/images/aqFe5SL.webp');
+    }
+
+    .no-webp body {
         background-image: url('https://i.imgur.com/aqFe5SL.jpg');
-        p.flex-item {
-            flex: 100%;
-        }
     }
 }
 
