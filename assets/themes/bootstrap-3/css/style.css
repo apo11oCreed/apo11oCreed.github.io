@@ -33,15 +33,38 @@ h3,
 h4 {
   color: #000000;
 }
+h1,
+h2,
+h3,
+h4 {
+  --black: #000000;
+  color: var(--black);
+}
 p {
   font-size: 1.25em;
-}
-figure p {
-  font-size: 1em;
 }
 a {
   text-decoration: underline;
   color: #25408f;
+}
+hr {
+  border: 0px solid transparent;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+  height: 1px;
+  width: 100%;
+}
+figure p {
+  font-size: 1em;
+}
+#skiptocontent a {
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  color: white;
+  background: #25408f;
+  transition: top 1s ease-out;
+  z-index: 999;
 }
 @media (max-width: 767px) {
   .visible-xs.counter_bootstrap_a {
@@ -53,19 +76,50 @@ a {
     display: inline!important;
   }
 }
-.webp body {
+.webp body,
+.no-webp body {
+  position: relative;
+  display: block;
+}
+.webp body:after {
   background-image: url('/images/Are9Hwl.webp');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+  content: "";
 }
-.no-webp body {
+.no-webp body:after {
   background-image: url('https://i.imgur.com/Are9Hwl.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+  content: "";
+}
+@media all and (max-width: 768px) {
+  .webp body:after {
+    background-image: url('/images/aqFe5SL.webp');
+  }
+  .no-webp body:after {
+    background-image: url('https://i.imgur.com/aqFe5SL.jpg');
+  }
 }
 .flex-container {
   display: flex;
@@ -109,14 +163,6 @@ ul.flex-item {
   margin-left: 1%;
   background-color: #ffffff;
 }
-@media all and (max-width: 768px) {
-  .webp body {
-    background-image: url('/images/aqFe5SL.webp');
-  }
-  .no-webp body {
-    background-image: url('https://i.imgur.com/aqFe5SL.jpg');
-  }
-}
 @media all and (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 14px;
@@ -142,15 +188,13 @@ a.navbar-brand {
   display: block;
   filter: opacity(50%);
 }
-h1,
-h2,
-h3,
-h4 {
-  --black: #000000;
-  color: var(--black);
-}
 #footer {
   background-color: #c26f1f;
+  height: auto;
+}
+#footer > div > p {
+  color: #c26f1f;
+  filter: brightness(200%);
 }
 .page-header {
   background-color: transparent;
@@ -226,12 +270,6 @@ h4 {
 }
 .hr_color-grid .color:nth-child(odd) {
   background: #c26f1f;
-}
-hr {
-  border: 0px solid transparent;
-  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
-  height: 1px;
-  width: 100%;
 }
 /* Grid CSS for contact options on homepage */
 @media all and (min-width: 768px) {
