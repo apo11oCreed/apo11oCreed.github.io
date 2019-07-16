@@ -5,7 +5,8 @@
   "main": "serviceWorker.js",
   "dependencies": {
     "imgcat": "^2.3.0",
-    "livereload": "^0.8.0"
+    "livereload": "^0.8.0",
+    "lodash": "^4.17.14"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
