@@ -1,6 +1,6 @@
 <figure ng-repeat="title in myPortfolio" itemprop="workExample" class="col-xs-12 col-sm-3 thumbnail">
     <picture>
-        <source class="img-responsive" type="image/jpg" media="(max-width:479px)" srcset="{{title.imgurl1xm}} 1x, {{title.imgurl2xm}} 2x">
+        <source class="img-responsive" type="image/jpg" media="(max-width:479px)" srcset="{{title.imgurl1xm}} 320w, {{title.imgurl2xm}} 640w">
         <img itemprop="image" class="img-responsive" ng-src="{{title.imgurl1x}}" alt="{{title.title}}" />
     </picture>
     <br>
