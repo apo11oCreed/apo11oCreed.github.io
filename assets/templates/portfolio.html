@@ -1,9 +1,9 @@
-<figure ng-repeat="title in myPortfolio" itemprop="workExample" class="col-xs-12 col-sm-3 thumbnail">
+<figure itemscope itemtype="http://schema.org/CreativeWork" ng-repeat="title in myPortfolio" class="col-xs-12 col-sm-3 thumbnail">
     <picture>
         <source class="img-responsive" type="image/jpg" media="(max-width:479px)" srcset="{{title.imgurl1xm}} 320w, {{title.imgurl2xm}} 640w">
-        <img itemprop="image" class="img-responsive" ng-src="{{title.imgurl1x}}" alt="{{title.title}}" />
+        <img itemprop="thumbnailUrl" class="img-responsive" ng-src="{{title.imgurl1x}}" alt="{{title.title}}" />
     </picture>
     <br>
-    <h2 itemprop="item">{{ title.title}}</h2>
-    <p itemprop="description">{{ title.description}}</p>
+    <h2 itemprop="name">{{title.title}}</h2>
+    <p itemprop="about">{{title.description}}</p>
 </figure>

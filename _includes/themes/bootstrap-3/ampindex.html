@@ -82,7 +82,7 @@
         })(window,document,'script','dataLayer','GTM-W79S8P');</script>
         <!-- End Google Tag Manager -->
   </head>
-  <body><div id="skiptocontent"><a href="#maincontent" class="">skip to main content</a></div><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W79S8P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <body itemscope itemtype="https://schema.org/WebPage"><div id="skiptocontent"><a href="#maincontent" class="">skip to main content</a></div><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W79S8P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id="wrap">
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -124,7 +124,7 @@
           </nav>
           <div class="container">
           <header class="page-header">
-          <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+          <h1 itemprop="name">{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
           <div class="hr_color-grid">
           <div class="color"></div>
           <div class="color"></div>
@@ -149,16 +149,16 @@
           
         </header>
 </div>
-        <main id="maincontent" class="container" itemprop="mainEntity" role="main">
+        <main id="maincontent" class="container" itemprop="mainContentOfPage" role="main">
             {{ content }}
         </main>
         </div>
-        <footer id="footer">
-          <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} <span itemprop="copyrightHolder">{{ site.author.name }}</span> <span aria-hidden="true">|</span> nelson.ncdesigns@gmail.com <span aria-hidden="true">|</span> (781) 436-0309
+        <footer id="footer" itemscope itemtype="http://schema.org/WPFooter" role="contentinfo">
+        <div class="container">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} <span aria-hidden="true">|</span> nelson.ncdesigns@gmail.com <span aria-hidden="true">|</span> (781) 436-0309
             </p>
-          </div>
-        </footer>
+        </div>
+    </footer>
 
         <!-- Start Preloaders -->
         <!-- <script data-cfasync="true" src="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/js/loadCSS.js"></script> -->
