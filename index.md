@@ -10,13 +10,13 @@ author: Nelson Correia
 	<h2 id="special-header">Work can be fun
 	</h2>
 		<p itemprop="description">
-			I typed this greeting with the help of a cloud editor. As I work through this message, I look back on a time when I could work only from my mac. These days, I&apos;m spending more and more time exploring tech tools that will support my aspirations to work remotely and maintain sites wherever and whenever.
+			Welcome. You have arrived at my professional site which is a working demo of my concentrations in web performance and web accessibility.
 		</p>
 		<p itemprop="description">
-			Moreso than coding, I find <span style="text-transform:uppercase;">this</span> is what makes my work a pleasure &mdash; problem solving to build sites quicker and leaner.
+			I strive to keep my projects lean and inclusive to all.
 		</p>
 		<p itemprop="description">
-			And building this site is fun. These pages are a series of explorations into the latest web practices and utilities. To see more, please have a look at some of my finished projects on the <a class="intcmp_content btn btn-info" href="/portfolio.html" onClick="_gaq.push(['_trackEvent', 'Internal Link', 'Portfolio Link', 'Portfolio – Words']);">portfolio</a> page. Incidently, these sites have been maintained, at times, right from my phone.
+			To see project samples, please visit my <a class="intcmp_content btn btn-info" href="/portfolio.html" onClick="_gaq.push(['_trackEvent', 'Internal Link', 'Portfolio Link', 'Portfolio – Words']);">portfolio</a> page.
 		</p>
 		<hr>
 		<p itemprop="specialty">

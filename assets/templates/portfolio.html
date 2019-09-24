@@ -1,7 +1,7 @@
-<figure itemscope itemtype="http://schema.org/CreativeWork" ng-repeat="title in myPortfolio" class="col-xs-12 col-sm-3 thumbnail">
+<figure itemscope itemtype="http://schema.org/CreativeWork" ng-repeat="title in myPortfolio | trustHtml" class="col-xs-12 col-sm-3 thumbnail">
     <picture>
         <source class="img-responsive" type="image/jpg" media="(max-width:479px)" srcset="{{title.imgurl1xm}} 320w, {{title.imgurl2xm}} 640w">
-        <img itemprop="thumbnailUrl" class="img-responsive" ng-src="{{title.imgurl1x}}" alt="{{title.title}}" />
+        <img style="border-radius: 50px 50px;box-shadow: 0 0 10px rgba(0,0,0,1.0);" itemprop="thumbnailUrl" class="img-responsive" ng-src="{{title.imgurl1x}}" alt="{{title.title}}" />
     </picture>
     <br>
     <h2 itemprop="name">{{title.title}}</h2>
