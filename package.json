@@ -4,13 +4,16 @@
   "description": "my website",
   "main": "serviceWorker.js",
   "dependencies": {
+    "acorn": "^7.3.1",
     "imgcat": "^2.3.0",
-    "livereload": "^0.8.0",
-    "lodash": "^4.17.14"
+    "kind-of": "^6.0.3",
+    "livereload": "^0.9.1",
+    "lodash": "^4.17.14",
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-uncss": "^0.8.6",
+    "grunt-uncss": "^0.9.1",
     "less": "^2.7.2"
   },
   "scripts": {
