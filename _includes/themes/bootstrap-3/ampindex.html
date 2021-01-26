@@ -16,16 +16,30 @@
     <!-- Google Font Ubuntu -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style" onload="this.rel='stylesheet'">
     <noscript><link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"></noscript>
-
     {% include JB/is_production %}
     {% if is_production != true %}
-    <!-- build:remove -->
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css">
-    <!-- /build -->
-    {% endif %}
+    <!-- Bootstrap styles -->
+    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    </noscript>
+    <!-- Optional theme -->
+    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all">
+    </noscript>
+    <!-- Sticky Footer -->
+    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+      <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet" type="text/css" media="all">
+    </noscript>{% endif %}
+
+    <!-- Custom styles -->
+    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css" rel="stylesheet" type="text/css" media="all">
+    </noscript>
+    
 <!-- Custom styles -->
 <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/styles.css" as="style" onload="this.rel='stylesheet'">
 <noscript>
