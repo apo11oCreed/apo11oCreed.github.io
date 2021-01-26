@@ -7,7 +7,7 @@
 		"uuidString": "CF003599-F531-4D8B-9B6C-EDA02A149FB7"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -1019,31 +1019,9 @@
 		"oAP": "/_site/images/4OXZIeq.webp",
 		"oF": 0
 		},
-	"/_site/images/514DD64D0399F5BD.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/images/514DD64D0399F5BD.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_site/images/514DD64D0399F5BF.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/images/514DD64D0399F5BF.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/_site/images/A2eP7ZD.jpg": {
 		"ft": 16384,
-		"iS": 82993,
+		"iS": 49951,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_site/images/A2eP7ZD.jpg",
@@ -1127,16 +1105,6 @@
 		"oA": 2,
 		"oAP": "/_site/images/Are9Hwl.webp",
 		"oF": 0
-		},
-	"/_site/images/Artboard 1 copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/_site/images/Artboard 1 copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/_site/images/favicon.ico": {
 		"cB": 0,
@@ -1242,6 +1210,17 @@
 		"oAP": "/_site/images/ieNZfe8.webp",
 		"oF": 0
 		},
+	"/_site/images/jl9SVXH.jpg": {
+		"ft": 16384,
+		"iS": 50053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/jl9SVXH.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_site/images/jl9SVXH.png": {
 		"ft": 32768,
 		"iS": 53798,
@@ -1271,7 +1250,7 @@
 		},
 	"/_site/images/NSIP9lF.jpg": {
 		"ft": 16384,
-		"iS": 245328,
+		"iS": 73408,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_site/images/NSIP9lF.jpg",
@@ -1325,6 +1304,17 @@
 		"oA": 2,
 		"oAP": "/_site/images/QX9iKlw.webp",
 		"oF": 0
+		},
+	"/_site/images/S3aVcZP.jpg": {
+		"ft": 16384,
+		"iS": 47313,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/images/S3aVcZP.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_site/images/S3aVcZP.png": {
 		"ft": 32768,
@@ -1449,7 +1439,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/_site/node_modules",
-		"oF": 0
+		"oF": 1
 		},
 	"/_site/package-lock.json": {
 		"ft": 524288,
@@ -1545,30 +1535,11 @@
 		"oAP": "/_site/sitemap.txt",
 		"oF": 1
 		},
-	"/_site/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_site/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/style.css.map",
-		"oF": 0
-		},
 	"/_site/style.less": {
 		"aP": 0,
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
@@ -2125,28 +2096,6 @@
 		"oAP": "/images/4OXZIeq.webp",
 		"oF": 0
 		},
-	"/images/514DD64D0399F5BD.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/images/514DD64D0399F5BD.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/514DD64D0399F5BF.jpeg": {
-		"ft": 16384,
-		"iS": 4225,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/images/514DD64D0399F5BF.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/A2eP7ZD.jpg": {
 		"ft": 16384,
 		"iS": 82993,
@@ -2233,16 +2182,6 @@
 		"oA": 2,
 		"oAP": "/images/Are9Hwl.webp",
 		"oF": 0
-		},
-	"/images/Artboard 1 copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "/images/Artboard 1 copy.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/images/favicon.ico": {
 		"cB": 0,
@@ -2348,6 +2287,17 @@
 		"oAP": "/images/ieNZfe8.webp",
 		"oF": 0
 		},
+	"/images/jl9SVXH.jpg": {
+		"ft": 16384,
+		"iS": 50053,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/images/jl9SVXH.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/jl9SVXH.png": {
 		"ft": 32768,
 		"iS": 53798,
@@ -2431,6 +2381,17 @@
 		"oA": 2,
 		"oAP": "/images/QX9iKlw.webp",
 		"oF": 0
+		},
+	"/images/S3aVcZP.jpg": {
+		"ft": 16384,
+		"iS": 47313,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/images/S3aVcZP.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/S3aVcZP.png": {
 		"ft": 32768,
@@ -2732,20 +2693,11 @@
 		"oF": 1,
 		"oS": 3
 		},
-	"/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/style.css.map",
-		"oF": 1
-		},
 	"/style.less": {
 		"aP": 0,
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
@@ -2785,7 +2737,7 @@
 	"creationDate": 501044102,
 	"displayValue": "apo11oCreed.github.io",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "/images/apple-touch-icon.png",
+	"iconImageName": "/_site/images/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -3221,6 +3173,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -3325,6 +3278,14 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"dot-location": {
 			"active": 0,
 			"optionString": "'object'"
@@ -3376,6 +3337,10 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
+			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -3553,6 +3518,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -3578,6 +3547,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -3673,6 +3646,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-inline-comments": {
 			"active": 0,
 			"optionString": ""
@@ -3714,6 +3691,10 @@
 			"optionString": ""
 			},
 		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loss-of-precision": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3833,6 +3814,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
+			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
@@ -3875,6 +3860,10 @@
 			},
 		"no-sequences": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-setter-return": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-shadow": {
@@ -3972,6 +3961,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -4081,6 +4074,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-named-capture-group": {
 			"active": 0,
 			"optionString": ""
@@ -4096,6 +4093,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4705,7 +4706,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -4774,13 +4774,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -4845,6 +4845,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
