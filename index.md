@@ -32,8 +32,6 @@ author: Nelson Correia
 			<li role="listitem"><a target="_blank" rel="noopener" href="https://www.behance.net/ncdesigns" class="intcmp_content  btn btn-info" onClick="_gaq.push(['_trackEvent', 'Social Link', 'Behance Link', 'Behance – Words']);">Behance</a></li>
 
 			<li role="listitem"><a target="_blank" rel="noopener" href="https://www.linkedin.com/pub/nelson-correia/10/493/b14" class="intcmp_content btn btn-info" onClick="_gaq.push(['_trackEvent', 'Social Link', 'LinkedIn Link', 'LinkedIn – Words']);">LinkedIn</a></li>
-
-			<li role="listitem"><a href="tel:7814360309" class="intcmp_content visible-xs counter_bootstrap_a btn btn-info">(781) 436-0309</a><span class="hidden-xs counter_bootstrap_a" style="text-decoration: none;">(781) 436-0309</span></li>
 		</ul>
 	</div>
 	<h2 id="recent_posts">Recent Posts</h2>

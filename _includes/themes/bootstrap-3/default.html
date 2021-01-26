@@ -19,26 +19,21 @@
     <noscript>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     </noscript>
-    <!-- Bootstrap styles -->
-    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    </noscript>
-    <!-- Optional theme -->
-    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all">
-    </noscript>
-    <!-- Sticky Footer -->
-    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-      <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet" type="text/css" media="all">
-    </noscript>
-    <!-- Custom styles -->
-    <link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css" rel="stylesheet" type="text/css" media="all">
-    </noscript>
+    {% include JB/is_production %}
+    {% if is_production != true %}
+    <!-- build:remove -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css">
+    <!-- /build -->
+    {% endif %}
+<!-- Custom styles -->
+<link rel="preload" href="{{ ASSET_PATH }}/themes/bootstrap-3/css/styles.css" as="style" onload="this.rel='stylesheet'">
+<noscript>
+    <link href="{{ ASSET_PATH }}/themes/bootstrap-3/css/styles.css" rel="stylesheet" type="text/css" media="all">
+</noscript>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -95,7 +90,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ HOME_PATH }}" onClick="_gaq.push([‘_trackEvent’, ‘Internal Link’, ‘Home Link’, ‘Home – Words’]);">
+                <a class="navbar-brand" href="{{ HOME_PATH }}" onClick="_gaq.push(['_trackEvent', 'Internal Link', 'Home Link', 'Home – Words']);">
                     <div class="clip_filter_testing">&nbsp;</div>
                     <div class="logo-icon">
                         <svg itemprop="image" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" style="height:18px;width:18px"><title>NC Designs Studio Logo</title>

@@ -8,11 +8,12 @@
     "imgcat": "^2.3.0",
     "kind-of": "^6.0.3",
     "livereload": "^0.9.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.20",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.1.0",
+    "grunt-processhtml": "^0.4.2",
     "grunt-uncss": "^0.9.1",
     "less": "^2.7.2"
   },
