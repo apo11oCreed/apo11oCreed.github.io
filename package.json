@@ -4,9 +4,15 @@
   "description": "my website",
   "main": "serviceWorker.js",
   "dependencies": {
+    "@hapi/cryptiles": "^5.1.0",
+    "@hapi/hoek": "^9.2.1",
+    "@xmldom/xmldom": "^0.8.2",
     "acorn": "^7.3.1",
-    "imgcat": "^2.3.0",
+    "hoek": "^6.1.3",
+    "imgcat": "^2.2.0",
+    "iterm2-version": "^5.0.0",
     "kind-of": "^6.0.3",
+    "less": "^4.1.2",
     "livereload": "^0.9.1",
     "lodash": "^4.17.20",
     "minimist": "^1.2.5"
@@ -14,11 +20,18 @@
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-processhtml": "^0.4.2",
-    "grunt-uncss": "^0.9.1",
-    "less": "^2.7.2"
+    "grunt-uncss": "^0.9.1"
   },
   "scripts": {
-    "test": "-h"
+    "test": "-h",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "ajv": "6.12.3",
+    "cryptiles": "4.1.2",
+    "hoek": "6.1.3",
+    "xmldom": "0.7.0",
+    "har-validator":"5.1.5"
   },
   "repository": {
     "type": "git",
