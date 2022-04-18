@@ -2,6 +2,9 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
+# Port
+port: 8080
+
 exclude: [".rvmrc",".rbenv-version","README.md","Rakefile","changelog.md","config.codekit","config.codekit3"]
 
 highlighter: rouge
