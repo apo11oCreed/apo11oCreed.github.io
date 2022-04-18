@@ -27,8 +27,6 @@ app.controller('portfolioCtrlWebP', function($scope,$http) {
         });
 });
 
-
-
 app.filter('trustHtml',function($sce){
   return function(html){
     return $sce.trustAsHtml(html)

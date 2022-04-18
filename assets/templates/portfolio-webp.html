@@ -1,13 +1,13 @@
 <figure itemscope itemtype="http://schema.org/CreativeWork" ng-repeat="title in myPortfolioWebP" class="col-xs-12 col-sm-3 thumbnail" >
 	<picture>
 		<!-- mobile -->
-		<source class="img-responsive visible-xs" type="image/webp" media="(max-width:479px)" srcset="{{title.imgurlwebpmobile}}" aria-labelledby="portfolio_img_mobile_{{$index}}">
+		<source class="img-responsive visible-xs" type="image/webp" media="(max-width:479px)" srcset="{{title.imgurlwebpmobile | trustHtml}}" aria-labelledby="portfolio_img_mobile_{{$index}}">
 		<img style="border-radius: 50px 50px;box-shadow: 0 0 10px rgba(0,0,0,1.0);" id="portfolio_img_mobile_{{$index}}" itemprop="thumbnailUrl" class="img-responsive visible-xs" ng-src="{{title.imgurljpgmobile}}" alt="{{title.title}}" />
 		<!-- .mobile -->
 	</picture>
 	<picture>
 		<!-- desktop -->
-		<source class="img-responsive hidden-xs" type="image/webp" media="(min-width:480px)" srcset="" aria-labelledby="portfolio_img_desktop_{{$index}}">
+		<source class="img-responsive hidden-xs" type="image/webp" media="(min-width:480px)" srcset="{{title.imgurlwebpdesktop | trustHtml}}" aria-labelledby="portfolio_img_desktop_{{$index}}">
 		<img id="portfolio_img_desktop_{{$index}}" itemprop="thumbnailUrl" class="img-responsive hidden-xs" ng-src="{{title.imgurljpgdesktop}}" alt="{{title.title}}" />
 		<!-- .desktop -->
 	</picture><br>

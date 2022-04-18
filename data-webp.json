@@ -1,60 +1,60 @@
 {
-"portfoliowebp": [
-{
-"title": "Aim High Foundation",
-"imgurlwebpmobile": "/images/060419aimhighfoundation-mobile.webp",
-"imgurljpgmobile": "/images/060419aimhighfoundation-mobile.jpg",
-"imgurlwebpdesktop": "/images/060419aimhighfoundation-desktop.webp",
-"imgurljpgdesktop": "/images/060419aimhighfoundation-desktop.jpg",
-"description": "The Aim High Foundation has held many events to assist highly motivated students. I am proud to be a continuing participant in their cause by providing support in digital and print."
-},
-{
-"title": "Stoughton Pipe & Welding",
-"imgurlwebpmobile": "/images/060419stoughtonpipeandwelding-mobile.webp",
-"imgurljpgmobile": "/images/060419stoughtonpipeandwelding-mobile.jpg",
-"imgurlwebpdesktop": "/images/060419stoughtonpipeandwelding-desktop.webp",
-"imgurljpgdesktop": "/images/060419stoughtonpipeandwelding-desktop.jpg",
-"description": "I have worked with SP&W for quite some time and have a great deal of respect for the trade. I also appreciate that SP&W confides in my expertise to maintain a lean and performant web presence."
-},
-{
-"title": "Bob K Photography",
-"imgurlwebpmobile": "/images/060419bobkphotography-mobile.webp",
-"imgurljpgmobile": "/images/060419bobkphotography-mobile.jpg",
-"imgurlwebpdesktop": "/images/060419bobkphotography-desktop.webp",
-"imgurljpgdesktop": "/images/060419bobkphotography-desktop.jpg",
-"description": "Bob is an excellent photographer, but he is very modest as well. I am glad to have had the opportunity to build his site as he envisioned. In the end, we learned a great deal about each others' passion for photography and digital specializations."
-},
-{
-"title": "Bishop's Training & Fitness",
-"imgurlwebpmobile": "/images/A2eP7ZD.webp",
-"imgurljpgmobile": "/images/A2eP7ZD.jpg",
-"imgurlwebpdesktop": "/images/QX9iKlw.webp",
-"imgurljpgdesktop": "/images/QX9iKlw.jpg",
-"description": "I consider this site to have been one of my more complex endeavors. It was originally built using Dreamweaver and, eventually, rebuilt into a custom WordPress child theme. As the business continued to develop customer touchpoints, it became imperative to create an extensible interface. The result was a site that provided essential business information, brand recognition, real-time social feeds, and enhanced responsiveness."
-},
-{
-"title": "Doctors' Management Service, Inc.",
-"imgurlwebpmobile": "/images/NSIP9lF.webp",
-"imgurljpgmobile": "/images/NSIP9lF.jpg",
-"imgurlwebpdesktop": "/images/ieNZfe8.webp",
-"imgurljpgdesktop": "/images/ieNZfe8.jpg",
-"description": "Redesigned website for presentation, expansion for social media streaming, info arch, and brand reinforcement. Coded template for multiple browser platforms. As a result of the redesign, hits immediately went up 244% (March to April). Job seekers have also submitted resumes through the site which is an unexpected result of the design's focus on usabiltiy and accessibility."
-},
-{
-"title": "Stoughton Community Events",
-"imgurlwebpmobile": "/images/jl9SVXH.webp",
-"imgurljpgmobile": "/images/jl9SVXH.jpg",
-"imgurlwebpdesktop": "/images/SzJSEuH.webp",
-"imgurljpgdesktop": "/images/SzJSEuH.jpg",
-"description": "Acting as web consultant and webmaster, SCEC's site is a portal for all Stoughton residents to be able to learn about events throughout the year."
-},
-{
-"title": "Stoughton Bakery",
-"imgurlwebpmobile": "/images/S3aVcZP.webp",
-"imgurljpgmobile": "/images/S3aVcZP.jpg",
-"imgurlwebpdesktop": "/images/vIxXhSg.webp",
-"imgurljpgdesktop": "/images/vIxXhSg.jpg",
-"description": "Redesign of website to reflect rebrand, focus on business services, and introduce social news feed. Maintenance includes update of business content, HTML5 & CSS3 implementation, device & browser compatible responsive design."
-}
-]
+	"portfoliowebp": [
+		{
+			"title": "Aim High Foundation",
+			"imgurlwebpmobile": "/images/060419aimhighfoundation-mobile.webp",
+			"imgurljpgmobile": "/images/060419aimhighfoundation-mobile.jpg",
+			"imgurlwebpdesktop": "/images/060419aimhighfoundation-desktop.webp",
+			"imgurljpgdesktop": "/images/060419aimhighfoundation-desktop.jpg",
+			"description": "The Aim High Foundation has held many events to assist highly motivated students. I am proud to be a continuing participant in their cause by providing support in digital and print."
+		},
+		{
+			"title": "Stoughton Pipe & Welding",
+			"imgurlwebpmobile": "/images/060419stoughtonpipeandwelding-mobile.webp",
+			"imgurljpgmobile": "/images/060419stoughtonpipeandwelding-mobile.jpg",
+			"imgurlwebpdesktop": "/images/060419stoughtonpipeandwelding-desktop.webp",
+			"imgurljpgdesktop": "/images/060419stoughtonpipeandwelding-desktop.jpg",
+			"description": "I have worked with SP&W for quite some time and have a great deal of respect for the trade. I also appreciate that SP&W confides in my expertise to maintain a lean and performant web presence."
+		},
+		{
+			"title": "Bob K Photography",
+			"imgurlwebpmobile": "/images/060419bobkphotography-mobile.webp",
+			"imgurljpgmobile": "/images/060419bobkphotography-mobile.jpg",
+			"imgurlwebpdesktop": "/images/060419bobkphotography-desktop.webp",
+			"imgurljpgdesktop": "/images/060419bobkphotography-desktop.jpg",
+			"description": "Bob is an excellent photographer, but he is very modest as well. I am glad to have had the opportunity to build his site as he envisioned. In the end, we learned a great deal about each others' passion for photography and digital specializations."
+		},
+		{
+			"title": "Bishop's Training & Fitness",
+			"imgurlwebpmobile": "/images/A2eP7ZD.webp",
+			"imgurljpgmobile": "/images/A2eP7ZD.jpg",
+			"imgurlwebpdesktop": "/images/QX9iKlw.webp",
+			"imgurljpgdesktop": "/images/QX9iKlw.jpg",
+			"description": "I consider this site to have been one of my more complex endeavors. It was originally built using Dreamweaver and, eventually, rebuilt into a custom WordPress child theme. As the business continued to develop customer touchpoints, it became imperative to create an extensible interface. The result was a site that provided essential business information, brand recognition, real-time social feeds, and enhanced responsiveness."
+		},
+		{
+			"title": "Doctors' Management Service, Inc.",
+			"imgurlwebpmobile": "/images/NSIP9lF.webp",
+			"imgurljpgmobile": "/images/NSIP9lF.jpg",
+			"imgurlwebpdesktop": "/images/ieNZfe8.webp",
+			"imgurljpgdesktop": "/images/ieNZfe8.jpg",
+			"description": "Redesigned website for presentation, expansion for social media streaming, info arch, and brand reinforcement. Coded template for multiple browser platforms. As a result of the redesign, hits immediately went up 244% (March to April). Job seekers have also submitted resumes through the site which is an unexpected result of the design's focus on usabiltiy and accessibility."
+		},
+		{
+			"title": "Stoughton Community Events",
+			"imgurlwebpmobile": "/images/jl9SVXH.webp",
+			"imgurljpgmobile": "/images/jl9SVXH.jpg",
+			"imgurlwebpdesktop": "/images/SzJSEuH.webp",
+			"imgurljpgdesktop": "/images/SzJSEuH.jpg",
+			"description": "Acting as web consultant and webmaster, SCEC's site is a portal for all Stoughton residents to be able to learn about events throughout the year."
+		},
+		{
+			"title": "Stoughton Bakery",
+			"imgurlwebpmobile": "/images/S3aVcZP.webp",
+			"imgurljpgmobile": "/images/S3aVcZP.jpg",
+			"imgurlwebpdesktop": "/images/vIxXhSg.webp",
+			"imgurljpgdesktop": "/images/vIxXhSg.jpg",
+			"description": "Redesign of website to reflect rebrand, focus on business services, and introduce social news feed. Maintenance includes update of business content, HTML5 & CSS3 implementation, device & browser compatible responsive design."
+		}
+	]
 }

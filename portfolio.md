@@ -14,5 +14,6 @@ author: Nelson Correia
 		<div ng-controller="portfolioCtrlWebP" class="clearfix">
 			<article ng-include="'/assets/templates/portfolio-webp.html'">
 			</article>
-		</div></div>
+		</div>
+	</div>
 </section>
