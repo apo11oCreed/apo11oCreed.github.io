@@ -24,6 +24,7 @@ config.codekit3
 514DD64D0399F5BD.jpeg
 514DD64D0399F5BF.jpeg
 Artboard 1 copy.svg
-package.json
 Gruntfile.js
 styles-min.css
+dist
+build
