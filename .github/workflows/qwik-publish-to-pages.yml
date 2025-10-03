@@ -23,19 +23,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      # --- Replace Node setup + npm with Bun ---
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 20
-          cache: npm
+          bun-version: 1.1.20
 
       - name: Install
-        run: npm ci
+        run: bun install
 
       - name: Build (Qwik static)
         env:
           ORIGIN: https://ncdesigns-studio.com
-        run: npm run build
+        run: bun run build
+      # -----------------------------------------
 
       - name: Prepare artifact
         run: |
