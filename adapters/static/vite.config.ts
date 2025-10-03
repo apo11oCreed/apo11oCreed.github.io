@@ -12,7 +12,9 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://github.com/apo11ocreed/apo11ocreed.github.io",
+        // Canonical origin (matches CNAME). Override with ORIGIN env if needed.
+        origin: process.env.ORIGIN || "https://ncdesigns-studio.com",
+        // If you ever host under a subpath, add: basePath: '/subpath'
       }),
     ],
   };
