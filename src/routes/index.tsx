@@ -58,10 +58,6 @@ export const head: DocumentHead = {
     
     // Microsoft
     { name: "msapplication-TileColor", content: "#25408f" },
-    
-    // Security
-    { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
-    { "http-equiv": "Content-Security-Policy", content: "default-src 'self'" },
   ],
   links: [
     // Favicons
@@ -71,7 +67,6 @@ export const head: DocumentHead = {
     { rel: "apple-touch-icon", sizes: "32x32", href: "/favicon-32x32.png" },
     { rel: "apple-touch-icon", sizes: "16x16", href: "/favicon-16x16.png" },
     { rel: "shortcut icon", href: "/favicon.ico" },
-    { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#25408f" },
     
     // Canonical
     { rel: "canonical", href: "https://ncdesigns-studio.com" },
