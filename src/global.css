@@ -3,6 +3,12 @@
 @layer base;
 
 @layer base {
+  :root {
+    --primary-color: #25408f;
+    --secondary-color: #c26f1f;
+    --background-color: #f5f5f5;
+    --text-color: #000;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -12,8 +18,9 @@
   body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f5f5f5;
-    color: #333;
+    color: #000;
     line-height: 1.6;
+    font-weight: 300;
   }
 
   main {
