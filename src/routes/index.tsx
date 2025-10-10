@@ -74,8 +74,5 @@ export const head: DocumentHead = {
     // Preconnect for performance
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-    
-    // Web App Manifest
-    { rel: "manifest", href: "/site.webmanifest" },
   ],
 };
