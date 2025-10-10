@@ -38,5 +38,8 @@
     "undici": "*",
     "vite": "7.1.4",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
