@@ -22,11 +22,65 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Nelson correia - Front-end Developer",
+  title: "Nelson Correia - Front-end Developer",
   meta: [
-    {
-      name: "description",
-      content: "Portfolio website of Nelson Correia",
-    },
+    // Basic SEO
+    { name: "description", content: "Front-end developer specializing in Svelte, TypeScript, and modern web applications." },
+    { name: "keywords", content: "front-end developer, svelte, typescript, web development, javascript" },
+    { name: "author", content: "Nelson Correia" },
+    { name: "robots", content: "index, follow" },
+    { name: "language", content: "en" },
+    
+    // Viewport & Mobile
+    { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+    { name: "theme-color", content: "#25408f" },
+    { name: "color-scheme", content: "light dark" },
+    
+    // Open Graph (Facebook/LinkedIn)
+    { property: "og:type", content: "website" },
+    { property: "og:title", content: "Nelson Correia - Front-end Developer" },
+    { property: "og:description", content: "Front-end developer crafting modern web experiences" },
+    { property: "og:url", content: "https://ncdesigns-studio.com" },
+    { property: "og:image", content: "https://ncdesigns-studio.com/og-facebook.png" },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
+    
+    // Additional SEO
+    { name: "canonical", content: "https://ncdesigns-studio.com" },
+    { name: "revisit-after", content: "7 days" },
+    { name: "rating", content: "general" },
+    { name: "distribution", content: "global" },
+    
+    // Apple/iOS
+    { name: "apple-mobile-web-app-capable", content: "yes" },
+    { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+    { name: "apple-mobile-web-app-title", content: "Nelson Correia" },
+    
+    // Microsoft
+    { name: "msapplication-TileColor", content: "#25408f" },
+    
+    // Security
+    { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
+    { "http-equiv": "Content-Security-Policy", content: "default-src 'self'" },
+  ],
+  links: [
+    // Favicons
+    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    { rel: "icon", type: "image/png", href: "/favicon.png" },
+    { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+    { rel: "apple-touch-icon", sizes: "32x32", href: "/favicon-32x32.png" },
+    { rel: "apple-touch-icon", sizes: "16x16", href: "/favicon-16x16.png" },
+    { rel: "shortcut icon", href: "/favicon.ico" },
+    { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#25408f" },
+    
+    // Canonical
+    { rel: "canonical", href: "https://ncdesigns-studio.com" },
+    
+    // Preconnect for performance
+    { rel: "preconnect", href: "https://fonts.googleapis.com" },
+    { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    
+    // Web App Manifest
+    { rel: "manifest", href: "/site.webmanifest" },
   ],
 };
