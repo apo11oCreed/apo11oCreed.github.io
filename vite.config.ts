@@ -47,6 +47,10 @@ export default defineConfig(({ command, mode }): UserConfig => {
     //     : undefined,
 
     server: {
+      port: 8080,
+      allowedHosts: [
+        "b127d72b52e6464a85457c7c3271348e.vfs.cloud9.us-east-1.amazonaws.com",
+      ],
       headers: {
         // Don't cache the server response in dev mode
         "Cache-Control": "public, max-age=0",
