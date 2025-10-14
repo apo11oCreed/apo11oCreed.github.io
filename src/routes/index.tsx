@@ -115,7 +115,7 @@ export const head: DocumentHead = {
     { name: "theme-color", content: "#25408f" },
     { name: "color-scheme", content: "light dark" },
     
-    // Open Graph (Facebook/LinkedIn)
+    // Open Graph (Facebook)
     { property: "og:type", content: "website" },
     { property: "og:title", content: "Nelson Correia - Front-end Developer" },
     { property: "og:description", content: "Front-end developer crafting modern web experiences" },
@@ -131,9 +131,7 @@ export const head: DocumentHead = {
     { name: "distribution", content: "global" },
     
     // Apple/iOS
-    { name: "apple-mobile-web-app-capable", content: "yes" },
-    { name: "apple-mobile-web-app-status-bar-style", content: "default" },
-    { name: "apple-mobile-web-app-title", content: "Nelson Correia" },
+    { name: "mobile-web-app-capable", content: "yes" },
     
     // Microsoft
     { name: "msapplication-TileColor", content: "#25408f" },
