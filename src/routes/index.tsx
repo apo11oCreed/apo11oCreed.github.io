@@ -1,11 +1,16 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import imgProfile from '/profile.jpeg';
 
 export default component$(() => {
   return (
     <>
     <main>
         <section class="intro">
+          <figure>
+            <img src={imgProfile} alt="Nelson Correia" width="150" height="150" />
+            <figcaption>Nelson Correia - Front-end Developer</figcaption>
+          </figure>
           <h1>Hi, I'm Nelson Correia</h1>
           <p>
             Front-end developer crafting modern, performant web experiences with 

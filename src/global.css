@@ -47,3 +47,9 @@
     color: white;
   }
 }
+
+@layer component {
+  figure img {
+    filter: sepia(30%) saturate(200%);
+  }
+}
