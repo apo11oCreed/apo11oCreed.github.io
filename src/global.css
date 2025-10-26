@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 
 @layer base, component, utility;
 
@@ -11,11 +12,17 @@
   }
 
   body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     background-color: #f5f5f5;
     color: #000;
     line-height: 1.6;
-    font-weight: 300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
   }
   
   section {
