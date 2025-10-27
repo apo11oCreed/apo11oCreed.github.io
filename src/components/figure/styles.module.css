@@ -1,0 +1,17 @@
+figure {
+  margin: 1rem 0;
+  background-color: var(--background-color-figure);
+  padding: 1rem;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+}

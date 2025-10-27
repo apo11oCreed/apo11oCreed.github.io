@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { Figure } from "~/components/figure/figure";
 import ImgProfile from '~/media/profile.jpeg?jsx';
 
 export default component$(() => {
@@ -7,10 +8,9 @@ export default component$(() => {
     <>
     <main>
         <section class="intro">
-          <figure>
-            <ImgProfile alt="Nelson Correia" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />
-            <figcaption>Nelson Correia - Front-end Developer</figcaption>
-          </figure>
+          <Figure 
+            img={<ImgProfile alt="Nelson Correia" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />} 
+            caption="Nelson smiling as everyone else rides the Kraken." />
           <h1>Hi, I'm Nelson Correia</h1>
           <p>
             Front-end developer crafting modern, performant web experiences with 
