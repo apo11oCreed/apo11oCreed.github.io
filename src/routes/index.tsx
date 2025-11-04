@@ -10,16 +10,18 @@ export default component$(() => {
         <section class="intro">
           <Figure 
             img={<ImgProfile alt="Nelson Correia" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />} 
-            caption="Nelson smiling as everyone else rides the Kraken." />
-          <h1>Hi, I'm Nelson Correia</h1>
-          <p>
-            Front-end developer crafting modern, performant web experiences with 
-            Svelte, TypeScript, and cutting-edge frameworks. I transform ideas into 
-            pixel-perfect, user-focused applications.
-          </p>
-          <p>
-            Let's build something exceptional together.
-          </p>
+            caption="Happy to be the pack mule on the last FL trip :)" />
+          <div class="content-text">
+            <h1>Hi, I'm Nelson Correia</h1>
+            <p>
+              Front-end developer crafting modern, performant web experiences with 
+              Svelte, TypeScript, and cutting-edge frameworks. I transform ideas into 
+              pixel-perfect, user-focused applications.
+            </p>
+            <p>
+              Let's build something exceptional together.
+            </p>
+          </div>
         </section>
         <section class="about">
           <h2>About Me</h2>

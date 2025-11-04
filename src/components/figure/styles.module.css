@@ -1,7 +1,5 @@
 figure {
   margin: 1rem 0;
-  background-color: var(--background-color-figure);
-  padding: 1rem;
 }
 
 figure img {
