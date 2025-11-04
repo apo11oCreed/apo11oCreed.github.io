@@ -142,3 +142,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Qwik build output
+dist/
+server/
+.qwik/
+
+# Qwik dev server
+tmp/
