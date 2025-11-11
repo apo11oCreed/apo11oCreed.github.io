@@ -6,7 +6,7 @@ import ImgProfile from '~/media/profile.jpeg?jsx';
 export default component$(() => {
   return (
     <>
-    <main>
+      <main>
         <section class="intro">
           <Figure 
             img={<ImgProfile alt="Nelson Correia" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />} 
@@ -24,7 +24,7 @@ export default component$(() => {
           </div>
         </section>
         <section class="about">
-          <h2>About Me</h2>
+          <h2><span class="material-symbols-outlined">info</span>About Me</h2>
           <p>
             I'm a passionate front-end developer with over 10 years of experience in
             creating engaging and efficient web applications. My expertise lies in 
