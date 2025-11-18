@@ -26,8 +26,7 @@ export default component$(() => {
           <h2><span class="material-symbols-outlined">info</span>About Me</h2>
           <p>
             I'm a passionate front-end developer with over 10 years of experience in
-            creating engaging and efficient web applications. My expertise lies in 
-            HTML, CSS, JavaScript, and modern web technologies, allowing me to deliver
+            creating engaging and efficient web applications. My expertise lies in <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Stylesheets">CSS</abbr>, JavaScript, and modern web technologies, allowing me to deliver
             high-quality solutions that meet both user needs and business goals.
           </p>
           <p>
@@ -56,7 +55,7 @@ export default component$(() => {
             </li>
           </ul>
           <h3>Email Developer</h3>
-          <p>I've been a contributor in the entire lifecycle of email campaigns, from design to deployment. </p>
+          <p>I've been a contributor in the entire lifecycle of email campaigns, from design to deployment.</p>
           <ul>
             <li>A/B testing and optimization</li>
             <li>Email template builds</li>
@@ -75,22 +74,22 @@ export default component$(() => {
           </ul>
         </section>
         <section>
-          <h2>Skills & Technologies</h2>
+          <h2>Skills &amp; Technologies</h2>
           <ul>
-            <li>JavaScript (ES6+), TypeScript</li>
+            <li>JavaScript (<abbr title="Ecmascript 6">ES6</abbr>+), TypeScript</li>
             <li>Svelte, SvelteKit</li>
-            <li>HTML5, CSS3, SCSS</li>
+            <li>HTML5, CSS3, <abbr title="Sassy Cascading Stylesheets">SCSS</abbr></li>
             <li>Tailwind, Stylus</li>
             <li>Node</li>
-            <li>Responsive Design & Mobile-First Development</li>
+            <li>Responsive Design &amp; Mobile-First Development</li>
             <li>Version Control (Git)</li>
-            <li>Performance Optimization & SEO Best Practices</li>
+            <li>Performance Optimization &amp; <abbr title="Search Engine Optimization">SEO</abbr> Best Practices</li>
             <li>Cross-Browser Compatibility</li>
-            <li>Accessibility (WCAG)</li>
-            <li>Agile & Scrum Methodologies</li>
-            <li>CMS (WordPressl)</li>
+            <li>Accessibility (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>)</li>
+            <li>Agile &amp; Scrum Methodologies</li>
+            <li><abbr title="Content Management Systems">CMS</abbr> (WordPressl)</li>
             <li>Build Tools (Vite, Webpack)</li>
-            <li>Design Tools (AEM, Figma, Adobe Creative Cloud)</li>
+            <li>Design Tools (<abbr title="Adobe Experience Manager">AEM</abbr>, Figma, Adobe Creative Cloud)</li>
             <li>AI agents and prompts (ChatGPT)</li>
           </ul>
         </section>
