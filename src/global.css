@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=info');
 
-@layer base, component, utility;
+@layer base, component, utility, darkmode;
 
 @layer base {
   :root {
@@ -18,8 +18,8 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    background-color: #f5f5f5;
-    color: #000;
+    background-color: var(--background-color);
+    color: var(--text-color);
     line-height: 1.6;
   }
   
@@ -130,5 +130,17 @@
 @layer component {
   figure img {
     filter: sepia(30%) saturate(200%);
+  }
+}
+
+@layer darkmode {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary-color: #6ea0ff;
+      --secondary-color: #ffb366;
+      --background-color: #121212;
+      --text-color: #e0e0e0;
+      --background-color-figure: #1e1e1e;
+    }
   }
 }

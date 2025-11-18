@@ -9,7 +9,6 @@ figure img {
 
 figure figcaption {
   font-size: 0.875rem;
-  color: var(--text-muted);
   margin-top: 0.5rem;
   font-style: italic;
 }
