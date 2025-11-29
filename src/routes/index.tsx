@@ -1,8 +1,18 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useVisibleTask$ } from "@builder.io/qwik";
 import { Figure } from "~/components/figure/figure";
 import ImgProfile from '~/media/profile.jpeg?jsx';
+import gsap from 'gsap';
 
 export default component$(() => {
+  
+  useVisibleTask$(({track})=>{
+    gsap.to("section.intro",{
+      "--bg-scale": 1,
+      "--bg-opacity": 0.1,
+      duration: 0.5
+    });
+  });
+  
   return (
     <>
       <main>

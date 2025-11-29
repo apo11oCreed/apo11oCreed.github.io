@@ -11,6 +11,9 @@
     --background-color: #f5f5f5;
     --text-color: #000;
     --background-color-figure: #e9ecf4;
+    
+    --bg-scale: 2;
+    --bg-opacity: 0;
   }
 
   body {
@@ -66,6 +69,19 @@
     color: white;
   }
 
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: var(--primary-color);
+  }
+
+}
+
+@layer component {
+  
   section.intro {
     background-color: var(--background-color-figure);
     padding: 1rem;
@@ -76,19 +92,21 @@
     overflow: hidden;
   }
 
-  /* section.intro::before {
+   section.intro::before {
     content: "";
     background: url('/logo.svg') no-repeat center bottom;
     background-size: cover;
-    aspect-ratio: 1 / 1;
-    height: 100%;
-    animation: fadeIn 3s ease-in-out 1s;
+    width: 100%;
+    min-height: 100%;
+    scale: var(--bg-scale);
     display: block;
-    clear: both;
     position: absolute;
-    top: 0;
-    opacity: 0.1;
-  } */
+    bottom: 0;
+    right: 0;
+    opacity: var(--bg-opacity);
+    overflow: hidden;
+    z-index: 0;
+  } 
 
   section.intro figure {
     order: 1;
@@ -115,19 +133,7 @@
       order: 1;
     }
   }
-
-  .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-    color: var(--primary-color);
-  }
-
-}
-
-@layer component {
+  
   figure img {
     filter: sepia(30%) saturate(200%);
   }
