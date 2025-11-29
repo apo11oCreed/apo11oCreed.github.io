@@ -1,4 +1,4 @@
-import ImgInteractiveAppVisualization1 from '~/media/interactive-app-visualization-1.png?jsx';
+// import ImgInteractiveAppVisualization1 from '~/media/interactive-app-visualization-1.png?jsx';
 
 export const projects = [
   {
