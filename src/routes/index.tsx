@@ -1,7 +1,9 @@
 import { component$, useVisibleTask$ } from "@builder.io/qwik";
 import { Figure } from "~/components/figure/figure";
 import ImgProfile from '~/media/profile.jpeg?jsx';
-import gsap from 'gsap';
+import gsap from "gsap";
+import { projects } from "~/data/projects";
+import { ProjectList } from "~/components/project/project-list";
 
 export default component$(() => {
   
@@ -52,36 +54,11 @@ export default component$(() => {
           <p>Outside of coding, I enjoy quality family time and nurturing my kids' love for learning - skateboarding, playing instruments, and traveling.</p>
           <p>Feel free to check out my portfolio and get in touch for any exciting opportunities!</p>
         </section>
+
         <section class="projects">
           <h2>What I've Built</h2>
-          <h3>Website Developer</h3>
-          <ul>
-            <li>Senior developer on multiple high-traffic ecommerce websites
-            </li>
-            <li>
-              Contributor on <strong>research-based</strong> and <strong>data-visualization</strong> interactive web applications
-            </li>
-            <li>WordPress theme development and customization, maintenance, and optimization
-            </li>
-          </ul>
-          <h3>Email Developer</h3>
-          <p>I've been a contributor in the entire lifecycle of email campaigns, from design to deployment.</p>
-          <ul>
-            <li>A/B testing and optimization</li>
-            <li>Email template builds</li>
-            <li>Email build applications</li>
-          </ul>
-          <h3>Integrations</h3>
-          <ul>
-            <li>Google Analytics</li>
-            <li>Google Tag Manager</li>
-            <li>Push Notifications</li>
-          </ul>
-          <h3>Other Notable Projects</h3>
-          <ul>
-            <li>HTML5 Banner Ads using GreenSock (GSAP)</li>
-            <li>MBTA Game development</li>
-          </ul>
+          <h3>Visualizations</h3>
+          <ProjectList projects={projects.map(project => ({ list: project }))} />
         </section>
         <section>
           <h2>Skills &amp; Technologies</h2>
