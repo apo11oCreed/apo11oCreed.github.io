@@ -5,7 +5,7 @@ import gsap from 'gsap';
 
 export default component$(() => {
   
-  useVisibleTask$(({track})=>{
+  useVisibleTask$(()=>{
     gsap.to("section.intro",{
       "--bg-scale": 1,
       "--bg-opacity": 0.1,
