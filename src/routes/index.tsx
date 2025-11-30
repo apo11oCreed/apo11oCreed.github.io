@@ -58,7 +58,7 @@ export default component$(() => {
         <section class="projects">
           <h2>What I've Built</h2>
           <h3>Visualizations</h3>
-          <ProjectList projects={projects.map(project => ({ list: project }))} />
+          <ProjectList projects={projects} />
         </section>
         <section>
           <h2>Skills &amp; Technologies</h2>

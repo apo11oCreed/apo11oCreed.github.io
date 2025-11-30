@@ -1,4 +1,5 @@
 import { component$ } from '@builder.io/qwik';
+import type { Project } from '~/data/projects';
 
 // Import all project images with JSX optimization
 import InteractiveAppVisualization1 from '~/media/interactive-app-visualization-2.png?jsx';
@@ -11,33 +12,27 @@ const imageMap: Record<string, any> = {
 };
 
 interface ProjectPropsList {
-    projects: Array<{list: {
-        name: string;
-        description: string;
-        url: string;
-        stack: string[];
-        img?: string; // Just the filename
-    }}>;
+    projects: readonly Project[]; // Direct array of projects
 }
 
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
     return (
         <div>
             {projects.map((project, index) => {
-                const ImageComponent = project.list.img ? imageMap[project.list.img] : null;
+                const ImageComponent = project.img ? imageMap[project.img] : null;
                 
                 return (
                     <div key={index}>
                         {ImageComponent && (
                             <ImageComponent 
-                                alt={project.list.name} 
+                                alt={project.name} 
                                 style={{ width: '300px', height: '200px', objectFit: 'cover' }} 
                             />
                         )}
-                        <h3><a href={project.list.url} target="_blank" rel="noopener noreferrer">{project.list.name}</a></h3>
-                        <p>{project.list.description}</p>
+                        <h3><a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
+                        <p>{project.description}</p>
                         <ul>
-                            {project.list.stack.map(tech => (
+                            {project.stack.map(tech => (
                                 <li key={tech}>{tech}</li>
                             ))}
                         </ul>
