@@ -8,7 +8,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "qwik build && node scripts/fix-asset-paths.js",
+    "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.ts",

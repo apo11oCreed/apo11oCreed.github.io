@@ -21,7 +21,28 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
  */
 export default defineConfig(({ command, mode }): UserConfig => {
   return {
-    plugins: [qwikCity(), qwikVite(), tsconfigPaths({ root: "." })],
+    plugins: [
+      qwikCity(), 
+      qwikVite(), 
+      tsconfigPaths({ root: "." }),
+    ],
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: (chunkInfo) => {
+            const name = chunkInfo.name || 'unknown';
+            const extType = name.split('.').pop();
+            
+            // For images, use name without hash
+            if (['png', 'jpg', 'jpeg', 'webp', 'svg'].includes(extType || '')) {
+              return 'assets/[name].[ext]';
+            }
+            
+            return 'assets/[name]-[hash].[ext]';
+          },
+        },
+      },
+    },
     // This tells Vite which dependencies to pre-build in dev mode.
     optimizeDeps: {
       // Put problematic deps that break bundling here, mostly those with binaries.
