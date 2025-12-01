@@ -27,15 +27,19 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.1.20
+          bun-version: latest
 
-      - name: Install
-        run: bun install
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
       - name: Build (Qwik static)
         env:
           ORIGIN: https://ncdesigns-studio.com
-        run: bun run build
+          NODE_ENV: production
+        run: |
+          bun run build
+          echo "Contents of dist/:"
+          ls -la dist/
       # -----------------------------------------
 
       - name: Prepare artifact
