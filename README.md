@@ -31,3 +31,17 @@ The website itself can be seen as a sandbox of experimentation into several tren
  - [ ] Storybookjs integration
  - [ ] GSAP integration
 
+## Notes
+During the build task, Qwik delivers a message in reference to file caching:
+"we recommend that you serve these files with the following header"
+Cache-Control: public, max-age=31536000, immutable
+
+REF:
+https://qwik.dev/docs/deployments/#cache-headers
+
+According to Claude Sonnet 4:
+GitHub Pages doesn't allow custom cache headers, so you're limited by their default caching policy.
+GitHub Pages sets its own cache headers and you can't override them. For many sites, this is acceptable, but it's not optimal for Qwik's asset strategy.
+
+
+
