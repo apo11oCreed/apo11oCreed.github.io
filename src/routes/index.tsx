@@ -1,6 +1,4 @@
 import { component$, useVisibleTask$ } from "@builder.io/qwik";
-import { Figure } from "~/components/figure/figure";
-import ImgProfile from '~/media/profile.jpeg?jsx';
 import gsap from "gsap";
 import { projects } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
