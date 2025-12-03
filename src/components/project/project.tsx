@@ -17,9 +17,9 @@ export const Project = component$<ProjectProps>(({ name, description, url, stack
   
   return (
     <div class="project">
-      {img && <div class="image">{img}</div>}
       <div class="details">
         <h3><a href={url} target="_blank" rel="noopener noreferrer">{name}</a></h3>
+        {img && <div class="image">{img}</div>}
         <p>{description}</p>
         <ul class="stack">
           {stack.map(tech => (
