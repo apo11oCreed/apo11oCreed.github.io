@@ -61,16 +61,18 @@ export default component$(() => {
             <li>HTML5, CSS3, <abbr title="Sassy Cascading Stylesheets">SCSS</abbr></li>
             <li>Tailwind, Stylus</li>
             <li>Node</li>
+            <li>NPM, Yarn, Bun</li>
             <li>Responsive Design &amp; Mobile-First Development</li>
             <li>Version Control (Git)</li>
             <li>Performance Optimization &amp; <abbr title="Search Engine Optimization">SEO</abbr> Best Practices</li>
             <li>Cross-Browser Compatibility</li>
             <li>Accessibility (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>)</li>
-            <li>Agile &amp; Scrum Methodologies</li>
-            <li><abbr title="Content Management Systems">CMS</abbr> (WordPressl)</li>
+            <li>Jira and Agile &amp; Scrum Methodologies</li>
+            <li><abbr title="Content Management Systems">CMS</abbr> (WordPress, Wix, AEM)</li>
             <li>Build Tools (Vite, Webpack)</li>
             <li>Design Tools (<abbr title="Adobe Experience Manager">AEM</abbr>, Figma, Adobe Creative Cloud)</li>
-            <li>AI agents and prompts (ChatGPT)</li>
+            <li>AI agents and prompts</li>
+            <li>Google Analytics/Tag Manager</li>
           </ul>
         </section>
         <section class="contact">
