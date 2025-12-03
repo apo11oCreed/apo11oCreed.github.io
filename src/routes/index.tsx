@@ -18,7 +18,7 @@ export default component$(() => {
       <main>
         <section class="intro">
           <div class="content-text">
-            <h1>Nelson Correia <small>Front End Developer committed to performance & inclusion</small></h1>
+            <h1>Nelson Correia <small>Web Developer committed to performance & inclusion</small></h1>
             <p>
               I transform ideas into pixel-perfect, user-focused applications by crafting modern, performant web experiences with 
               Svelte, TypeScript, and cutting-edge frameworks. 
@@ -31,8 +31,8 @@ export default component$(() => {
         <section class="about">
           <h2><span class="material-symbols-outlined">info</span>About Me</h2>
           <p>
-            I'm a passionate front-end developer with over 10 years of experience in
-            creating engaging and efficient web applications. My expertise lies in <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Stylesheets">CSS</abbr>, JavaScript, and modern web technologies, allowing me to deliver
+            I'm a passionate web developer with over 10 years of experience in
+            creating engaging and efficient web applications and digital touch points. My expertise lies in <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Stylesheets">CSS</abbr>, JavaScript, and modern web technologies, allowing me to deliver
             high-quality solutions that meet both user needs and business goals.
           </p>
           <p>
@@ -51,7 +51,6 @@ export default component$(() => {
 
         <section class="projects">
           <h2>What I've Built</h2>
-          <h3>Embedded Applications</h3>
           <ProjectList projects={projects} />
         </section>
         <section>

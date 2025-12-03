@@ -19,11 +19,19 @@ export const projects = [
   },
   {
     name: "Data-Driven Interactive Visualization",
-    description: " Extended an existing data visualization application by integrating new datasets and enhancing user interactivity. Tooltips and more granular views were added to promote further data exploration.",
+    description: "Built an interactive interpretation of a complex system of policies and their outcomes. On hover, paths are highlighted as a mechanism to present multi-layered relationships.",
     credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
     url: "https://www.rand.org/pubs/visualizations/DVA1544-2/logic-model-for-intermediate-force-capabilities.html",
     stack: ["Yarn", "Vite", "Tailwind CSS"],
     img: "interactive-app-visualization-1.png"
+  },
+  {
+    name: "Newsletter Templates",
+    description: "Developed responsive email newsletter components and templates using MJML, ensuring compatibility across various email clients.",
+    credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
+    url: "https://www.rand.org/global-and-emerging-risks/centers/ai-security-and-technology/newsletters/2025/11.html",
+    stack: ["Yarn", "MJML", "HTL", "Java", "JSP"],
+    img: "campaigns-newsletter-1.png"
   }
 ] as const;
 
