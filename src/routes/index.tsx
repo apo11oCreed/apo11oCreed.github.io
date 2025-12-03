@@ -19,15 +19,11 @@ export default component$(() => {
     <>
       <main>
         <section class="intro">
-          <Figure 
-            img={<ImgProfile alt="Nelson Correia" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />} 
-            caption="Happy to be the pack mule on the last FL trip :)" />
           <div class="content-text">
-            <h1>Hi, I'm Nelson Correia</h1>
+            <h1>Nelson Correia <small>Front End Developer committed to performance & inclusion</small></h1>
             <p>
-              Front-end developer crafting modern, performant web experiences with 
-              Svelte, TypeScript, and cutting-edge frameworks. I transform ideas into 
-              pixel-perfect, user-focused applications.
+              I transform ideas into pixel-perfect, user-focused applications by crafting modern, performant web experiences with 
+              Svelte, TypeScript, and cutting-edge frameworks. 
             </p>
             <p>
               Let's build something exceptional together.
@@ -57,7 +53,7 @@ export default component$(() => {
 
         <section class="projects">
           <h2>What I've Built</h2>
-          <h3>Visualizations</h3>
+          <h3>Embedded Applications</h3>
           <ProjectList projects={projects} />
         </section>
         <section>

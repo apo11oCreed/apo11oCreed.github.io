@@ -120,22 +120,8 @@
     max-width: 60ch;
   }
 
-  @container intro (width > 43.8125rem) {
-    section.intro {
-      flex-direction: row;
-    }
-
-    section.intro figure {
-      order: 0;
-    }
-
-    section.intro .content-text {
-      order: 1;
-    }
-  }
-  
-  figure img {
-    filter: sepia(30%) saturate(200%);
+  h1 small {
+    font-weight: 300;
   }
 }
 
