@@ -53,8 +53,6 @@ export default defineConfig(({ command, mode }): UserConfig => {
         overlay: false,
         // Use a different port for HMR to avoid conflicts
         port: 5174,
-        // Reduce HMR update frequency when dev tools are open
-        clientErrorOverlay: false,
       },
       // Improve file watching performance
       watch: {
