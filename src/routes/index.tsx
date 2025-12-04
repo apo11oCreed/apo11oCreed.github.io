@@ -1,17 +1,17 @@
-import { component$, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useOnWindow, $ } from "@builder.io/qwik";
 import gsap from "gsap";
 import { projects } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
 
 export default component$(() => {
   
-  useVisibleTask$(()=>{
+  useOnWindow('load', $(() => {
     gsap.to("section.intro",{
       "--bg-scale": 1,
       "--bg-opacity": 0.1,
       duration: 0.5
     });
-  });
+  }));
   
   return (
     <>
