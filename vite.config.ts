@@ -20,12 +20,66 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
  * Note that Vite normally starts from `index.html` but the qwikCity plugin makes start at `src/entry.ssr.tsx` instead.
  */
 export default defineConfig(({ command, mode }): UserConfig => {
+  const isProduction = mode === 'production';
+  
   return {
     plugins: [
       qwikCity(), 
-      qwikVite(), 
+      qwikVite({
+        // Optimize for dev tools usage
+        debug: false,
+        // Reduce chunks in development for better HMR
+        entryStrategy: command === 'build' ? { type: 'smart' } : { type: 'single' },
+      }), 
       tsconfigPaths({ root: "." }),
     ],
+    server: {
+      // Server port and host configuration
+      port: 8080,
+      allowedHosts: [
+        'localhost',
+        '127.0.0.1',
+        'ncdesigns-studio.com',
+        "b127d72b52e6464a85457c7c3271348e.vfs.cloud9.us-east-1.amazonaws.com",
+        "6e18811d1810409f8e3a85ae06a47df5.vfs.cloud9.us-east-1.amazonaws.com",
+      ],
+      // Headers for development
+      headers: {
+        // Don't cache the server response in dev mode
+        "Cache-Control": "public, max-age=0",
+      },
+      // Optimize HMR for dev tools usage
+      hmr: {
+        overlay: false,
+        // Use a different port for HMR to avoid conflicts
+        port: 5174,
+        // Reduce HMR update frequency when dev tools are open
+        clientErrorOverlay: false,
+      },
+      // Improve file watching performance
+      watch: {
+        usePolling: false,
+        ignored: ['**/node_modules/**', '**/dist/**', '**/.qwik/**', '**/tmp/**'],
+        // Reduce file watching frequency
+        interval: 1000,
+        binaryInterval: 3000,
+      },
+      // Optimize for development with dev tools
+      middlewareMode: false,
+      fs: {
+        strict: false,
+      },
+    },
+    // Improve dev performance when dev tools are open
+    esbuild: {
+      // Reduce source map overhead in dev
+      sourcemap: command === 'serve' ? 'inline' : true,
+      // Optimize for dev tools
+      keepNames: true,
+      minifyIdentifiers: false,
+      minifySyntax: false,
+      minifyWhitespace: false,
+    },
     build: {
       rollupOptions: {
         output: {
@@ -67,19 +121,6 @@ export default defineConfig(({ command, mode }): UserConfig => {
     //       }
     //     : undefined,
 
-    server: {
-      port: 8080,
-      allowedHosts: [
-        "b127d72b52e6464a85457c7c3271348e.vfs.cloud9.us-east-1.amazonaws.com",
-        "6e18811d1810409f8e3a85ae06a47df5.vfs.cloud9.us-east-1.amazonaws.com",
-        "6e18811d1810409f8e3a85ae06a47df5.vfs.cloud9.us-east-1.amazonaws.com"
-        
-      ],
-      headers: {
-        // Don't cache the server response in dev mode
-        "Cache-Control": "public, max-age=0",
-      },
-    },
     preview: {
       headers: {
         // Do cache the server response in preview (non-adapter production build)
