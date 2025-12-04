@@ -94,8 +94,7 @@
 
    section.intro::before {
     content: "";
-    background: url('/logo.svg') no-repeat center bottom;
-    background-size: cover;
+    background: url('/logo.svg') top right / auto 100% no-repeat #25408F;
     width: 100%;
     min-height: 100%;
     scale: var(--bg-scale);
@@ -122,6 +121,7 @@
 
   h1 small {
     font-weight: 300;
+    display: block;
   }
 }
 
