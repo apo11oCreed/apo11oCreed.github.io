@@ -37,7 +37,8 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                             />
                         )}
                         <p>{project.description}</p>
-                        <p><em>{project.credit}</em></p>
+                        <p><small><em>{project.credit}</em></small></p>
+                        <h4>Technologies Used:</h4>
                         <ul>
                             {project.stack.map(tech => (
                                 <li key={tech}>{tech}</li>

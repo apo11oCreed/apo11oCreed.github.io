@@ -99,7 +99,7 @@ export default component$(() => {
           <ul>
             <li>JavaScript (<abbr title="Ecmascript 6">ES6</abbr>+), TypeScript</li>
             <li>Svelte, SvelteKit</li>
-            <li>HTML5, CSS3, <abbr title="Sassy Cascading Stylesheets">SCSS</abbr></li>
+            <li>HTML, CSS, <abbr title="Sassy Cascading Stylesheets">SCSS</abbr>, <abbr title="Scalable Vector Graphics">SVG</abbr></li>
             <li>Tailwind, Stylus</li>
             <li>Node</li>
             <li>NPM, Yarn, Bun</li>
@@ -109,10 +109,10 @@ export default component$(() => {
             <li>Cross-Browser Compatibility</li>
             <li>Accessibility (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>)</li>
             <li>Jira and Agile &amp; Scrum Methodologies</li>
-            <li><abbr title="Content Management Systems">CMS</abbr> (WordPress, Wix, AEM)</li>
+            <li><abbr title="Content Management Systems">CMS</abbr> (WordPress, Wix, <abbr title="Adobe Experience Manager">AEM</abbr>)</li>
             <li>Build Tools (Vite, Webpack)</li>
-            <li>Design Tools (<abbr title="Adobe Experience Manager">AEM</abbr>, Figma, Adobe Creative Cloud)</li>
-            <li>AI agents and prompts</li>
+            <li>Design Tools (Figma, Adobe Creative Cloud)</li>
+            <li><abbr title="Artificial Intelligence">AI</abbr> agents and prompts</li>
             <li>Google Analytics/Tag Manager</li>
           </ul>
         </section>
