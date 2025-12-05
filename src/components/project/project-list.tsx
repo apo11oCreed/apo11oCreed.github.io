@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
+import styles from './styles.module.css';
 
 // Import all project images with JSX optimization
 import InteractiveAppVisualization1 from '~/media/interactive-app-visualization-2.png?jsx';
@@ -23,30 +24,30 @@ interface ProjectPropsList {
 
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
     return (
-        <div>
+        <ul class={styles.projectList}>
             {projects.map((project, index) => {
                 const ImageComponent = project.img ? imageMap[project.img] : null;
                 
                 return (
-                    <div key={`${project.name}-${index}`}>
+                    <li key={`${project.name}-${index}`}>
                         <h3><a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                         {ImageComponent && (
                             <ImageComponent 
                                 alt={project.name} 
-                                style={{ width: '300px', height: '200px', objectFit: 'cover' }} 
+                                style={{ width: '50%', height: '200px', objectFit: 'cover', objectPosition: '2rem' }} 
                             />
                         )}
                         <p>{project.description}</p>
                         <p><small><em>{project.credit}</em></small></p>
                         <h4>Technologies Used:</h4>
-                        <ul>
+                        <ul class={styles.techStack}>
                             {project.stack.map(tech => (
                                 <li key={tech}>{tech}</li>
                             ))}
                         </ul>
-                    </div>
+                    </li>
                 );
             })}
-        </div>
+        </ul>
     );
 });

@@ -1,0 +1,71 @@
+.projectList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projectList >li {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--background-color-figure);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.projectList li h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.projectList li h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projectList li h3 a:hover {
+    text-decoration: underline;
+}
+
+.projectList li img {
+    display: block;
+    margin: 1rem 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.projectList li p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+.projectList li em {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.techStack {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.techStack li {
+    background: var(--secondary-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin: 0;
+    border: none;
+    color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    .techStack li {
+        --text-color: #000;
+    }
+}
