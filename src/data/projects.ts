@@ -7,7 +7,8 @@ export const projects = [
     credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
     url: "https://www.rand.org/pubs/visualizations/DVA3888-1.html",
     stack: ["Yarn","Vite","Svelte", "TypeScript", "SCSS", "D3.js", "Scrollama"],
-    img: "interactive-app-visualization-2.png"
+    img: "interactive-app-visualization-2.png",
+    type: "visualization"
   },
   {
     name: "Data-Driven Interactive Tool",
@@ -15,7 +16,8 @@ export const projects = [
     credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
     url: "https://www.rand.org/research/gun-policy/law-navigator.html",
     stack: ["NPM", "Webpack", "SCSS", "D3.js"],
-    img: "interactive-app-tool-3.png"
+    img: "interactive-app-tool-3.png",
+    type: "tool"
   },
   {
     name: "Data-Driven Interactive Visualization",
@@ -23,7 +25,8 @@ export const projects = [
     credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
     url: "https://www.rand.org/pubs/visualizations/DVA1544-2/logic-model-for-intermediate-force-capabilities.html",
     stack: ["Yarn", "Vite", "Tailwind CSS"],
-    img: "interactive-app-visualization-1.png"
+    img: "interactive-app-visualization-1.png",
+    type: "visualization"
   },
   {
     name: "Newsletter Templates",
@@ -31,7 +34,8 @@ export const projects = [
     credit: "Project completed while serving as Web Applications Developer at RAND Corporation.",
     url: "https://www.rand.org/global-and-emerging-risks/centers/ai-security-and-technology/newsletters/2025/11.html",
     stack: ["Yarn", "MJML", "HTL", "Java", "JSP"],
-    img: "campaigns-newsletter-1.png"
+    img: "campaigns-newsletter-1.png",
+    type: "email"
   }
 ] as const;
 

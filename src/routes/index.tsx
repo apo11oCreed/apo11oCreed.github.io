@@ -1,9 +1,33 @@
-import { component$, useOnWindow, $ } from "@builder.io/qwik";
+import { component$, useOnWindow, useSignal, $ } from "@builder.io/qwik";
 import gsap from "gsap";
-import { projects } from "~/data/projects";
+import { projects, type Project } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
 
 export default component$(() => {
+  const filteredProjects = useSignal<Project[]>([...projects]);
+  const selectedFilter = useSignal('all');
+  
+  const handleFilterChange = $((event: any) => {
+    const filterValue = event.target.value;
+    selectedFilter.value = filterValue;
+    
+    if (filterValue === 'all') {
+      filteredProjects.value = [...projects];
+    } else {
+      filteredProjects.value = projects.filter(project => {
+        switch (filterValue) {
+          case 'visualization':
+            return project.type.toLowerCase().includes('visualization');
+          case 'tool':
+            return project.type.toLowerCase().includes('tool');
+          case 'email':
+            return project.type.toLowerCase().includes('email');
+          default:
+            return true;
+        }
+      });
+    }
+  });
   
   useOnWindow('load', $(() => {
     gsap.to("section.intro",{
@@ -51,7 +75,24 @@ export default component$(() => {
 
         <section class="projects">
           <h2>What I've Built</h2>
-          <ProjectList projects={projects} />
+          <form action="">
+            <fieldset>
+              <legend>Filter Projects</legend>
+              <label for="projectFilter">Select Category</label>
+              <select 
+                name="projectFilter" 
+                id="projectFilter" 
+                onChange$={handleFilterChange}
+                value={selectedFilter.value}
+              >
+                <option value="all">{`All Projects (${projects.length})`}</option>
+                <option value="visualization">Data Visualizations</option>
+                <option value="tool">Interactive Tools</option>
+                <option value="email">Email/Newsletters</option>
+              </select>
+            </fieldset>
+          </form>
+          <ProjectList projects={filteredProjects.value} key={selectedFilter.value} />
         </section>
         <section>
           <h2>Skills &amp; Technologies</h2>

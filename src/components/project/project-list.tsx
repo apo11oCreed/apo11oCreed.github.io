@@ -28,7 +28,7 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                 const ImageComponent = project.img ? imageMap[project.img] : null;
                 
                 return (
-                    <div key={index}>
+                    <div key={`${project.name}-${index}`}>
                         <h3><a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                         {ImageComponent && (
                             <ImageComponent 
