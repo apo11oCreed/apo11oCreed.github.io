@@ -2,7 +2,7 @@ import { component$, useOnWindow, useSignal, $ } from "@builder.io/qwik";
 import gsap from "gsap";
 import { projects, type Project } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
-import { Dialog } from "~/components/dialog/dialog";
+// import { Dialog } from "~/components/dialog/dialog";
 
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
@@ -144,7 +144,7 @@ export default component$(() => {
         </section>
       </main>
       
-      <Dialog 
+      {/* <Dialog 
         isOpen={isDialogOpen} 
         title="Dialog Component Demo"
         size="medium"
@@ -160,7 +160,7 @@ export default component$(() => {
           <li>Mobile-responsive design</li>
         </ul>
         <p>Try pressing the <kbd>ESC</kbd> key or clicking outside the dialog to close it.</p>
-      </Dialog>
+      </Dialog> */}
     </>
   );
 });
