@@ -36,6 +36,24 @@ export const projects = [
     stack: ["Yarn", "MJML", "HTL", "Java", "JSP"],
     img: "campaigns-newsletter-1.png",
     type: "email"
+  },
+  {
+    name: "WordPress Custom Theme - Multisite",
+    description: "Developed a custom WordPress multisite theme using PHP, JavaScript, and CSS. Implemented includes file system and optimized the theme for performance and SEO. Leveraged cookie-based logic to enable navigation between subsites.",
+    credit: "Project completed while serving as Frontend Developer at Vue Health",
+    url: "https://xatmep.com/hcp/",
+    stack: ["PHP", "JavaScript", "CSS", "WordPress"],
+    img: "wordpress-custom-multisite.png",
+    type: "website"
+  },
+  {
+    name: "WordPress Custom Theme - Single Site",
+    description: "Developed a custom WordPress single site theme using PHP, JavaScript, and CSS. Implemented intuitive authoring systems and optimized the theme for performance and SEO.",
+    credit: "Project completed while serving as Contractor at Doctors' Management Service, Inc.",
+    url: "https://www.doctorsmanagementservice.org/",
+    stack: ["PHP", "JavaScript", "SCSS", "WordPress"],
+    img: "wordpress-custom.png",
+    type: "website"
   }
 ] as const;
 

@@ -24,6 +24,8 @@ export default component$(() => {
             return project.type.toLowerCase().includes('tool');
           case 'email':
             return project.type.toLowerCase().includes('email');
+          case 'website':
+            return project.type.toLowerCase().includes('website');
           default:
             return true;
         }
@@ -91,6 +93,7 @@ export default component$(() => {
                 <option value="visualization">Data Visualizations</option>
                 <option value="tool">Interactive Tools</option>
                 <option value="email">Email/Newsletters</option>
+                <option value="website">Websites</option>
               </select>
             </fieldset>
           </form>

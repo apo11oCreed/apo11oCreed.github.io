@@ -7,6 +7,9 @@ import InteractiveAppVisualization1 from '~/media/interactive-app-visualization-
 import InteractiveAppTool3 from '~/media/interactive-app-tool-3.png?jsx';
 import InteractiveAppVisualization3 from '~/media/interactive-app-visualization-1.png?jsx';
 import CampaignsNewsletter1 from '~/media/campaigns-newsletter-1.png?jsx';
+import WordPressCustomMultisite from '~/media/wordpress-custom-multisite.png?jsx';
+import WordPressCustom from '~/media/wordpress-custom.png?jsx';
+// ...
 // Add more imports as you add project images...
 
 // Create image map to match filenames to JSX components
@@ -15,6 +18,8 @@ const imageMap: Record<string, any> = {
   'interactive-app-tool-3.png': InteractiveAppTool3,
   'interactive-app-visualization-1.png': InteractiveAppVisualization3,
   'campaigns-newsletter-1.png': CampaignsNewsletter1,
+  'wordpress-custom-multisite.png': WordPressCustomMultisite,
+  'wordpress-custom.png': WordPressCustom,
   // Add more mappings as needed...
 };
 
