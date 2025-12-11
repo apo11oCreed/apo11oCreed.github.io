@@ -1,4 +1,4 @@
-const staticPaths = new Set(["/","/public/favicon.svg","/public/manifest.json","/public/robots.txt","/q-manifest.json","/sitemap.xml"]);
+const staticPaths = new Set(["/","/android-chrome-192x192.png","/android-chrome-512x512.png","/apple-touch-icon.png","/favicon-16x16.png","/favicon-32x32.png","/favicon.ico","/favicon.png","/logo.svg","/manifest.json","/og-facebook.png","/q-manifest.json","/robots.txt","/site.webmanifest","/sitemap.xml"]);
 function isStaticPath(method, url) {
   if (method.toUpperCase() !== 'GET') {
     return false;

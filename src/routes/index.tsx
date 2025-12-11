@@ -2,10 +2,12 @@ import { component$, useOnWindow, useSignal, $ } from "@builder.io/qwik";
 import gsap from "gsap";
 import { projects, type Project } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
+import { Dialog } from "~/components/dialog/dialog";
 
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
   const selectedFilter = useSignal('all');
+  const isDialogOpen = useSignal(false);
   
   const handleFilterChange = $((event: any) => {
     const filterValue = event.target.value;
@@ -122,8 +124,43 @@ export default component$(() => {
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. 
             Feel free to reach out to me at <a href="mailto:nelson.ncdesigns@gmail.com">nelson.ncdesigns@gmail.com</a>.
           </p>
+          <p>
+            <button 
+              onClick$={() => isDialogOpen.value = true}
+              style={{ 
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--primary-color)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '4px',
+                fontSize: '1rem',
+                cursor: 'pointer',
+                transition: 'background-color 0.2s'
+              }}
+            >
+              Open Dialog Demo
+            </button>
+          </p>
         </section>
       </main>
+      
+      <Dialog 
+        isOpen={isDialogOpen} 
+        title="Dialog Component Demo"
+        size="medium"
+      >
+        <p>This is a demonstration of the Dialog component!</p>
+        <p>The dialog supports:</p>
+        <ul>
+          <li>Different sizes (small, medium, large)</li>
+          <li>Keyboard navigation (press ESC to close)</li>
+          <li>Backdrop click to close</li>
+          <li>Focus trapping for accessibility</li>
+          <li>Smooth animations</li>
+          <li>Mobile-responsive design</li>
+        </ul>
+        <p>Try pressing the <kbd>ESC</kbd> key or clicking outside the dialog to close it.</p>
+      </Dialog>
     </>
   );
 });
