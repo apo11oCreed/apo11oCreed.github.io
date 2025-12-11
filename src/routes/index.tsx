@@ -7,7 +7,7 @@ import { ProjectList } from "~/components/project/project-list";
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
   const selectedFilter = useSignal('all');
-  const isDialogOpen = useSignal(false);
+  // const isDialogOpen = useSignal(false);
   
   const handleFilterChange = $((event: any) => {
     const filterValue = event.target.value;
@@ -127,7 +127,7 @@ export default component$(() => {
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. 
             Feel free to reach out to me at <a href="mailto:nelson.ncdesigns@gmail.com">nelson.ncdesigns@gmail.com</a>.
           </p>
-          <p>
+          {/* <p>
             <button 
               onClick$={() => isDialogOpen.value = true}
               style={{ 
@@ -143,7 +143,7 @@ export default component$(() => {
             >
               Open Dialog Demo
             </button>
-          </p>
+          </p> */}
         </section>
       </main>
       

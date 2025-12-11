@@ -9,6 +9,9 @@ import InteractiveAppVisualization3 from '~/media/interactive-app-visualization-
 import CampaignsNewsletter1 from '~/media/campaigns-newsletter-1.png?jsx';
 import WordPressCustomMultisite from '~/media/wordpress-custom-multisite.png?jsx';
 import WordPressCustom from '~/media/wordpress-custom.png?jsx';
+import CampaignsMarketingEmail1 from '~/media/campaign-marketing-email-1.png?jsx';
+import EnterpriseEcom1 from '~/media/enterprise-ecom-1.png?jsx';
+import InteractiveAppTool4 from '~/media/interactive-app-tool-4.png?jsx';
 // ...
 // Add more imports as you add project images...
 
@@ -20,6 +23,9 @@ const imageMap: Record<string, any> = {
   'campaigns-newsletter-1.png': CampaignsNewsletter1,
   'wordpress-custom-multisite.png': WordPressCustomMultisite,
   'wordpress-custom.png': WordPressCustom,
+  'campaign-marketing-email-1': CampaignsMarketingEmail1,
+  'enterprise-ecom-1': EnterpriseEcom1,
+  'interactive-app-tool-4': InteractiveAppTool4
   // Add more mappings as needed...
 };
 
@@ -32,10 +38,11 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
         <ul class={styles.projectList}>
             {projects.map((project, index) => {
                 const ImageComponent = project.img ? imageMap[project.img] : null;
+                const projectUrl = project.url ? project.url : '#';
                 
                 return (
                     <li key={`${project.name}-${index}`}>
-                        <h3><a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
+                        <h3><a href={projectUrl} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                         {ImageComponent && (
                             <ImageComponent 
                                 alt={project.name} 
