@@ -1,3 +1,6 @@
+import { mediaQueries } from '../../constants';
+
+export const dialogStyles = `
 /* Dialog Backdrop */
 ::backdrop {
   background-image: linear-gradient(
@@ -21,7 +24,7 @@ dialog {
   width: 50vw;
 }
 
-@media (max-width: 768px) {
+@media ${mediaQueries.mobile} {
   dialog {
     width: 100vw !important;
   }
@@ -119,7 +122,7 @@ dialog {
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media ${mediaQueries.mobile} {
   .dialog-backdrop {
     padding: 0.5rem;
   }
@@ -155,3 +158,4 @@ dialog {
     background-color: rgba(255, 255, 255, 0.1);
   }
 }
+`;

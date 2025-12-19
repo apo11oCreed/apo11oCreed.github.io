@@ -1,6 +1,6 @@
 import { 
   component$, 
-  useStylesScoped$, 
+  useStyles$, 
   useSignal, 
   useOnDocument,
   useVisibleTask$,
@@ -9,7 +9,7 @@ import {
   type Signal,
   type QRL
 } from '@builder.io/qwik';
-import styles from './styles.module.css?inline';
+import { dialogStyles } from './styles';
 
 export interface DialogProps {
   isOpen: Signal<boolean>;
@@ -28,7 +28,7 @@ export const Dialog = component$<DialogProps>(({
   closeOnEscape = true,
   onClose$
 }) => {
-  useStylesScoped$(styles);
+  useStyles$(dialogStyles);
   const dialogRef = useSignal<HTMLDialogElement>();
 
   const handleClose = $(() => {
