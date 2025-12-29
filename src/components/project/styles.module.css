@@ -45,6 +45,23 @@
     opacity: 0.8;
 }
 
+.imgWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.imgWrapper > span {
+    font-weight: 700;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: background 0.3s;
+    background: var(--background-color-figure);
+}
+
 .techStack {
     list-style: none;
     padding: 0;

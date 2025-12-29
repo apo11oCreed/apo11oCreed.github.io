@@ -67,7 +67,7 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 								</a>
 							</h3>
 							{ImageComponent && (
-							<div class="img-wrapper">
+							<div class={styles.imgWrapper}>
 								<span class="material-symbols-outlined" onClick$={() => {openDialog$({ component: imageMap[project.img], alt: project.name, width: '100%', height: 'auto' })}}>open_in_full</span>
 								<ImageComponent
 									alt={project.name}
