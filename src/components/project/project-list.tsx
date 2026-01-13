@@ -1,4 +1,4 @@
-import { component$, useSignal, $ } from '@builder.io/qwik';
+import { component$, useSignal, $, useVisibleTask$ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
 import styles from './styles.module.css';
 
@@ -35,6 +35,20 @@ interface ProjectPropsList {
 
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 	const fullscreenImage = useSignal<string | null>(null);
+	const dialogRef = useSignal<HTMLDialogElement>();
+	
+	// eslint-disable-next-line qwik/no-use-visible-task
+	useVisibleTask$(({ track }) => {
+		const imageValue = track(() => fullscreenImage.value);
+		if (dialogRef.value) {
+			if (imageValue) {
+				dialogRef.value.showModal();
+			} else if (dialogRef.value.open) {
+				dialogRef.value.close();
+			}
+		}
+	});
+	
 	const closeFullscreen$ = $(() => {
 		fullscreenImage.value = null;
 	});
@@ -57,13 +71,13 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 							</h3>
 							{ImageComponent && (
 							<div class={styles.imgWrapper}>
-								<span 
+								<button 
 								class="material-symbols-outlined" 
 								onClick$={() => {
 								fullscreenImage.value = project.img || null;
 								}}>
 								open_in_full
-							</span>
+								</button>
 								<ImageComponent
 									alt={project.name}
 									style={{ width: '100%', height: 'auto', objectFit: 'cover', objectPosition: '0' }}
@@ -86,21 +100,21 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 					);
 				})}
 			</ul>
-			{fullscreenImage.value && (() => {
-				const FullscreenImageComponent = imageMap[fullscreenImage.value];
-				const project = projects.find(p => p.img === fullscreenImage.value);
-				return FullscreenImageComponent ? (
-					<div class={styles.fullscreenOverlay} onClick$={closeFullscreen$}>
-						<button class={styles.closeButton} onClick$={closeFullscreen$}>
-							<span class="material-symbols-outlined">close</span>
-						</button>
+			<dialog ref={dialogRef} class={styles.fullscreenOverlay} onClick$={closeFullscreen$}>
+				<button class={styles.closeButton} onClick$={closeFullscreen$}>
+					<span class="material-symbols-outlined">close</span>
+				</button>
+				{fullscreenImage.value && (() => {
+					const FullscreenImageComponent = imageMap[fullscreenImage.value];
+					const project = projects.find(p => p.img === fullscreenImage.value);
+					return FullscreenImageComponent ? (
 						<FullscreenImageComponent
 							alt={project?.name || ''}
 							style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
 						/>
-					</div>
-				) : null;
-			})()}
+					) : null;
+				})()}
+			</dialog>
 		</>
 	);
 });
