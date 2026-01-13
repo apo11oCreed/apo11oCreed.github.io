@@ -1,7 +1,6 @@
-import { component$, useSignal, $ } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
 import styles from './styles.module.css';
-import { Dialog } from '~/components/dialog/dialog';
 
 // Import all project images with JSX optimization
 import InteractiveAppVisualization1 from '~/media/interactive-app-visualization-2.png?jsx';
@@ -16,7 +15,7 @@ import InteractiveAppTool4 from '~/media/interactive-app-tool-4.png?jsx';
 // ...
 // Add more imports as you add project images...
 
-// Create image map to match filenames to JSX components
+// Create image map to match filenames to JSX componentss
 const imageMap: Record<string, any> = {
 	'interactive-app-visualization-2.png': InteractiveAppVisualization1,
 	'interactive-app-tool-3.png': InteractiveAppTool3,
@@ -34,21 +33,17 @@ interface ProjectPropsList {
 	projects: readonly Project[]; // Direct array of projects
 }
 
-type OptimizedImage = {
-	component: any;
-	alt: string;
-	width?: number | string;
-	height?: number | string;
+function requestFullscreen(this: Element) {
+	if (this.requestFullscreen) {
+		this.requestFullscreen();
+	} else if ((this as any).webkitRequestFullscreen) { /* Safari */
+		(this as any).webkitRequestFullscreen();
+	} else if ((this as any).msRequestFullscreen) { /* IE11 */
+		(this as any).msRequestFullscreen();
+	}
 }
 
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
-	const isDialogOpen = useSignal(false);
-
-	const selectedImage = useSignal<OptimizedImage | null>(null);
-	const openDialog$ = $((image: OptimizedImage) => {
-		selectedImage.value = image;
-		isDialogOpen.value = true;
-	});
 	return (
 		<>
 			<ul class={styles.projectList}>
@@ -68,7 +63,16 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 							</h3>
 							{ImageComponent && (
 							<div class={styles.imgWrapper}>
-								<span class="material-symbols-outlined" onClick$={() => {openDialog$({ component: imageMap[project.img], alt: project.name, width: '100%', height: 'auto' })}}>open_in_full</span>
+								<span 
+								class="material-symbols-outlined" 
+								onClick$={(event) => {
+									const target = event.target as HTMLElement;
+									const wrapper = target.closest('.' + styles.imgWrapper) as HTMLElement | null;
+									const mediaEl = wrapper?.querySelector('img, video, picture');
+									if (mediaEl) {
+										requestFullscreen.call(mediaEl);
+									}
+								}}>open_in_full</span>
 								<ImageComponent
 									alt={project.name}
 									style={{ width: '100%', height: 'auto', objectFit: 'cover', objectPosition: '0' }}
@@ -91,17 +95,6 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 					);
 				})}
 			</ul>
-			{selectedImage.value && (
-				<Dialog
-				isOpen={isDialogOpen}
-				title={selectedImage.value.alt}
-				size='medium'>
-					<selectedImage.value.component
-						alt={selectedImage.value.alt}
-						style={{ width: selectedImage.value.width, height: selectedImage.value.height }}
-					/>
-				</Dialog>
-			)}
 		</>
 	);
 });

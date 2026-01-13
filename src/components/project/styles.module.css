@@ -51,6 +51,7 @@
 }
 
 .imgWrapper > span {
+    display: none;
     font-weight: 700;
     position: absolute;
     top: 2rem;
@@ -60,6 +61,12 @@
     color: var(--primary-color);
     transition: background 0.3s;
     background: var(--background-color-figure);
+}
+
+@media (width < 480px) {
+    .imgWrapper > span {
+        display: block;
+    }
 }
 
 .techStack {
