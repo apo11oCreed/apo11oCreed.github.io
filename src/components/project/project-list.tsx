@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, useSignal, $ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
 import styles from './styles.module.css';
 
@@ -33,17 +33,11 @@ interface ProjectPropsList {
 	projects: readonly Project[]; // Direct array of projects
 }
 
-function requestFullscreen(this: Element) {
-	if (this.requestFullscreen) {
-		this.requestFullscreen();
-	} else if ((this as any).webkitRequestFullscreen) { /* Safari */
-		(this as any).webkitRequestFullscreen();
-	} else if ((this as any).msRequestFullscreen) { /* IE11 */
-		(this as any).msRequestFullscreen();
-	}
-}
-
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
+	const fullscreenImage = useSignal<string | null>(null);
+	const closeFullscreen$ = $(() => {
+		fullscreenImage.value = null;
+	});
 	return (
 		<>
 			<ul class={styles.projectList}>
@@ -65,14 +59,11 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 							<div class={styles.imgWrapper}>
 								<span 
 								class="material-symbols-outlined" 
-								onClick$={(event) => {
-									const target = event.target as HTMLElement;
-									const wrapper = target.closest('.' + styles.imgWrapper) as HTMLElement | null;
-									const mediaEl = wrapper?.querySelector('img, video, picture');
-									if (mediaEl) {
-										requestFullscreen.call(mediaEl);
-									}
-								}}>open_in_full</span>
+								onClick$={() => {
+								fullscreenImage.value = project.img || null;
+								}}>
+								open_in_full
+							</span>
 								<ImageComponent
 									alt={project.name}
 									style={{ width: '100%', height: 'auto', objectFit: 'cover', objectPosition: '0' }}
@@ -95,6 +86,21 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 					);
 				})}
 			</ul>
+			{fullscreenImage.value && (() => {
+				const FullscreenImageComponent = imageMap[fullscreenImage.value];
+				const project = projects.find(p => p.img === fullscreenImage.value);
+				return FullscreenImageComponent ? (
+					<div class={styles.fullscreenOverlay} onClick$={closeFullscreen$}>
+						<button class={styles.closeButton} onClick$={closeFullscreen$}>
+							<span class="material-symbols-outlined">close</span>
+						</button>
+						<FullscreenImageComponent
+							alt={project?.name || ''}
+							style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+						/>
+					</div>
+				) : null;
+			})()}
 		</>
 	);
 });
