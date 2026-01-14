@@ -101,8 +101,8 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 				})}
 			</ul>
 			<dialog ref={dialogRef} class={styles.fullscreenOverlay} onClick$={closeFullscreen$}>
-				<button class={styles.closeButton} onClick$={closeFullscreen$}>
-					<span class="material-symbols-outlined">close</span>
+				<button class={`${styles.closeButton} material-symbols-outlined`} onClick$={closeFullscreen$}>
+					close
 				</button>
 				{fullscreenImage.value && (() => {
 					const FullscreenImageComponent = imageMap[fullscreenImage.value];
