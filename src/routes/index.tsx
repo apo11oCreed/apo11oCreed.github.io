@@ -6,12 +6,21 @@ import { ProjectList } from "~/components/project/project-list";
 
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
-  const selectedFilter = useSignal('all');
+  const selectedFilter = useSignal<string>('all');
   // const isDialogOpen = useSignal(false);
   
   const handleFilterChange = $((event: any) => {
     const filterValue = event.target.value;
     selectedFilter.value = filterValue;
+
+  // Push to GTM dataLayer
+  if (typeof window !== 'undefined' && window.dataLayer) {
+    window.dataLayer.push({
+      'event': 'projectFilterChange',
+      'projectFilter': filterValue,
+      'projectFilterLabel': event.target.options[event.target.selectedIndex].text
+    });
+  }
     
     if (filterValue === 'all') {
       filteredProjects.value = [...projects];
@@ -87,7 +96,7 @@ export default component$(() => {
                 name="projectFilter" 
                 id="projectFilter" 
                 onChange$={handleFilterChange}
-                value={selectedFilter.value}
+                bind:value={selectedFilter}
               >
                 <option value="all">{`All Projects (${projects.length})`}</option>
                 <option value="visualization">Data Visualizations</option>
