@@ -1,5 +1,6 @@
 import { component$, useSignal, $, useVisibleTask$ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
+import { Heading } from '~/components/heading/heading';
 import styles from './styles.module.css';
 
 // Import all project images with JSX optimization
@@ -61,14 +62,14 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 
 					return (
 						<li key={`${project.name}-${index}`}>
-							<h3>
+							<Heading level={3}>
 								<a
 									href={projectUrl}
 									target='_blank' 
 									rel='noopener noreferrer'>
 									{project.name}
 								</a>
-							</h3>
+							</Heading>
 							{ImageComponent && (
 							<div class={styles.imgWrapper}>
 								<button 
@@ -90,7 +91,7 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 									<em>{project.credit}</em>
 								</small>
 							</p>
-							<h4>Technologies Used:</h4>
+							<Heading level={4}>Technologies Used:</Heading>
 							<ul class={styles.techStack}>
 								{project.stack.map((tech) => (
 									<li key={tech}>{tech}</li>

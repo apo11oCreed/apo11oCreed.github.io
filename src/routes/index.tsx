@@ -2,7 +2,7 @@ import { component$, useOnWindow, useSignal, $ } from "@builder.io/qwik";
 import gsap from "gsap";
 import { projects, type Project } from "~/data/projects";
 import { ProjectList } from "~/components/project/project-list";
-// import { Dialog } from "~/components/dialog/dialog";
+import { Heading } from "~/components/heading/heading";
 
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
@@ -55,7 +55,7 @@ export default component$(() => {
       <main>
         <section class="intro">
           <div class="content-text">
-            <h1>Nelson Correia <small>Web Developer committed to performance & inclusion</small></h1>
+            <Heading level={1}>Nelson Correia <small>Web Developer committed to performance & inclusion</small></Heading>
             <p>
               I transform ideas into pixel-perfect, user-focused applications by crafting modern, performant web experiences with 
               Svelte, TypeScript, and cutting-edge frameworks. 
@@ -66,7 +66,7 @@ export default component$(() => {
           </div>
         </section>
         <section class="about">
-          <h2><span class="material-symbols-outlined">info</span>About Me</h2>
+          <Heading level={2}><span class="material-symbols-outlined">info</span>About Me</Heading>
           <p>
             I'm a passionate web developer with over 10 years of experience in
             creating engaging and efficient web applications and digital touch points. My expertise lies in <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Stylesheets">CSS</abbr>, JavaScript, and modern web technologies, allowing me to deliver
@@ -87,7 +87,7 @@ export default component$(() => {
         </section>
 
         <section class="projects">
-          <h2>What I've Built</h2>
+          <Heading level={2}>What I've Built</Heading>
           <form action="">
             <fieldset>
               <legend>Filter Projects</legend>
@@ -109,7 +109,7 @@ export default component$(() => {
           <ProjectList projects={filteredProjects.value} key={selectedFilter.value} />
         </section>
         <section>
-          <h2>Skills &amp; Technologies</h2>
+          <Heading level={2}>Skills &amp; Technologies</Heading>
           <ul>
             <li>JavaScript (<abbr title="Ecmascript 6">ES6</abbr>+), TypeScript</li>
             <li>Svelte, SvelteKit</li>
@@ -131,48 +131,13 @@ export default component$(() => {
           </ul>
         </section>
         <section class="contact">
-          <h2>Get In Touch</h2>
+          <Heading level={2}>Get In Touch</Heading>
           <p>
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. 
             Feel free to reach out to me at <a href="mailto:nelson.ncdesigns@gmail.com">nelson.ncdesigns@gmail.com</a>.
           </p>
-          {/* <p>
-            <button 
-              onClick$={() => isDialogOpen.value = true}
-              style={{ 
-                padding: '0.75rem 1.5rem',
-                backgroundColor: 'var(--primary-color)',
-                color: 'white',
-                border: 'none',
-                borderRadius: '4px',
-                fontSize: '1rem',
-                cursor: 'pointer',
-                transition: 'background-color 0.2s'
-              }}
-            >
-              Open Dialog Demo
-            </button>
-          </p> */}
         </section>
       </main>
-      
-      {/* <Dialog 
-        isOpen={isDialogOpen} 
-        title="Dialog Component Demo"
-        size="medium"
-      >
-        <p>This is a demonstration of the Dialog component!</p>
-        <p>The dialog supports:</p>
-        <ul>
-          <li>Different sizes (small, medium, large)</li>
-          <li>Keyboard navigation (press ESC to close)</li>
-          <li>Backdrop click to close</li>
-          <li>Focus trapping for accessibility</li>
-          <li>Smooth animations</li>
-          <li>Mobile-responsive design</li>
-        </ul>
-        <p>Try pressing the <kbd>ESC</kbd> key or clicking outside the dialog to close it.</p>
-      </Dialog> */}
     </>
   );
 });
