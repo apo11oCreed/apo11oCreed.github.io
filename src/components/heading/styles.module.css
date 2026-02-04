@@ -1,0 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.1;
+	padding-top: 0.5em;
+	margin: 1em 0 0.5em;
+	font-weight: 500;
+}
+
+h1 small {
+	font-weight: 300;
+	display: block;
+}

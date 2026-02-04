@@ -28,14 +28,6 @@
     line-height: 1.6;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.1;
-    padding-top: 0.5em;
-    margin: 1em 0 0.5em;
-    font-weight: 500;
-  }
-  
   p {
    margin: 0.5em 0 1em 0;
   }
@@ -107,7 +99,7 @@
     opacity: var(--bg-opacity);
     overflow: hidden;
     z-index: 0;
-  } 
+  }
 
   section.intro figure {
     order: 1;
@@ -115,15 +107,11 @@
 
   section.intro .content-text {
     order: 0;
+    z-index: 1;
   }
 
   section.intro .content-text {
     max-width: 60ch;
-  }
-
-  h1 small {
-    font-weight: 300;
-    display: block;
   }
 
   /* Simple Filter Dropdown Styling */
