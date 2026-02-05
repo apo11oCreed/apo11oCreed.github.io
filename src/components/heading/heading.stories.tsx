@@ -13,5 +13,5 @@ export const Primary: Story = {
   args: {
     level: 1,
   },
-  render: (props) => <Heading {...props}>Some heading</Heading>,
+  render: (props: HeadingProps) => <Heading {...props}>Some heading</Heading>,
 };
