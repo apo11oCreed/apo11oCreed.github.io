@@ -11,7 +11,24 @@ h6 {
 	font-weight: 500;
 }
 
+h1 {
+	font-size: 2rem;
+}
+
 h1 small {
 	font-weight: 300;
 	display: block;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+/* Storybook mode simulation - production uses prefers-color-scheme */
+.light {
+	color: #25408f;
+}
+
+.dark {
+	color: #e0e0e0;
 }
