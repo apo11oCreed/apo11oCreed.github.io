@@ -24,6 +24,14 @@ h2 {
 	font-size: 1.5rem;
 }
 
+h3 {
+	font-size: 1.125rem;
+}
+
+h4 {
+	font-size: 0.875rem;
+}
+
 /* Storybook mode simulation - production uses prefers-color-scheme */
 .light {
 	color: #25408f;
