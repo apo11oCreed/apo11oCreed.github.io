@@ -1,18 +1,17 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
-import type { JSX } from "@builder.io/qwik/jsx-runtime";
+import { component$, useStylesScoped$, Slot } from '@builder.io/qwik';
 import styles from './styles.module.css?inline';
 
 interface FigureProps {
-  img: JSX.Element;
-  caption: string;
+	caption?: string;
 }
 
-export const Figure = component$<FigureProps>(({ img, caption }) => {
-    useStylesScoped$(styles);
-    return (
-        <figure>
-            {img}
-            <figcaption>{caption}</figcaption>
-        </figure>
-    );
+export const Figure = component$<FigureProps>(({ caption }) => {
+	useStylesScoped$(styles);
+	
+	return (
+		<figure>
+			<Slot />
+			{caption && <figcaption>{caption}</figcaption>}
+		</figure>
+	);
 });

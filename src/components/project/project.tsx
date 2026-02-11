@@ -6,10 +6,12 @@ import styles from './styles.module.css?inline';
 
 interface ProjectProps {
   name: string;
+  caption?: string;
   description: string;
   url: string;
   stack: string[];
   img?: JSX.Element; // Receives optimized JSX element from ProjectList
+  imgAlt?: string; // Optional alt text for the image, with fallback to project name
 }
 
 export const Project = component$<ProjectProps>(({ name, description, url, stack, img }) => {

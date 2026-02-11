@@ -1,6 +1,7 @@
 import { component$, useSignal, $, useVisibleTask$ } from '@builder.io/qwik';
 import type { Project } from '~/data/projects';
 import { Heading } from '~/components/heading/heading';
+import { Figure } from '~/components/figure/figure';
 import styles from './styles.module.css';
 
 // Import all project images with JSX optimization
@@ -58,6 +59,7 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 			<ul class={styles.projectList}>
 				{projects.map((project, index) => {
 					const ImageComponent = project.img ? imageMap[project.img] : null;
+					const imgAlt = project.imgAlt || project.name; // Fallback to project name if imgAlt is not provided
 					const projectUrl = project.url ? project.url : '#';
 
 					return (
@@ -79,10 +81,12 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
 								}}>
 								open_in_full
 								</button>
-								<ImageComponent
-									alt={project.name}
-									style={{ width: '100%', height: 'auto', objectFit: 'cover', objectPosition: '0' }}
-								/>
+								<Figure caption={project.caption}>
+									<ImageComponent
+										alt={imgAlt}
+										style={{ width: '100%', height: 'auto', objectFit: 'cover', objectPosition: '0' }}
+									/>
+								</Figure>
 							</div>
 							)}
 							<p>{project.description}</p>
