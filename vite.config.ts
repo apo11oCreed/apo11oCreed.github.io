@@ -19,12 +19,16 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
 /**
  * Note that Vite normally starts from `index.html` but the qwikCity plugin makes start at `src/entry.ssr.tsx` instead.
  */
-export default defineConfig(({ command, mode }): UserConfig => {
+export default defineConfig(({ command, mode }) => {
   const isProduction = mode === 'production';
+  const isTest = process.env.NODE_ENV === 'test';
   
   return {
     plugins: [
-      qwikCity(), 
+      // Configure qwikCity plugin with explicit routes directory
+      !isTest && qwikCity({
+        routesDir: 'src/routes',
+      }), 
       qwikVite({
         // Optimize for dev tools usage
         debug: false,
@@ -32,7 +36,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
         entryStrategy: command === 'build' ? { type: 'smart' } : { type: 'single' },
       }), 
       tsconfigPaths({ root: "." }),
-    ],
+    ].filter(Boolean),
     server: {
       // Server port and host configuration
       port: 8080,
@@ -124,6 +128,12 @@ export default defineConfig(({ command, mode }): UserConfig => {
         // Do cache the server response in preview (non-adapter production build)
         "Cache-Control": "public, max-age=600",
       },
+    },
+    test: {
+      globals: true,
+      environment: 'happy-dom',
+      setupFiles: ['src/test/setup.ts'],
+      include: ['src/test/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     },
   };
 });
