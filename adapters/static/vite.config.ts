@@ -17,7 +17,7 @@ export default extendConfig(baseConfig, () => {
         // If you ever host under a subpath, add: basePath: '/subpath'
       }),
     ],
-    // Explicitly set the root to point back to the project root
-    root: "../../",
+    // Remove the root override to prevent path resolution issues
+    // root: "../../",
   };
 });

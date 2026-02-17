@@ -25,10 +25,8 @@ export default defineConfig(({ command, mode }) => {
   
   return {
     plugins: [
-      // Configure qwikCity plugin with explicit routes directory
-      !isTest && qwikCity({
-        routesDir: 'src/routes',
-      }),
+      // QwikCity plugin with modern API - auto-detects routes directory
+      !isTest && qwikCity(),
       qwikVite({
         // Optimize for dev tools usage
         debug: false,
