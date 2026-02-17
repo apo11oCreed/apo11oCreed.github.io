@@ -28,7 +28,7 @@ export default defineConfig(({ command, mode }) => {
       // Configure qwikCity plugin with explicit routes directory
       !isTest && qwikCity({
         routesDir: 'src/routes',
-      }), 
+      }),
       qwikVite({
         // Optimize for dev tools usage
         debug: false,
