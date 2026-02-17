@@ -3,9 +3,9 @@ export default {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
   
-  // File patterns
+  // File patterns - Jest only runs .jest.test.* files
   testMatch: [
-    '<rootDir>/src/test/**/*.{test,spec}.{js,ts,tsx}'
+    '<rootDir>/src/test/**/*.jest.{test,spec}.{js,ts,tsx}'
   ],
   
   // Setup files

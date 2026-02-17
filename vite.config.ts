@@ -132,6 +132,7 @@ export default defineConfig(({ command, mode }) => {
       environment: 'happy-dom',
       setupFiles: ['src/test/setup.ts'],
       include: ['src/test/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+      exclude: ['src/test/**/*.jest.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     },
   };
 });
