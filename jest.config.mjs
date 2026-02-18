@@ -11,8 +11,13 @@ export default {
   // Module resolution
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
-    '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
+    '^~/(.*)$': '<rootDir>/src/$1',
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+    '\\.(css|less|scss|sass)\\?inline$': 'identity-obj-proxy'
   },
+  
+  // Setup files
+  setupFilesAfterEnv: ['<rootDir>/src/test/jest.setup.ts'],
   
   // Coverage settings
   collectCoverageFrom: [
