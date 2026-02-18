@@ -1,4 +1,13 @@
-import { signal } from "@builder.io/qwik";
-
 // Export as a shared signal for fullscreen image functionality
-export const fullscreenImage = signal<string | null>(null);
+// Using a simple object with getter/setter for shared state
+export const fullscreenImage = {
+  _value: null as string | null,
+  
+  get value(): string | null {
+    return this._value;
+  },
+  
+  set value(newValue: string | null) {
+    this._value = newValue;
+  }
+};
