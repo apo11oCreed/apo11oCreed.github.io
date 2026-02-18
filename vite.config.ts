@@ -27,7 +27,8 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       // QwikCity plugin with modern API - auto-detects routes directory
       !isTest && qwikCity(),
-      qwikVite({
+      // Only load QwikVite in non-test environments to avoid path resolution issues
+      !isTest && qwikVite({
         // Optimize for dev tools usage
         debug: false,
         // Reduce chunks in development for better HMR
