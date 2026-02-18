@@ -1,4 +1,5 @@
 import { component$, useSignal, $, useVisibleTask$ } from '@builder.io/qwik';
+import { fullscreenImage } from '~/utilities';
 import type { Project } from '~/data/projects';
 import { Heading } from '~/components/heading/heading';
 import { Figure } from '~/components/figure/figure';
@@ -36,7 +37,6 @@ interface ProjectPropsList {
 }
 
 export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
-	const fullscreenImage = useSignal<string | null>(null);
 	const dialogRef = useSignal<HTMLDialogElement>();
 	
 	// eslint-disable-next-line qwik/no-use-visible-task
