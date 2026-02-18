@@ -8,9 +8,6 @@ export default {
     '<rootDir>/src/test/**/*.jest.{test,spec}.{js,ts,tsx}'
   ],
   
-  // Setup files
-  setupFilesAfterEnv: ['<rootDir>/src/test/jest.setup.ts'],
-  
   // Module resolution
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
@@ -24,13 +21,6 @@ export default {
     '!src/test/**/*',
     '!src/**/*.stories.*'
   ],
-  
-  // Transform settings
-  transform: {
-    '^.+\\.(ts|tsx)$': ['ts-jest', {
-      tsconfig: 'tsconfig.json'
-    }]
-  },
   
   // Module file extensions
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
