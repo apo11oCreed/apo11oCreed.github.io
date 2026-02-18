@@ -3,6 +3,8 @@ import styles from './styles.module.css';
 
 export interface HeadingProps {
   level?: 1 | 2 | 3 | 4 | 5 | 6;
+  // mode and text are helpful for Storybook simulation but not required for basic usage
+  // mode to be configurable by site visitor eventually, but for now just for Storybook simulation of light/dark modes
   mode?: 'light' | 'dark';
   text?: string;
 }
