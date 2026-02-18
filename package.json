@@ -29,6 +29,8 @@
     "test:jest": "jest",
     "test:jest:watch": "jest --watch",
     "test:jest:coverage": "jest --coverage",
+    "test:bun": "bun test",
+    "test:bun:watch": "bun test --watch",
     "qwik": "qwik"
   },
   "devDependencies": {
