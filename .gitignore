@@ -150,3 +150,10 @@ server/
 
 # Qwik dev server
 tmp/
+
+# Temporary untracked files
+heading.test.ts
+jest.jest.test.ts
+project.test.ts
+setup.ts
+vitest.test.ts
