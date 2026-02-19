@@ -1,6 +1,17 @@
-// import ImgInteractiveAppVisualization1 from '~/media/interactive-app-visualization-1.png?jsx';
+// Define Project interface first
+export interface Project {
+  name: string;
+  caption: string;
+  description: string;
+  credit: string;
+  url: string | null;
+  stack: string[];
+  img: string;
+  imgAlt: string;
+  type: string;
+}
 
-export const projects = [
+export const projects: Project[] = [
   {
     name: "Scrollytelling Interactive Visualization",
     caption: "Screenshot of a responsive D3 animated bar chart",
@@ -53,7 +64,7 @@ export const projects = [
     url: "https://xatmep.com/hcp/",
     stack: ["PHP", "JavaScript", "CSS", "WordPress"],
     img: "wordpress-custom-multisite.png",
-    imgAlt: "Section of the Xatmep multisite homepage showing info cards and important safety information",
+    imgAlt: "",
     type: "website"
   },
   {
@@ -100,6 +111,4 @@ export const projects = [
     imgAlt: "",
     type: "tool"
   }
-] as const;
-
-export type Project = typeof projects[number];
+];
