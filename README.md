@@ -23,14 +23,14 @@ The website itself can be seen as a sandbox of experimentation into several tren
 ## Website Tasks
  - [ ] Build presentations of portfolio samples
    - [x] WordPress sites
-   - [ ] Accessibility and Section 508
+   - [x] Accessibility and Section 508
    - [x] Enterprise scale CMS
    - [ ] Learning time MBTA game
    - [ ] Artist portfolio site
    - [x] Emails and Newsletters
  - [x] Storybookjs integration
  - [x] GSAP integration
- - [ ] Schema.org
+ - [x] Schema.org
  - [ ] WebMCP
 
 ## Notes
