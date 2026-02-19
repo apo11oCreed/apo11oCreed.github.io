@@ -157,3 +157,4 @@ jest.jest.test.ts
 project.test.ts
 setup.ts
 vitest.test.ts
+figure-schema-optimization.jesttemp.test.ts
