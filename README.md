@@ -22,14 +22,16 @@ The website itself can be seen as a sandbox of experimentation into several tren
 
 ## Website Tasks
  - [ ] Build presentations of portfolio samples
-   - WordPress sites
-   - Accessibility and Section 508
-   - Enterprise scale CMS
-   - Learning time MBTA game
-   - Artist portfolio site
-   - Emails and Newsletters
- - [ ] Storybookjs integration
- - [ ] GSAP integration
+   - [x] WordPress sites
+   - [ ] Accessibility and Section 508
+   - [x] Enterprise scale CMS
+   - [ ] Learning time MBTA game
+   - [ ] Artist portfolio site
+   - [x] Emails and Newsletters
+ - [x] Storybookjs integration
+ - [x] GSAP integration
+ - [ ] Schema.org
+ - [ ] WebMCP
 
 ## Notes
 During the build task, Qwik delivers a message in reference to file caching:
