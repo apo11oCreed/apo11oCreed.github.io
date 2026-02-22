@@ -39,6 +39,27 @@
     line-height: 1.6;
 }
 
+.projectList :where(figcaption, em) {
+    display: inline-block;
+    line-height: 1.4;
+}
+
+.projectList li p:has(small) {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.projectList li p:has(small):before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px solid oklch(from var(--primary-color) calc(l + 0.1) c h);
+    margin-left: 1rem;
+}
+
 .projectList li em {
     color: var(--primary-color);
     font-size: 0.9rem;
