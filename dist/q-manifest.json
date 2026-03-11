@@ -1,6 +1,6 @@
 {
 	"version": "1",
-	"manifestHash": "79aplp",
+	"manifestHash": "8b0xdd",
 	"options": {
 		"target": "client",
 		"buildMode": "production",
@@ -8,206 +8,123 @@
 			"type": "smart"
 		}
 	},
-	"core": "q-DjD3OeYC.js",
+	"core": "q-DEKTz2-y.js",
 	"preloader": "q-BpC6Ohyo.js",
-	"bundleGraphAsset": "assets/bundle-graph-Cr-eYoRt.json",
+	"bundleGraphAsset": "assets/bundle-graph-Csur4z6n.json",
 	"injections": [
 		{
 			"tag": "style",
 			"location": "head",
 			"attributes": {
-				"data-src": "/assets/style-B7lSlmdk.css",
-				"dangerouslySetInnerHTML": "@import \"https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap\";\n@import \"https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap\";\n@import \"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=info\";\n._projectList_r3ey5_1 {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n._projectList_r3ey5_1 > li {\n  margin-bottom: 2rem;\n  padding: 1.5rem;\n  background: var(--background-color-figure);\n  border-radius: 8px;\n  border: 1px solid #ddd;\n}\n._projectList_r3ey5_1 li h3 {\n  margin-top: 0;\n  margin-bottom: 1rem;\n  color: var(--primary-color);\n}\n._projectList_r3ey5_1 li h3 a {\n  text-decoration: none;\n  color: inherit;\n}\n._projectList_r3ey5_1 li h3 a:hover {\n  text-decoration: underline;\n}\n._projectList_r3ey5_1 li img {\n  display: block;\n  margin: 1rem 0;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n._projectList_r3ey5_1 li p {\n  margin-bottom: 0.8rem;\n  line-height: 1.6;\n}\n._projectList_r3ey5_1 li em {\n  color: var(--primary-color);\n  font-size: 0.9rem;\n  opacity: 0.8;\n}\n._techStack_r3ey5_48 {\n  list-style: none;\n  padding: 0;\n  margin: 1rem 0 0 0;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.5rem;\n}\n._techStack_r3ey5_48 li {\n  background: var(--secondary-color);\n  padding: 0.3rem 0.6rem;\n  border-radius: 12px;\n  font-size: 0.8rem;\n  margin: 0;\n  border: none;\n  color: var(--text-color);\n}\n@media (prefers-color-scheme: dark) {\n  ._techStack_r3ey5_48 li {\n    --text-color: #000;\n  }\n}\n/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\nhtml {\n  line-height: 1.15;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\nmain {\n  display: block;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n  overflow: visible;\n}\npre {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\na {\n  background-color: transparent;\n}\nabbr[title] {\n  border-bottom: none;\n  text-decoration: underline;\n  text-decoration: underline dotted;\n}\nb,\nstrong {\n  font-weight: bolder;\n}\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsub {\n  bottom: -0.25em;\n}\nsup {\n  top: -0.5em;\n}\nimg {\n  border-style: none;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  line-height: 1.15;\n  margin: 0;\n}\nbutton,\ninput {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\n[type=button],\n[type=reset],\n[type=submit] {\n  -webkit-appearance: button;\n}\nbutton::-moz-focus-inner,\n[type=button]::-moz-focus-inner,\n[type=reset]::-moz-focus-inner,\n[type=submit]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\nbutton:-moz-focusring,\n[type=button]:-moz-focusring,\n[type=reset]:-moz-focusring,\n[type=submit]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\nlegend {\n  box-sizing: border-box;\n  color: inherit;\n  display: table;\n  max-width: 100%;\n  padding: 0;\n  white-space: normal;\n}\nprogress {\n  vertical-align: baseline;\n}\ntextarea {\n  overflow: auto;\n}\n[type=checkbox],\n[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\n[type=number]::-webkit-inner-spin-button,\n[type=number]::-webkit-outer-spin-button {\n  height: auto;\n}\n[type=search] {\n  -webkit-appearance: textfield;\n  outline-offset: -2px;\n}\n[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  font: inherit;\n}\ndetails {\n  display: block;\n}\nsummary {\n  display: list-item;\n}\ntemplate {\n  display: none;\n}\n[hidden] {\n  display: none;\n}\n@layer base, component, utility, darkmode;\n@layer base {\n  :root {\n    --primary-color: #25408f;\n    --secondary-color: #c26f1f;\n    --background-color: #f5f5f5;\n    --text-color: #000;\n    --background-color-figure: #e9ecf4;\n    --bg-scale: 2;\n    --bg-opacity: 0;\n  }\n  body {\n    font-family: \"Literata\", serif;\n    font-optical-sizing: auto;\n    font-weight: 300;\n    font-style: normal;\n    background-color: var(--background-color);\n    color: var(--text-color);\n    line-height: 1.6;\n  }\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6 {\n    font-family: \"Ubuntu\", sans-serif;\n    line-height: 1.1;\n    padding-top: 0.5em;\n    margin: 1em 0 0.5em;\n    font-weight: 500;\n  }\n  p {\n    margin: 0.5em 0 1em 0;\n  }\n  section {\n    margin-bottom: 1rem;\n  }\n  main {\n    padding: 20px;\n    max-width: 75ch;\n    margin: 0 auto;\n    container-name: intro;\n    container-type: inline-size;\n  }\n  p {\n    text-wrap: pretty;\n  }\n  a {\n    color: inherit;\n  }\n  button {\n    cursor: pointer;\n    border: none;\n    background: none;\n  }\n  ::selection {\n    background-color: var(--secondary-color);\n    color: white;\n  }\n  .material-symbols-outlined {\n    font-variation-settings:\n      \"FILL\" 0,\n      \"wght\" 400,\n      \"GRAD\" 0,\n      \"opsz\" 24;\n    color: var(--primary-color);\n  }\n}\n@layer component {\n  section.intro {\n    background-color: var(--background-color-figure);\n    padding: 1rem;\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    position: relative;\n    overflow: hidden;\n  }\n  section.intro::before {\n    content: \"\";\n    background: url(/logo.svg) top right / auto 100% no-repeat #25408F;\n    width: 100%;\n    min-height: 100%;\n    scale: var(--bg-scale);\n    display: block;\n    position: absolute;\n    bottom: 0;\n    right: 0;\n    opacity: var(--bg-opacity);\n    overflow: hidden;\n    z-index: 0;\n  }\n  section.intro figure {\n    order: 1;\n  }\n  section.intro .content-text {\n    order: 0;\n  }\n  section.intro .content-text {\n    max-width: 60ch;\n  }\n  h1 small {\n    font-weight: 300;\n    display: block;\n  }\n  .projects fieldset {\n    border: 2px solid var(--primary-color);\n    border-radius: 8px;\n    padding: 1rem;\n    margin-bottom: 2rem;\n    background: var(--background-color-figure);\n  }\n  .projects legend {\n    font-weight: 500;\n    color: var(--primary-color);\n    padding: 0 0.5rem;\n  }\n  .projects label {\n    display: block;\n    margin-bottom: 0.5rem;\n    font-weight: 500;\n  }\n  .projects select {\n    color: var(--text-color);\n    width: 100%;\n    max-width: 300px;\n    padding: 0.5rem;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font-size: 1rem;\n    background: white;\n    cursor: pointer;\n  }\n  .projects select:focus {\n    outline: none;\n    border-color: var(--primary-color);\n    box-shadow: 0 0 0 2px rgba(37, 64, 143, 0.2);\n  }\n}\n@layer darkmode {\n  @media (prefers-color-scheme: dark) {\n    :root {\n      --primary-color: #6ea0ff;\n      --secondary-color: #ffb366;\n      --background-color: #121212;\n      --text-color: #e0e0e0;\n      --background-color-figure: #1e1e1e;\n    }\n  }\n  .projects select {\n    --text-color: #000;\n  }\n}\n"
+				"data-src": "/assets/style-CWTHKhVs.css",
+				"dangerouslySetInnerHTML": "@import \"https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap\";\n@import \"https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap\";\n@import \"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close,info,open_in_full\";\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Ubuntu\", sans-serif;\n  line-height: 1.1;\n  padding-top: 0.5em;\n  margin: 1em 0 0.5em;\n  font-weight: 500;\n}\nh1 {\n  font-size: 2rem;\n}\nh1 small {\n  font-weight: 300;\n  display: block;\n}\nh2 {\n  font-size: 1.5rem;\n}\nh3 {\n  font-size: 1.125rem;\n}\nh4 {\n  font-size: 0.875rem;\n}\n._light_1swmi_36 {\n  color: #25408f;\n}\n._dark_1swmi_40 {\n  color: #e0e0e0;\n}\n._projectList_1dpd3_1 {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n._projectList_1dpd3_1 > li {\n  margin-bottom: 2rem;\n  padding: 1.5rem;\n  background: var(--background-color-figure);\n  border-radius: 8px;\n  border: 1px solid #ddd;\n}\n._projectList_1dpd3_1 li h3 {\n  margin-top: 0;\n  margin-bottom: 1rem;\n  color: var(--primary-color);\n}\n._projectList_1dpd3_1 li h3 a {\n  text-decoration: none;\n  color: inherit;\n}\n._projectList_1dpd3_1 li h3 a:hover {\n  text-decoration: underline;\n}\n._projectList_1dpd3_1 li img {\n  display: block;\n  margin: 1rem 0;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n._projectList_1dpd3_1 li p {\n  margin-bottom: 0.8rem;\n  line-height: 1.6;\n}\n._projectList_1dpd3_1 :where(figcaption, em) {\n  display: inline-block;\n  line-height: 1.4;\n}\n._projectList_1dpd3_1 li p:has(small) {\n  position: relative;\n  padding-left: 2rem;\n}\n._projectList_1dpd3_1 li p:has(small):before {\n  content: \"\";\n  width: 1px;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-left: 1px solid oklch(from var(--primary-color) calc(l + 0.1) c h);\n  margin-left: 1rem;\n}\n._projectList_1dpd3_1 li em {\n  color: var(--primary-color);\n  font-size: 0.9rem;\n  opacity: 0.8;\n}\n._imgWrapper_1dpd3_69 {\n  position: relative;\n  display: inline-block;\n}\n._imgWrapper_1dpd3_69 > button {\n  display: none;\n  font-weight: 700;\n  position: absolute;\n  top: 2rem;\n  right: 1rem;\n  padding: 0.25rem;\n  cursor: pointer;\n  color: var(--primary-color);\n  transition: background 0.3s;\n  background: var(--background-color-figure);\n}\n@media (width < 480px) {\n  ._imgWrapper_1dpd3_69 > button {\n    display: block;\n  }\n}\n._techStack_1dpd3_93 {\n  list-style: none;\n  padding: 0;\n  margin: 1rem 0 0 0;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.5rem;\n}\n._techStack_1dpd3_93 li {\n  background: var(--secondary-color);\n  padding: 0.3rem 0.6rem;\n  border-radius: 12px;\n  font-size: 0.8rem;\n  margin: 0;\n  border: none;\n  color: var(--text-color);\n}\n@media (prefers-color-scheme: dark) {\n  ._techStack_1dpd3_93 li {\n    --text-color: #000;\n  }\n}\n._fullscreenOverlay_1dpd3_118 {\n  border: none;\n  padding: 0;\n  max-width: 100vw;\n  max-height: 100vh;\n  background: rgba(0, 0, 0, 0.95);\n  touch-action: manipulation;\n}\n._fullscreenOverlay_1dpd3_118::backdrop {\n  background: rgba(0, 0, 0, 0.8);\n}\n._fullscreenOverlay_1dpd3_118[open] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n._fullscreenOverlay_1dpd3_118 img {\n  max-width: 95%;\n  max-height: 95%;\n  object-fit: contain;\n  touch-action: manipulation;\n}\n._closeButton_1dpd3_144 {\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  background: rgba(255, 255, 255, 0.9);\n  border: none;\n  border-radius: 50%;\n  width: 3rem;\n  height: 3rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  z-index: 10000;\n  transition: background 0.2s;\n}\n._closeButton_1dpd3_144:hover {\n  background: rgba(255, 255, 255, 1);\n}\n._closeButton_1dpd3_144 span {\n  font-size: 1.5rem;\n  color: #000;\n}\n/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\nhtml {\n  line-height: 1.15;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\nmain {\n  display: block;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n  overflow: visible;\n}\npre {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\na {\n  background-color: transparent;\n}\nabbr[title] {\n  border-bottom: none;\n  text-decoration: underline;\n  text-decoration: underline dotted;\n}\nb,\nstrong {\n  font-weight: bolder;\n}\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsub {\n  bottom: -0.25em;\n}\nsup {\n  top: -0.5em;\n}\nimg {\n  border-style: none;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  line-height: 1.15;\n  margin: 0;\n}\nbutton,\ninput {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\n[type=button],\n[type=reset],\n[type=submit] {\n  -webkit-appearance: button;\n}\nbutton::-moz-focus-inner,\n[type=button]::-moz-focus-inner,\n[type=reset]::-moz-focus-inner,\n[type=submit]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\nbutton:-moz-focusring,\n[type=button]:-moz-focusring,\n[type=reset]:-moz-focusring,\n[type=submit]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\nlegend {\n  box-sizing: border-box;\n  color: inherit;\n  display: table;\n  max-width: 100%;\n  padding: 0;\n  white-space: normal;\n}\nprogress {\n  vertical-align: baseline;\n}\ntextarea {\n  overflow: auto;\n}\n[type=checkbox],\n[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\n[type=number]::-webkit-inner-spin-button,\n[type=number]::-webkit-outer-spin-button {\n  height: auto;\n}\n[type=search] {\n  -webkit-appearance: textfield;\n  outline-offset: -2px;\n}\n[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  font: inherit;\n}\ndetails {\n  display: block;\n}\nsummary {\n  display: list-item;\n}\ntemplate {\n  display: none;\n}\n[hidden] {\n  display: none;\n}\n@layer base, component, utility, darkmode;\n@layer base {\n  :root {\n    --primary-color: #25408f;\n    --secondary-color: #c26f1f;\n    --background-color: #f5f5f5;\n    --text-color: #000;\n    --background-color-figure: #e9ecf4;\n    --bg-scale: 2;\n    --bg-opacity: 0;\n    --breakpoint-mobile: 768px;\n  }\n  body {\n    font-family: \"Literata\", serif;\n    font-optical-sizing: auto;\n    font-weight: 300;\n    font-style: normal;\n    background-color: var(--background-color);\n    color: var(--text-color);\n    line-height: 1.6;\n  }\n  p {\n    margin: 0.5em 0 1em 0;\n  }\n  section {\n    margin-bottom: 1rem;\n  }\n  main {\n    padding: 20px;\n    max-width: 75ch;\n    margin: 0 auto;\n    container-name: intro;\n    container-type: inline-size;\n  }\n  p {\n    text-wrap: pretty;\n  }\n  a {\n    color: inherit;\n  }\n  button {\n    cursor: pointer;\n    border: none;\n    background: none;\n  }\n  ::selection {\n    background-color: var(--secondary-color);\n    color: white;\n  }\n  .material-symbols-outlined {\n    font-variation-settings:\n      \"FILL\" 0,\n      \"wght\" 400,\n      \"GRAD\" 0,\n      \"opsz\" 24;\n    color: var(--primary-color);\n  }\n}\n@layer component {\n  section.intro {\n    background-color: var(--background-color-figure);\n    padding: 1rem;\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    position: relative;\n    overflow: hidden;\n  }\n  section.intro::before {\n    content: \"\";\n    background: url(/logo.svg) top right / auto 100% no-repeat #25408F;\n    width: 100%;\n    min-height: 100%;\n    scale: var(--bg-scale);\n    display: block;\n    position: absolute;\n    bottom: 0;\n    right: 0;\n    opacity: var(--bg-opacity);\n    overflow: hidden;\n    z-index: 0;\n  }\n  section.intro figure {\n    order: 1;\n  }\n  section.intro .content-text {\n    order: 0;\n    z-index: 1;\n  }\n  section.intro .content-text {\n    max-width: 60ch;\n  }\n  .projects fieldset {\n    border: 2px solid var(--primary-color);\n    border-radius: 8px;\n    padding: 1rem;\n    margin-bottom: 2rem;\n    background: var(--background-color-figure);\n  }\n  .projects legend {\n    font-weight: 500;\n    color: var(--primary-color);\n    padding: 0 0.5rem;\n  }\n  .projects label {\n    display: block;\n    margin-bottom: 0.5rem;\n    font-weight: 500;\n  }\n  .projects select {\n    color: var(--text-color);\n    width: 100%;\n    max-width: 300px;\n    padding: 0.5rem;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font-size: 1rem;\n    background: white;\n    cursor: pointer;\n  }\n  .projects select:focus {\n    outline: none;\n    border-color: var(--primary-color);\n    box-shadow: 0 0 0 2px rgba(37, 64, 143, 0.2);\n  }\n}\n@layer darkmode {\n  @media (prefers-color-scheme: dark) {\n    :root {\n      --primary-color: #6ea0ff;\n      --secondary-color: #ffb366;\n      --background-color: #121212;\n      --text-color: #e0e0e0;\n      --background-color-figure: #1e1e1e;\n    }\n  }\n  .projects select {\n    --text-color: #000;\n  }\n}\n"
 			}
 		}
 	],
 	"mapping": {
-		"s_e0fU40Sf0FI": "q-CExTl78Y.js",
-		"s_Ysfvd0zsHZc": "q-D30e290d.js",
-		"s_26Zk9LevwR4": "q-B-DxygIW.js",
-		"s_35YlVmV10xA": "q-BCxKvw_6.js",
-		"s_idGvp1E8e8w": "q-Dslgh3-y.js",
-		"s_0vphQYqOdZI": "q-INK_yFWl.js",
-		"s_1raneLGffO8": "q-BCxKvw_6.js",
-		"s_B0lqk5IDDy4": "q-CExTl78Y.js",
-		"s_MiPVFWJLcMo": "q-Bnd5sOaK.js",
-		"s_ScE8eseirUA": "q-xTx4UGji.js",
-		"s_VKFlAWJuVm8": "q-C3vYLH5c.js",
-		"s_W1MswfbHEcE": "q-B8VWBjeo.js",
-		"s_bmV0oH7tsks": "q-oF2Cv12O.js",
-		"s_p1yCGpFL1xE": "q-D30e290d.js",
-		"s_pWsmcogutG8": "q-bWu4jR_E.js",
-		"s_s2c0eHBzgXA": "q-Dslgh3-y.js",
-		"s_tntnak2DhJ8": "q-DQln-5mO.js",
-		"s_K4gvalEGCME": "q-D30e290d.js",
-		"s_sC01JsYzSek": "q-Dslgh3-y.js",
+		"s_gB0TOBia13g": "q-CTZqYnHm.js",
+		"s_K8WWiqZ1Wdw": "q-Bt7GHGly.js",
+		"s_32KLFlOO5uE": "q-Bro3g-tD.js",
+		"s_Ysfvd0zsHZc": "q-CXxReeDt.js",
+		"s_26Zk9LevwR4": "q-D_Gr4jvU.js",
+		"s_35YlVmV10xA": "q-CMWDACEr.js",
+		"s_vMhWtdeCuEM": "q-CRj8kPg9.js",
+		"s_0vphQYqOdZI": "q-DxrS8YCY.js",
+		"s_1raneLGffO8": "q-DndzFUcQ.js",
+		"s_B0lqk5IDDy4": "q-Bt7GHGly.js",
+		"s_J7ZNxRct8Vk": "q-DvrAYQdW.js",
+		"s_MiPVFWJLcMo": "q-Bro3g-tD.js",
+		"s_ScE8eseirUA": "q-CQsNQZpt.js",
+		"s_VKFlAWJuVm8": "q-Bs5Uq49_.js",
+		"s_W1MswfbHEcE": "q-CTZqYnHm.js",
+		"s_bmV0oH7tsks": "q-C1lKfL-s.js",
+		"s_p1yCGpFL1xE": "q-CXxReeDt.js",
+		"s_pWsmcogutG8": "q-Dd67aIPA.js",
+		"s_tntnak2DhJ8": "q-C5tvUbX8.js",
+		"s_x6WdtBlWzbQ": "q-BYNaXR5g.js",
+		"s_K4gvalEGCME": "q-CXxReeDt.js",
+		"s_rYfmEGob0gQ": "q-DvrAYQdW.js",
 		"s_9KRx0IOCHt8": "q-CG00oiOz.js",
-		"s_A5SCimyrjAE": "q-CesNtwc7.js",
-		"s_N26RLdG0oBg": "q-DYKCZXmY.js",
-		"s_WfTOxT4IrdA": "q-B0VJqIVs.js",
-		"s_0HB1p804N00": "q-BCxKvw_6.js",
-		"s_25nHLry4QtU": "q-Dslgh3-y.js",
-		"s_458P5iWQHv8": "q-Dslgh3-y.js",
-		"s_74kvkuGdvug": "q-BCxKvw_6.js",
-		"s_7ldVcDWrykY": "q-Dslgh3-y.js",
-		"s_PmWjL2RrvZM": "q-Bnd5sOaK.js",
-		"s_US0pTyQnOdc": "q-oF2Cv12O.js",
-		"s_aww2BzpANGM": "q-D30e290d.js",
-		"s_qFWf5RhlL7U": "q-CExTl78Y.js",
-		"s_qGVD1Sz413o": "q-D30e290d.js",
-		"s_xe8duyQ5aaU": "q-bWu4jR_E.js",
-		"s_zE0QQuYrlX4": "q-CExTl78Y.js",
-		"s_zPJUEsxZLIA": "q-BCxKvw_6.js",
-		"s_zpHcJzYZ88E": "q-bWu4jR_E.js"
+		"s_A5SCimyrjAE": "q-B4m3fV0t.js",
+		"s_N26RLdG0oBg": "q-CPGSO4zB.js",
+		"s_WfTOxT4IrdA": "q-DkQ1NMT2.js",
+		"s_0HB1p804N00": "q-DndzFUcQ.js",
+		"s_74kvkuGdvug": "q-DndzFUcQ.js",
+		"s_E9WxFoX5Yz0": "q-CTZqYnHm.js",
+		"s_PmWjL2RrvZM": "q-Bro3g-tD.js",
+		"s_US0pTyQnOdc": "q-C1lKfL-s.js",
+		"s_aww2BzpANGM": "q-CXxReeDt.js",
+		"s_qFWf5RhlL7U": "q-Bt7GHGly.js",
+		"s_qGVD1Sz413o": "q-CXxReeDt.js",
+		"s_xe8duyQ5aaU": "q-Dd67aIPA.js",
+		"s_zE0QQuYrlX4": "q-Bt7GHGly.js",
+		"s_zPJUEsxZLIA": "q-DndzFUcQ.js",
+		"s_zpHcJzYZ88E": "q-Dd67aIPA.js"
 	},
 	"bundles": {
-		"q-6bmpqnLV.js": {
-			"size": 295,
-			"total": 112381,
+		"q-AqU0Z9qA.js": {
+			"size": 181,
+			"total": 181,
+			"origins": [
+				"src/utilities.ts"
+			],
+			"interactivity": 0
+		},
+		"q-B4m3fV0t.js": {
+			"size": 403,
+			"total": 96021,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Form_form_onSubmit_A5SCimyrjAE.js"
+			],
+			"symbols": [
+				"s_A5SCimyrjAE"
+			],
+			"interactivity": 1
+		},
+		"q-BF9o_MBb.js": {
+			"size": 280,
+			"total": 95898,
+			"imports": [
+				"q-DEKTz2-y.js"
 			],
 			"dynamicImports": [
-				"q-Dslgh3-y.js"
+				"q-C5tvUbX8.js"
 			],
 			"origins": [
-				"src/components/dialog/dialog.tsx"
+				"node_modules/normalize.css/normalize.css",
+				"src/global.css",
+				"src/root.tsx"
 			],
 			"interactivity": 0
 		},
-		"q-_tAXAXHf.js": {
-			"size": 2491,
-			"total": 2491,
-			"origins": [
-				"src/data/projects.ts"
-			],
-			"interactivity": 0
-		},
-		"q-a0n39X8P.js": {
+		"q-BgahIBby.js": {
 			"size": 286,
-			"total": 112372,
+			"total": 95904,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js"
 			],
 			"dynamicImports": [
-				"q-INK_yFWl.js"
+				"q-DxrS8YCY.js"
 			],
 			"origins": [
 				"src/components/router-head/router-head.tsx"
 			],
 			"interactivity": 0
 		},
-		"q-B-DxygIW.js": {
-			"size": 397,
-			"total": 104189,
-			"imports": [
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_usePreventNavigateQrl_useVisibleTask_26Zk9LevwR4.js"
-			],
-			"symbols": [
-				"s_26Zk9LevwR4"
-			],
-			"interactivity": 3
-		},
-		"q-B08jWszy.js": {
-			"size": 2665,
-			"total": 2665,
-			"origins": [
-				"src/components/dialog/styles.module.css?inline"
-			],
-			"interactivity": 0
-		},
-		"q-B0VJqIVs.js": {
-			"size": 2533,
-			"total": 237305,
-			"imports": [
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_serverQrl_rpc_WfTOxT4IrdA.js"
-			],
-			"symbols": [
-				"s_WfTOxT4IrdA"
-			],
-			"interactivity": 1
-		},
-		"q-B8VWBjeo.js": {
-			"size": 1816,
-			"total": 220870,
-			"imports": [
-				"q-CBzLU0yF.js",
-				"q-D_dWR7RG.js",
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"src/components/project/project-list.tsx_ProjectList_component_W1MswfbHEcE.js"
-			],
-			"symbols": [
-				"s_W1MswfbHEcE"
-			],
-			"interactivity": 2
-		},
-		"q-BCxKvw_6.js": {
-			"size": 5549,
-			"total": 248615,
-			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_1raneLGffO8.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handleClientSideNavigation_0HB1p804N00.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handlePrefetch_zPJUEsxZLIA.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handlePreload_74kvkuGdvug.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_useVisibleTask_35YlVmV10xA.js"
-			],
-			"symbols": [
-				"s_0HB1p804N00",
-				"s_1raneLGffO8",
-				"s_35YlVmV10xA",
-				"s_74kvkuGdvug",
-				"s_zPJUEsxZLIA"
-			],
-			"interactivity": 3
-		},
-		"q-BLpZBQBB.js": {
-			"size": 282,
-			"total": 112368,
-			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
-			],
+		"q-Bi_IiUSq.js": {
+			"size": 524,
+			"total": 524,
 			"dynamicImports": [
-				"q-CExTl78Y.js"
+				"q-BtZ_YLSW.js",
+				"q-DLo3Jnic.js"
 			],
 			"origins": [
-				"src/routes/index.tsx"
+				"@qwik-city-plan"
 			],
 			"interactivity": 0
-		},
-		"q-Bnd5sOaK.js": {
-			"size": 2038,
-			"total": 245104,
-			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityMockProvider_component_MiPVFWJLcMo.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityMockProvider_component_goto_PmWjL2RrvZM.js"
-			],
-			"symbols": [
-				"s_MiPVFWJLcMo",
-				"s_PmWjL2RrvZM"
-			],
-			"interactivity": 2
 		},
 		"q-BpC6Ohyo.js": {
 			"size": 8294,
@@ -218,31 +135,30 @@
 			],
 			"interactivity": 0
 		},
-		"q-bWu4jR_E.js": {
-			"size": 2800,
-			"total": 245866,
+		"q-Bro3g-tD.js": {
+			"size": 3188,
+			"total": 213318,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
 			],
 			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_form_onSubmit_1_xe8duyQ5aaU.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_form_onSubmit_zpHcJzYZ88E.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_pWsmcogutG8.js"
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityMockProvider_component_MiPVFWJLcMo.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityMockProvider_component_goto_PmWjL2RrvZM.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityMockProvider_component_useTask_32KLFlOO5uE.js"
 			],
 			"symbols": [
-				"s_pWsmcogutG8",
-				"s_xe8duyQ5aaU",
-				"s_zpHcJzYZ88E"
+				"s_32KLFlOO5uE",
+				"s_MiPVFWJLcMo",
+				"s_PmWjL2RrvZM"
 			],
-			"interactivity": 2
+			"interactivity": 3
 		},
-		"q-C3vYLH5c.js": {
+		"q-Bs5Uq49_.js": {
 			"size": 397,
-			"total": 104189,
+			"total": 96015,
 			"imports": [
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js"
 			],
 			"origins": [
 				"src/routes/layout.tsx_layout_component_VKFlAWJuVm8.js"
@@ -252,63 +168,112 @@
 			],
 			"interactivity": 2
 		},
-		"q-CBzLU0yF.js": {
-			"size": 3018,
-			"total": 115104,
+		"q-Bt7GHGly.js": {
+			"size": 11819,
+			"total": 397884,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
-			],
-			"dynamicImports": [
-				"q-B8VWBjeo.js"
-			],
-			"origins": [
-				"src/components/project/project-list.tsx",
-				"src/media/campaigns-newsletter-1.png?jsx",
-				"src/media/interactive-app-tool-3.png?jsx",
-				"src/media/interactive-app-visualization-1.png?jsx",
-				"src/media/interactive-app-visualization-2.png?jsx"
-			],
-			"interactivity": 0
-		},
-		"q-CesNtwc7.js": {
-			"size": 403,
-			"total": 104195,
-			"imports": [
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Form_form_onSubmit_A5SCimyrjAE.js"
-			],
-			"symbols": [
-				"s_A5SCimyrjAE"
-			],
-			"interactivity": 1
-		},
-		"q-CExTl78Y.js": {
-			"size": 13017,
-			"total": 536722,
-			"imports": [
-				"q-6bmpqnLV.js",
-				"q-_tAXAXHf.js",
-				"q-BpC6Ohyo.js",
-				"q-CBzLU0yF.js",
-				"q-CQi3S4Qb.js",
-				"q-DjD3OeYC.js"
+				"q-CcdWVz6V.js",
+				"q-Cg86WGUv.js",
+				"q-DEKTz2-y.js",
+				"q-wU0Hm1PW.js"
 			],
 			"origins": [
 				"src/routes/index.tsx_routes_component_B0lqk5IDDy4.js",
-				"src/routes/index.tsx_routes_component_Fragment_main_section_p_button_onClick_e0fU40Sf0FI.js",
+				"src/routes/index.tsx_routes_component_Fragment_main_section_form_fieldset_select_bind_value_K8WWiqZ1Wdw.js",
 				"src/routes/index.tsx_routes_component_handleFilterChange_qFWf5RhlL7U.js",
 				"src/routes/index.tsx_routes_component_useOnWindow_zE0QQuYrlX4.js"
 			],
 			"symbols": [
 				"s_B0lqk5IDDy4",
-				"s_e0fU40Sf0FI",
+				"s_K8WWiqZ1Wdw",
 				"s_qFWf5RhlL7U",
 				"s_zE0QQuYrlX4"
 			],
-			"interactivity": 5
+			"interactivity": 2
+		},
+		"q-BtZ_YLSW.js": {
+			"size": 282,
+			"total": 95900,
+			"imports": [
+				"q-DEKTz2-y.js"
+			],
+			"dynamicImports": [
+				"q-Bt7GHGly.js"
+			],
+			"origins": [
+				"src/routes/index.tsx"
+			],
+			"interactivity": 0
+		},
+		"q-BYNaXR5g.js": {
+			"size": 607,
+			"total": 96351,
+			"imports": [
+				"q-DEKTz2-y.js",
+				"q-Dz8Z_v91.js"
+			],
+			"origins": [
+				"src/components/heading/heading.tsx_Heading_component_x6WdtBlWzbQ.js"
+			],
+			"symbols": [
+				"s_x6WdtBlWzbQ"
+			],
+			"interactivity": 2
+		},
+		"q-C1lKfL-s.js": {
+			"size": 1224,
+			"total": 96842,
+			"imports": [
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_ErrorBoundary_component_bmV0oH7tsks.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_ErrorBoundary_component_useOnWindow_US0pTyQnOdc.js"
+			],
+			"symbols": [
+				"s_bmV0oH7tsks",
+				"s_US0pTyQnOdc"
+			],
+			"interactivity": 2
+		},
+		"q-C5tvUbX8.js": {
+			"size": 1296,
+			"total": 307330,
+			"imports": [
+				"q-BgahIBby.js",
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"src/root.tsx_root_component_tntnak2DhJ8.js"
+			],
+			"symbols": [
+				"s_tntnak2DhJ8"
+			],
+			"interactivity": 2
+		},
+		"q-CASwVnXm.js": {
+			"size": 639,
+			"total": 96257,
+			"imports": [
+				"q-DEKTz2-y.js"
+			],
+			"dynamicImports": [
+				"q-DvrAYQdW.js"
+			],
+			"origins": [
+				"src/components/figure/figure.tsx",
+				"src/components/project/styles.module.css"
+			],
+			"interactivity": 0
+		},
+		"q-CcdWVz6V.js": {
+			"size": 6315,
+			"total": 6315,
+			"origins": [
+				"src/data/projects.ts"
+			],
+			"interactivity": 0
 		},
 		"q-CG00oiOz.js": {
 			"size": 5437,
@@ -321,41 +286,9 @@
 			],
 			"interactivity": 1
 		},
-		"q-CMnMIswv.js": {
-			"size": 3091,
-			"total": 115177,
-			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
-			],
-			"dynamicImports": [
-				"q-C3vYLH5c.js"
-			],
-			"origins": [
-				"src/routes/layout.tsx"
-			],
-			"interactivity": 0
-		},
-		"q-Cnhny6BV.js": {
-			"size": 280,
-			"total": 112366,
-			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
-			],
-			"dynamicImports": [
-				"q-DQln-5mO.js"
-			],
-			"origins": [
-				"node_modules/normalize.css/normalize.css",
-				"src/global.css",
-				"src/root.tsx"
-			],
-			"interactivity": 0
-		},
-		"q-CQi3S4Qb.js": {
-			"size": 181643,
-			"total": 181643,
+		"q-Cg86WGUv.js": {
+			"size": 180536,
+			"total": 180536,
 			"origins": [
 				"node_modules/gsap/CSSPlugin.js",
 				"node_modules/gsap/gsap-core.js",
@@ -363,31 +296,111 @@
 			],
 			"interactivity": 0
 		},
-		"q-CXKF3Ef0.js": {
-			"size": 18894,
-			"total": 130980,
+		"q-CMWDACEr.js": {
+			"size": 752,
+			"total": 96370,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_useVisibleTask_35YlVmV10xA.js"
+			],
+			"symbols": [
+				"s_35YlVmV10xA"
+			],
+			"interactivity": 3
+		},
+		"q-CPGSO4zB.js": {
+			"size": 1524,
+			"total": 97142,
+			"imports": [
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_routeActionQrl_action_submit_N26RLdG0oBg.js"
+			],
+			"symbols": [
+				"s_N26RLdG0oBg"
+			],
+			"interactivity": 1
+		},
+		"q-CPQuRRq8.js": {
+			"size": 18894,
+			"total": 114512,
+			"imports": [
+				"q-DEKTz2-y.js"
 			],
 			"dynamicImports": [
 				"q-CG00oiOz.js",
-				"q-D30e290d.js",
-				"q-xTx4UGji.js"
+				"q-CQsNQZpt.js",
+				"q-CXxReeDt.js"
 			],
 			"origins": [
 				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs"
 			],
 			"interactivity": 0
 		},
-		"q-D30e290d.js": {
-			"size": 15643,
-			"total": 267527,
+		"q-CQsNQZpt.js": {
+			"size": 1690,
+			"total": 211820,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js",
-				"q-NCA6Hunm.js"
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_RouterOutlet_component_ScE8eseirUA.js"
+			],
+			"symbols": [
+				"s_ScE8eseirUA"
+			],
+			"interactivity": 2
+		},
+		"q-CRj8kPg9.js": {
+			"size": 611,
+			"total": 96410,
+			"imports": [
+				"q-AqU0Z9qA.js",
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"src/components/project/project-list.tsx_ProjectList_component_useVisibleTask_vMhWtdeCuEM.js"
+			],
+			"symbols": [
+				"s_vMhWtdeCuEM"
+			],
+			"interactivity": 3
+		},
+		"q-CTZqYnHm.js": {
+			"size": 5880,
+			"total": 301532,
+			"imports": [
+				"q-AqU0Z9qA.js",
+				"q-CASwVnXm.js",
+				"q-DEKTz2-y.js",
+				"q-wU0Hm1PW.js"
+			],
+			"dynamicImports": [
+				"q-CRj8kPg9.js"
+			],
+			"origins": [
+				"src/components/project/project-list.tsx_ProjectList_component_Fragment_ul_li_div_button_onClick_gB0TOBia13g.js",
+				"src/components/project/project-list.tsx_ProjectList_component_W1MswfbHEcE.js",
+				"src/components/project/project-list.tsx_ProjectList_component_closeFullscreen_E9WxFoX5Yz0.js"
+			],
+			"symbols": [
+				"s_E9WxFoX5Yz0",
+				"s_gB0TOBia13g",
+				"s_W1MswfbHEcE"
+			],
+			"interactivity": 5
+		},
+		"q-CXxReeDt.js": {
+			"size": 15706,
+			"total": 226360,
+			"imports": [
+				"q-Bi_IiUSq.js",
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
 			],
 			"origins": [
 				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_QwikCityProvider_component_goto_aww2BzpANGM.js",
@@ -405,38 +418,97 @@
 			],
 			"interactivity": 3
 		},
-		"q-D_dWR7RG.js": {
-			"size": 158,
-			"total": 158,
-			"origins": [
-				"src/components/project/styles.module.css"
-			],
-			"interactivity": 0
-		},
-		"q-DjD3OeYC.js": {
-			"size": 95498,
-			"total": 103792,
+		"q-D_Gr4jvU.js": {
+			"size": 397,
+			"total": 96015,
 			"imports": [
-				"q-BpC6Ohyo.js"
+				"q-DEKTz2-y.js"
 			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_usePreventNavigateQrl_useVisibleTask_26Zk9LevwR4.js"
+			],
+			"symbols": [
+				"s_26Zk9LevwR4"
+			],
+			"interactivity": 3
+		},
+		"q-Dd67aIPA.js": {
+			"size": 2800,
+			"total": 212930,
+			"imports": [
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_form_onSubmit_1_xe8duyQ5aaU.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_form_onSubmit_zpHcJzYZ88E.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_GetForm_component_pWsmcogutG8.js"
+			],
+			"symbols": [
+				"s_pWsmcogutG8",
+				"s_xe8duyQ5aaU",
+				"s_zpHcJzYZ88E"
+			],
+			"interactivity": 2
+		},
+		"q-DEKTz2-y.js": {
+			"size": 95618,
+			"total": 95618,
 			"origins": [
 				"node_modules/@builder.io/qwik/dist/core.min.mjs"
 			],
 			"interactivity": 0
 		},
-		"q-DQln-5mO.js": {
-			"size": 1296,
-			"total": 348440,
+		"q-DkQ1NMT2.js": {
+			"size": 2533,
+			"total": 212663,
 			"imports": [
-				"q-a0n39X8P.js",
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
 			],
 			"origins": [
-				"src/root.tsx_root_component_tntnak2DhJ8.js"
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_serverQrl_rpc_WfTOxT4IrdA.js"
 			],
 			"symbols": [
-				"s_tntnak2DhJ8"
+				"s_WfTOxT4IrdA"
+			],
+			"interactivity": 1
+		},
+		"q-DLo3Jnic.js": {
+			"size": 3091,
+			"total": 98709,
+			"imports": [
+				"q-DEKTz2-y.js"
+			],
+			"dynamicImports": [
+				"q-Bs5Uq49_.js"
+			],
+			"origins": [
+				"src/routes/layout.tsx"
+			],
+			"interactivity": 0
+		},
+		"q-DndzFUcQ.js": {
+			"size": 4715,
+			"total": 214845,
+			"imports": [
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
+			],
+			"dynamicImports": [
+				"q-CMWDACEr.js"
+			],
+			"origins": [
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_1raneLGffO8.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handleClientSideNavigation_0HB1p804N00.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handlePrefetch_zPJUEsxZLIA.js",
+				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_Link_component_handlePreload_74kvkuGdvug.js"
+			],
+			"symbols": [
+				"s_0HB1p804N00",
+				"s_1raneLGffO8",
+				"s_74kvkuGdvug",
+				"s_zPJUEsxZLIA"
 			],
 			"interactivity": 2
 		},
@@ -448,52 +520,29 @@
 			],
 			"interactivity": 0
 		},
-		"q-Dslgh3-y.js": {
-			"size": 5188,
-			"total": 119939,
+		"q-DvrAYQdW.js": {
+			"size": 2001,
+			"total": 97842,
 			"imports": [
-				"q-B08jWszy.js",
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js",
+				"q-xyBRQcLd.js"
 			],
 			"origins": [
-				"src/components/dialog/dialog.tsx_Dialog_component_handleBackdropClick_25nHLry4QtU.js",
-				"src/components/dialog/dialog.tsx_Dialog_component_handleClose_7ldVcDWrykY.js",
-				"src/components/dialog/dialog.tsx_Dialog_component_s2c0eHBzgXA.js",
-				"src/components/dialog/dialog.tsx_Dialog_component_useOnDocument_458P5iWQHv8.js",
-				"src/components/dialog/dialog.tsx_Dialog_component_useStylesScoped_sC01JsYzSek.js",
-				"src/components/dialog/dialog.tsx_Dialog_component_useVisibleTask_idGvp1E8e8w.js"
+				"src/components/figure/figure.tsx_Figure_component_J7ZNxRct8Vk.js",
+				"src/components/figure/figure.tsx_Figure_component_useStylesScoped_rYfmEGob0gQ.js"
 			],
 			"symbols": [
-				"s_25nHLry4QtU",
-				"s_458P5iWQHv8",
-				"s_7ldVcDWrykY",
-				"s_idGvp1E8e8w",
-				"s_s2c0eHBzgXA",
-				"s_sC01JsYzSek"
+				"s_J7ZNxRct8Vk",
+				"s_rYfmEGob0gQ"
 			],
-			"interactivity": 3
+			"interactivity": 2
 		},
-		"q-DYKCZXmY.js": {
-			"size": 1524,
-			"total": 105316,
-			"imports": [
-				"q-DjD3OeYC.js"
-			],
-			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_routeActionQrl_action_submit_N26RLdG0oBg.js"
-			],
-			"symbols": [
-				"s_N26RLdG0oBg"
-			],
-			"interactivity": 1
-		},
-		"q-INK_yFWl.js": {
+		"q-DxrS8YCY.js": {
 			"size": 2447,
-			"total": 237219,
+			"total": 212577,
 			"imports": [
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
+				"q-CPQuRRq8.js",
+				"q-DEKTz2-y.js"
 			],
 			"origins": [
 				"src/components/router-head/router-head.tsx_RouterHead_component_0vphQYqOdZI.js"
@@ -503,153 +552,324 @@
 			],
 			"interactivity": 2
 		},
-		"q-NCA6Hunm.js": {
-			"size": 524,
-			"total": 8818,
-			"imports": [
-				"q-BpC6Ohyo.js"
-			],
-			"dynamicImports": [
-				"q-BLpZBQBB.js",
-				"q-CMnMIswv.js"
-			],
+		"q-Dz8Z_v91.js": {
+			"size": 126,
+			"total": 126,
 			"origins": [
-				"@qwik-city-plan"
+				"src/components/heading/styles.module.css"
 			],
 			"interactivity": 0
 		},
-		"q-oF2Cv12O.js": {
-			"size": 1230,
-			"total": 113316,
+		"q-wU0Hm1PW.js": {
+			"size": 7978,
+			"total": 103596,
 			"imports": [
-				"q-BpC6Ohyo.js",
-				"q-DjD3OeYC.js"
+				"q-DEKTz2-y.js"
+			],
+			"dynamicImports": [
+				"q-BYNaXR5g.js",
+				"q-CTZqYnHm.js"
 			],
 			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_ErrorBoundary_component_bmV0oH7tsks.js",
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_ErrorBoundary_component_useOnWindow_US0pTyQnOdc.js"
+				"src/components/heading/heading.tsx",
+				"src/components/project/project-list.tsx",
+				"src/media/campaign-marketing-email-1.png",
+				"src/media/campaign-marketing-email-1.png?jsx",
+				"src/media/campaigns-newsletter-1.png",
+				"src/media/campaigns-newsletter-1.png?jsx",
+				"src/media/enterprise-ecom-1.png",
+				"src/media/enterprise-ecom-1.png?jsx",
+				"src/media/interactive-app-tool-3.png",
+				"src/media/interactive-app-tool-3.png?jsx",
+				"src/media/interactive-app-tool-4.png",
+				"src/media/interactive-app-tool-4.png?jsx",
+				"src/media/interactive-app-visualization-1.png",
+				"src/media/interactive-app-visualization-1.png?jsx",
+				"src/media/interactive-app-visualization-2.png",
+				"src/media/interactive-app-visualization-2.png?jsx",
+				"src/media/wordpress-custom-multisite.png",
+				"src/media/wordpress-custom-multisite.png?jsx",
+				"src/media/wordpress-custom.png",
+				"src/media/wordpress-custom.png?jsx"
 			],
-			"symbols": [
-				"s_bmV0oH7tsks",
-				"s_US0pTyQnOdc"
-			],
-			"interactivity": 2
+			"interactivity": 0
 		},
-		"q-xTx4UGji.js": {
-			"size": 1690,
-			"total": 236462,
-			"imports": [
-				"q-CXKF3Ef0.js",
-				"q-DjD3OeYC.js"
-			],
+		"q-xyBRQcLd.js": {
+			"size": 223,
+			"total": 223,
 			"origins": [
-				"node_modules/@builder.io/qwik-city/lib/index.qwik.mjs_RouterOutlet_component_ScE8eseirUA.js"
+				"src/components/figure/styles.module.css?inline"
 			],
-			"symbols": [
-				"s_ScE8eseirUA"
-			],
-			"interactivity": 2
+			"interactivity": 0
 		}
 	},
 	"assets": {
+		"assets/interactive-app-visualization-2.png": {
+			"name": "interactive-app-visualization-2.png",
+			"size": 93714
+		},
+		"assets/interactive-app-tool-4.png": {
+			"name": "interactive-app-tool-4.png",
+			"size": 419154
+		},
+		"assets/interactive-app-tool-3.png": {
+			"name": "interactive-app-tool-3.png",
+			"size": 620433
+		},
+		"assets/interactive-app-visualization-1.png": {
+			"name": "interactive-app-visualization-1.png",
+			"size": 791888
+		},
+		"assets/wordpress-custom-multisite.png": {
+			"name": "wordpress-custom-multisite.png",
+			"size": 544172
+		},
+		"assets/wordpress-custom.png": {
+			"name": "wordpress-custom.png",
+			"size": 1377156
+		},
+		"assets/campaign-marketing-email-1.png": {
+			"name": "campaign-marketing-email-1.png",
+			"size": 1984108
+		},
+		"assets/enterprise-ecom-1.png": {
+			"name": "enterprise-ecom-1.png",
+			"size": 1758682
+		},
 		"assets/interactive-app-visualization-2.webp": {
 			"name": "interactive-app-visualization-2.webp",
-			"size": 5592
+			"size": 1144
 		},
 		"assets/interactive-app-visualization-22.webp": {
 			"name": "interactive-app-visualization-2.webp",
-			"size": 13692
-		},
-		"assets/interactive-app-visualization-1.webp": {
-			"name": "interactive-app-visualization-1.webp",
-			"size": 2062
+			"size": 5860
 		},
 		"assets/interactive-app-visualization-23.webp": {
 			"name": "interactive-app-visualization-2.webp",
-			"size": 22204
+			"size": 3272
 		},
-		"assets/interactive-app-visualization-12.webp": {
+		"assets/interactive-app-visualization-1.webp": {
 			"name": "interactive-app-visualization-1.webp",
-			"size": 7382
-		},
-		"assets/interactive-app-visualization-13.webp": {
-			"name": "interactive-app-visualization-1.webp",
-			"size": 18508
+			"size": 1808
 		},
 		"assets/interactive-app-visualization-24.webp": {
 			"name": "interactive-app-visualization-2.webp",
-			"size": 26996
+			"size": 9112
+		},
+		"assets/interactive-app-visualization-12.webp": {
+			"name": "interactive-app-visualization-1.webp",
+			"size": 15170
 		},
 		"assets/interactive-app-tool-3.webp": {
 			"name": "interactive-app-tool-3.webp",
-			"size": 4038
+			"size": 3332
+		},
+		"assets/interactive-app-visualization-13.webp": {
+			"name": "interactive-app-visualization-1.webp",
+			"size": 6540
 		},
 		"assets/interactive-app-tool-32.webp": {
 			"name": "interactive-app-tool-3.webp",
-			"size": 12312
+			"size": 9352
+		},
+		"assets/interactive-app-visualization-25.webp": {
+			"name": "interactive-app-visualization-2.webp",
+			"size": 15472
 		},
 		"assets/interactive-app-visualization-14.webp": {
 			"name": "interactive-app-visualization-1.webp",
-			"size": 33190
+			"size": 26182
+		},
+		"assets/wordpress-custom-multisite.webp": {
+			"name": "wordpress-custom-multisite.webp",
+			"size": 4182
 		},
 		"assets/interactive-app-tool-33.webp": {
 			"name": "interactive-app-tool-3.webp",
-			"size": 24788
+			"size": 17974
 		},
 		"assets/interactive-app-tool-34.webp": {
 			"name": "interactive-app-tool-3.webp",
-			"size": 37932
+			"size": 27070
+		},
+		"assets/wordpress-custom-multisite2.webp": {
+			"name": "wordpress-custom-multisite.webp",
+			"size": 22726
+		},
+		"assets/wordpress-custom-multisite3.webp": {
+			"name": "wordpress-custom-multisite.webp",
+			"size": 13148
+		},
+		"assets/wordpress-custom.webp": {
+			"name": "wordpress-custom.webp",
+			"size": 4318
+		},
+		"assets/wordpress-custom-multisite4.webp": {
+			"name": "wordpress-custom-multisite.webp",
+			"size": 33568
 		},
 		"assets/interactive-app-visualization-15.webp": {
 			"name": "interactive-app-visualization-1.webp",
-			"size": 60960
+			"size": 46234
 		},
 		"assets/interactive-app-tool-35.webp": {
 			"name": "interactive-app-tool-3.webp",
-			"size": 65538
+			"size": 46000
+		},
+		"assets/wordpress-custom2.webp": {
+			"name": "wordpress-custom.webp",
+			"size": 13034
+		},
+		"assets/campaign-marketing-email-1.webp": {
+			"name": "campaign-marketing-email-1.webp",
+			"size": 4228
+		},
+		"assets/wordpress-custom-multisite5.webp": {
+			"name": "wordpress-custom-multisite.webp",
+			"size": 53240
+		},
+		"assets/wordpress-custom3.webp": {
+			"name": "wordpress-custom.webp",
+			"size": 23890
+		},
+		"assets/campaigns-newsletter-1.png": {
+			"name": "campaigns-newsletter-1.png",
+			"size": 2462955
+		},
+		"assets/campaign-marketing-email-12.webp": {
+			"name": "campaign-marketing-email-1.webp",
+			"size": 12406
+		},
+		"assets/interactive-app-tool-4.webp": {
+			"name": "interactive-app-tool-4.webp",
+			"size": 1744
+		},
+		"assets/campaign-marketing-email-13.webp": {
+			"name": "campaign-marketing-email-1.webp",
+			"size": 20892
+		},
+		"assets/interactive-app-tool-42.webp": {
+			"name": "interactive-app-tool-4.webp",
+			"size": 5950
+		},
+		"assets/wordpress-custom4.webp": {
+			"name": "wordpress-custom.webp",
+			"size": 37858
+		},
+		"assets/wordpress-custom5.webp": {
+			"name": "wordpress-custom.webp",
+			"size": 65580
+		},
+		"assets/interactive-app-tool-43.webp": {
+			"name": "interactive-app-tool-4.webp",
+			"size": 11592
 		},
 		"assets/campaigns-newsletter-1.webp": {
 			"name": "campaigns-newsletter-1.webp",
-			"size": 58034
+			"size": 5694
+		},
+		"assets/campaign-marketing-email-14.webp": {
+			"name": "campaign-marketing-email-1.webp",
+			"size": 43644
+		},
+		"assets/campaign-marketing-email-15.webp": {
+			"name": "campaign-marketing-email-1.webp",
+			"size": 29698
 		},
 		"assets/campaigns-newsletter-12.webp": {
 			"name": "campaigns-newsletter-1.webp",
-			"size": 221588
+			"size": 15390
 		},
 		"assets/campaigns-newsletter-13.webp": {
 			"name": "campaigns-newsletter-1.webp",
-			"size": 420122
+			"size": 26356
+		},
+		"assets/interactive-app-tool-44.webp": {
+			"name": "interactive-app-tool-4.webp",
+			"size": 17906
 		},
 		"assets/campaigns-newsletter-14.webp": {
 			"name": "campaigns-newsletter-1.webp",
-			"size": 642126
+			"size": 38890
+		},
+		"assets/interactive-app-tool-45.webp": {
+			"name": "interactive-app-tool-4.webp",
+			"size": 31394
+		},
+		"assets/enterprise-ecom-1.webp": {
+			"name": "enterprise-ecom-1.webp",
+			"size": 4138
+		},
+		"assets/enterprise-ecom-12.webp": {
+			"name": "enterprise-ecom-1.webp",
+			"size": 11656
+		},
+		"assets/enterprise-ecom-13.webp": {
+			"name": "enterprise-ecom-1.webp",
+			"size": 20354
+		},
+		"assets/enterprise-ecom-14.webp": {
+			"name": "enterprise-ecom-1.webp",
+			"size": 29294
 		},
 		"assets/campaigns-newsletter-15.webp": {
 			"name": "campaigns-newsletter-1.webp",
-			"size": 1105026
+			"size": 61512
 		},
-		"assets/style-B7lSlmdk.css": {
+		"assets/enterprise-ecom-15.webp": {
+			"name": "enterprise-ecom-1.webp",
+			"size": 42866
+		},
+		"assets/style-CWTHKhVs.css": {
 			"name": "style.css",
-			"size": 6921
+			"size": 8936
 		},
-		"assets/bundle-graph-Cr-eYoRt.json": {
+		"assets/bundle-graph-Csur4z6n.json": {
 			"name": "bundle-graph.json",
-			"size": 195
+			"size": 210
 		}
 	},
 	"symbols": {
-		"s_e0fU40Sf0FI": {
-			"displayName": "index.tsx_routes_component_Fragment_main_section_p_button_onClick",
-			"hash": "e0fU40Sf0FI",
+		"s_gB0TOBia13g": {
+			"displayName": "project-list.tsx_ProjectList_component_Fragment_ul_li_div_button_onClick",
+			"hash": "gB0TOBia13g",
 			"ctxKind": "eventHandler",
 			"ctxName": "onClick$",
 			"captures": true,
-			"canonicalFilename": "index.tsx_routes_component_Fragment_main_section_p_button_onClick_e0fU40Sf0FI",
+			"canonicalFilename": "project-list.tsx_ProjectList_component_Fragment_ul_li_div_button_onClick_gB0TOBia13g",
+			"parent": "s_W1MswfbHEcE",
+			"origin": "components/project/project-list.tsx",
+			"loc": [
+				5121,
+				5191
+			]
+		},
+		"s_K8WWiqZ1Wdw": {
+			"displayName": "index.tsx_routes_component_Fragment_main_section_form_fieldset_select_bind_value",
+			"hash": "K8WWiqZ1Wdw",
+			"ctxKind": "eventHandler",
+			"ctxName": "onInput$",
+			"captures": true,
+			"canonicalFilename": "index.tsx_routes_component_Fragment_main_section_form_fieldset_select_bind_value_K8WWiqZ1Wdw",
 			"parent": "s_B0lqk5IDDy4",
 			"origin": "routes/index.tsx",
 			"loc": [
-				5828,
-				5859
+				0,
+				0
+			]
+		},
+		"s_32KLFlOO5uE": {
+			"displayName": "index.qwik.mjs_QwikCityMockProvider_component_useTask",
+			"hash": "32KLFlOO5uE",
+			"ctxKind": "function",
+			"ctxName": "useTask$",
+			"captures": true,
+			"canonicalFilename": "index.qwik.mjs_QwikCityMockProvider_component_useTask_32KLFlOO5uE",
+			"parent": "s_MiPVFWJLcMo",
+			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
+			"loc": [
+				40221,
+				40488
 			]
 		},
 		"s_Ysfvd0zsHZc": {
@@ -662,8 +882,8 @@
 			"parent": "s_p1yCGpFL1xE",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				29075,
-				38579
+				29132,
+				38636
 			]
 		},
 		"s_26Zk9LevwR4": {
@@ -689,22 +909,22 @@
 			"parent": "s_1raneLGffO8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				41819,
-				42269
+				42430,
+				42880
 			]
 		},
-		"s_idGvp1E8e8w": {
-			"displayName": "dialog.tsx_Dialog_component_useVisibleTask",
-			"hash": "idGvp1E8e8w",
+		"s_vMhWtdeCuEM": {
+			"displayName": "project-list.tsx_ProjectList_component_useVisibleTask",
+			"hash": "vMhWtdeCuEM",
 			"ctxKind": "function",
 			"ctxName": "useVisibleTask$",
 			"captures": true,
-			"canonicalFilename": "dialog.tsx_Dialog_component_useVisibleTask_idGvp1E8e8w",
-			"parent": "s_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
+			"canonicalFilename": "project-list.tsx_ProjectList_component_useVisibleTask_vMhWtdeCuEM",
+			"parent": "s_W1MswfbHEcE",
+			"origin": "components/project/project-list.tsx",
 			"loc": [
-				1260,
-				1835
+				4101,
+				4332
 			]
 		},
 		"s_0vphQYqOdZI": {
@@ -729,8 +949,8 @@
 			"canonicalFilename": "index.qwik.mjs_Link_component_1raneLGffO8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				39923,
-				42857
+				40561,
+				43468
 			]
 		},
 		"s_B0lqk5IDDy4": {
@@ -742,8 +962,21 @@
 			"canonicalFilename": "index.tsx_routes_component_B0lqk5IDDy4",
 			"origin": "routes/index.tsx",
 			"loc": [
-				303,
-				7006
+				306,
+				6363
+			]
+		},
+		"s_J7ZNxRct8Vk": {
+			"displayName": "figure.tsx_Figure_component",
+			"hash": "J7ZNxRct8Vk",
+			"ctxKind": "function",
+			"ctxName": "component$",
+			"captures": false,
+			"canonicalFilename": "figure.tsx_Figure_component_J7ZNxRct8Vk",
+			"origin": "components/figure/figure.tsx",
+			"loc": [
+				289,
+				921
 			]
 		},
 		"s_MiPVFWJLcMo": {
@@ -755,8 +988,8 @@
 			"canonicalFilename": "index.qwik.mjs_QwikCityMockProvider_component_MiPVFWJLcMo",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				38827,
-				39896
+				38884,
+				40534
 			]
 		},
 		"s_ScE8eseirUA": {
@@ -794,8 +1027,8 @@
 			"canonicalFilename": "project-list.tsx_ProjectList_component_W1MswfbHEcE",
 			"origin": "components/project/project-list.tsx",
 			"loc": [
-				1109,
-				2340
+				3957,
+				6602
 			]
 		},
 		"s_bmV0oH7tsks": {
@@ -807,8 +1040,8 @@
 			"canonicalFilename": "index.qwik.mjs_ErrorBoundary_component_bmV0oH7tsks",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				58407,
-				58721
+				58747,
+				59057
 			]
 		},
 		"s_p1yCGpFL1xE": {
@@ -821,7 +1054,7 @@
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
 				23853,
-				38625
+				38682
 			]
 		},
 		"s_pWsmcogutG8": {
@@ -833,21 +1066,8 @@
 			"canonicalFilename": "index.qwik.mjs_GetForm_component_pWsmcogutG8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				60047,
-				61200
-			]
-		},
-		"s_s2c0eHBzgXA": {
-			"displayName": "dialog.tsx_Dialog_component",
-			"hash": "s2c0eHBzgXA",
-			"ctxKind": "function",
-			"ctxName": "component$",
-			"captures": false,
-			"canonicalFilename": "dialog.tsx_Dialog_component_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
-			"loc": [
-				463,
-				2580
+				60383,
+				61536
 			]
 		},
 		"s_tntnak2DhJ8": {
@@ -861,6 +1081,19 @@
 			"loc": [
 				268,
 				1130
+			]
+		},
+		"s_x6WdtBlWzbQ": {
+			"displayName": "heading.tsx_Heading_component",
+			"hash": "x6WdtBlWzbQ",
+			"ctxKind": "function",
+			"ctxName": "component$",
+			"captures": false,
+			"canonicalFilename": "heading.tsx_Heading_component_x6WdtBlWzbQ",
+			"origin": "components/heading/heading.tsx",
+			"loc": [
+				465,
+				784
 			]
 		},
 		"s_K4gvalEGCME": {
@@ -877,18 +1110,18 @@
 				23913
 			]
 		},
-		"s_sC01JsYzSek": {
-			"displayName": "dialog.tsx_Dialog_component_useStylesScoped",
-			"hash": "sC01JsYzSek",
+		"s_rYfmEGob0gQ": {
+			"displayName": "figure.tsx_Figure_component_useStylesScoped",
+			"hash": "rYfmEGob0gQ",
 			"ctxKind": "function",
 			"ctxName": "useStylesScoped$",
 			"captures": false,
-			"canonicalFilename": "dialog.tsx_Dialog_component_useStylesScoped_sC01JsYzSek",
-			"parent": "s_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
+			"canonicalFilename": "figure.tsx_Figure_component_useStylesScoped_rYfmEGob0gQ",
+			"parent": "s_J7ZNxRct8Vk",
+			"origin": "components/figure/figure.tsx",
 			"loc": [
-				594,
-				600
+				351,
+				357
 			]
 		},
 		"s_9KRx0IOCHt8": {
@@ -913,8 +1146,8 @@
 			"canonicalFilename": "index.qwik.mjs_Form_form_onSubmit_A5SCimyrjAE",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				59178,
-				59292
+				59514,
+				59628
 			]
 		},
 		"s_N26RLdG0oBg": {
@@ -926,8 +1159,8 @@
 			"canonicalFilename": "index.qwik.mjs_routeActionQrl_action_submit_N26RLdG0oBg",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				45713,
-				47358
+				46053,
+				47698
 			]
 		},
 		"s_WfTOxT4IrdA": {
@@ -939,8 +1172,8 @@
 			"canonicalFilename": "index.qwik.mjs_serverQrl_rpc_WfTOxT4IrdA",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				53825,
-				56899
+				54165,
+				57239
 			]
 		},
 		"s_0HB1p804N00": {
@@ -953,36 +1186,8 @@
 			"parent": "s_1raneLGffO8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				41240,
-				41666
-			]
-		},
-		"s_25nHLry4QtU": {
-			"displayName": "dialog.tsx_Dialog_component_handleBackdropClick",
-			"hash": "25nHLry4QtU",
-			"ctxKind": "function",
-			"ctxName": "$",
-			"captures": true,
-			"canonicalFilename": "dialog.tsx_Dialog_component_handleBackdropClick_25nHLry4QtU",
-			"parent": "s_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
-			"loc": [
-				794,
-				916
-			]
-		},
-		"s_458P5iWQHv8": {
-			"displayName": "dialog.tsx_Dialog_component_useOnDocument",
-			"hash": "458P5iWQHv8",
-			"ctxKind": "function",
-			"ctxName": "$",
-			"captures": true,
-			"canonicalFilename": "dialog.tsx_Dialog_component_useOnDocument_458P5iWQHv8",
-			"parent": "s_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
-			"loc": [
-				985,
-				1110
+				41851,
+				42277
 			]
 		},
 		"s_74kvkuGdvug": {
@@ -995,22 +1200,22 @@
 			"parent": "s_1raneLGffO8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				41704,
-				41798
+				42315,
+				42409
 			]
 		},
-		"s_7ldVcDWrykY": {
-			"displayName": "dialog.tsx_Dialog_component_handleClose",
-			"hash": "7ldVcDWrykY",
+		"s_E9WxFoX5Yz0": {
+			"displayName": "project-list.tsx_ProjectList_component_closeFullscreen",
+			"hash": "E9WxFoX5Yz0",
 			"ctxKind": "function",
 			"ctxName": "$",
-			"captures": true,
-			"canonicalFilename": "dialog.tsx_Dialog_component_handleClose_7ldVcDWrykY",
-			"parent": "s_s2c0eHBzgXA",
-			"origin": "components/dialog/dialog.tsx",
+			"captures": false,
+			"canonicalFilename": "project-list.tsx_ProjectList_component_closeFullscreen_E9WxFoX5Yz0",
+			"parent": "s_W1MswfbHEcE",
+			"origin": "components/project/project-list.tsx",
 			"loc": [
-				677,
-				758
+				4365,
+				4407
 			]
 		},
 		"s_PmWjL2RrvZM": {
@@ -1023,8 +1228,8 @@
 			"parent": "s_MiPVFWJLcMo",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				39140,
-				39218
+				39362,
+				39440
 			]
 		},
 		"s_US0pTyQnOdc": {
@@ -1037,8 +1242,8 @@
 			"parent": "s_bmV0oH7tsks",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				58483,
-				58530
+				58822,
+				58868
 			]
 		},
 		"s_aww2BzpANGM": {
@@ -1052,7 +1257,7 @@
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
 				26379,
-				28605
+				28662
 			]
 		},
 		"s_qFWf5RhlL7U": {
@@ -1065,8 +1270,8 @@
 			"parent": "s_B0lqk5IDDy4",
 			"origin": "routes/index.tsx",
 			"loc": [
-				493,
-				1137
+				507,
+				1527
 			]
 		},
 		"s_qGVD1Sz413o": {
@@ -1093,8 +1298,8 @@
 			"parent": "s_pWsmcogutG8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				60802,
-				61138
+				61138,
+				61474
 			]
 		},
 		"s_zE0QQuYrlX4": {
@@ -1107,8 +1312,8 @@
 			"parent": "s_B0lqk5IDDy4",
 			"origin": "routes/index.tsx",
 			"loc": [
-				1167,
-				1286
+				1557,
+				1676
 			]
 		},
 		"s_zPJUEsxZLIA": {
@@ -1121,8 +1326,8 @@
 			"parent": "s_1raneLGffO8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				40618,
-				40975
+				41229,
+				41586
 			]
 		},
 		"s_zpHcJzYZ88E": {
@@ -1135,8 +1340,8 @@
 			"parent": "s_pWsmcogutG8",
 			"origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
 			"loc": [
-				60411,
-				60791
+				60747,
+				61127
 			]
 		}
 	},
@@ -1146,6 +1351,6 @@
 		"rollup": "4.53.3",
 		"env": "node",
 		"os": "linux",
-		"node": "20.19.6"
+		"node": "24.14.0"
 	}
 }
