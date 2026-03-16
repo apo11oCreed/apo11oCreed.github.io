@@ -1,13 +1,38 @@
-// Export as a shared signal for fullscreen image functionality
-// Using a simple object with getter/setter for shared state
-export const fullscreenImage = {
-  _value: null as string | null,
+import { useSignal, $, type Signal, type QRL } from '@builder.io/qwik';
+
+export interface FullscreenImageHook {
+  fullscreenImage: Signal<string | null>;
+  openFullscreen: QRL<(imageName: string) => void>;
+  closeFullscreen: QRL<() => void>;
+  dialogRef: Signal<HTMLDialogElement | undefined>;
+}
+
+export const useFullscreenImage = (): FullscreenImageHook => {
+  const fullscreenImage = useSignal<string | null>(null);
+  const dialogRef = useSignal<HTMLDialogElement>();
   
-  get value(): string | null {
-    return this._value;
-  },
+  const openFullscreen = $((imageName: string) => {
+    fullscreenImage.value = imageName;
+    
+    requestAnimationFrame(() => {
+      if (dialogRef.value) {
+        dialogRef.value.showModal();
+      }
+    });
+  });
   
-  set value(newValue: string | null) {
-    this._value = newValue;
-  }
+  const closeFullscreen = $(() => {
+    
+    if (dialogRef.value) {
+      dialogRef.value.close();
+    }
+    fullscreenImage.value = null;
+  });
+  
+  return {
+    fullscreenImage,
+    openFullscreen,
+    closeFullscreen,
+    dialogRef
+  };
 };
