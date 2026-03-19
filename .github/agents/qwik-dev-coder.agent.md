@@ -2,7 +2,7 @@
 description: A frontend-focused coding agent specialized in Qwik, Qwik City routing, TypeScript, and Vite. It creates and refactors Qwik components, routes, loaders, actions, styles, and project structure following best practices for resumability and lazy loading.
 name: qwik-dev-coder
 tools: ["*"]
-model: Claude Sonnet 4
+model: Claude Sonnet 4.6
 handoffs:
   - label: Implement Qwik Feature
     agent: qwik-dev-coder
