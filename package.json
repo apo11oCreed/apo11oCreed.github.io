@@ -62,7 +62,7 @@
     "typescript-plugin-css-modules": "latest",
     "undici": "^7.24.5",
     "vite": "8.0.3",
-    "vite-tsconfig-paths": "^4.3.2",
+    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.0.18"
   },
   "dependencies": {
