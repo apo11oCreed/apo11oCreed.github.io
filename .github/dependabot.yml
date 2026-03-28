@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # Use npm ecosystem since Dependabot doesn't natively support bun.lock yet.
+  # This project uses Bun as the package manager (bun.lock is the source of truth).
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
