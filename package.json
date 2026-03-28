@@ -58,7 +58,7 @@
     "storybook-framework-qwik": "^0.4.0",
     "ts-jest": "^29.4.6",
     "typescript": "5.4.5",
-    "typescript-eslint": "8.38.0",
+    "typescript-eslint": "8.57.2",
     "typescript-plugin-css-modules": "latest",
     "undici": "^7.24.5",
     "vite": "7.1.11",
