@@ -1,0 +1,9 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`Heading Component (Bun) should match snapshot for default heading 1`] = `"<h1>Test Heading</h1>"`;
+
+exports[`Heading Component (Bun) should match snapshot for heading level 2 1`] = `"<h2>Level 2 Heading</h2>"`;
+
+exports[`Heading Component (Bun) should match snapshot for dark mode heading 1`] = `"<h3 class="dark">Dark Mode Heading</h3>"`;
+
+exports[`Heading Component (Bun) should match snapshot for light mode heading 1`] = `"<h4 class="light">Light Mode Heading</h4>"`;
