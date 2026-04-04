@@ -60,7 +60,7 @@
     "storybook": "^8",
     "storybook-framework-qwik": "^0.6.1",
     "ts-jest": "^29.4.6",
-    "typescript": "^5",
+    "typescript": "^6",
     "typescript-eslint": "8.57.2",
     "typescript-plugin-css-modules": "latest",
     "undici": "^7.24.5",
