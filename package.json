@@ -31,8 +31,7 @@
     "test:jest:coverage": "jest --coverage",
     "test:bun": "bun test",
     "test:bun:watch": "bun test --watch",
-    "qwik": "qwik",
-    "postinstall": "rm -rf node_modules/storybook-framework-qwik/node_modules/@storybook"
+    "qwik": "qwik"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.19.1",
@@ -58,7 +57,6 @@
     "jest-environment-jsdom": "^30.2.0",
     "prettier": "3.8.1",
     "storybook": "^8",
-    "storybook-framework-qwik": "^0.6.1",
     "ts-jest": "^29.4.6",
     "typescript": "^5",
     "typescript-eslint": "8.57.2",

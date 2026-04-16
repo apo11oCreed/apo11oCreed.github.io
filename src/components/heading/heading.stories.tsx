@@ -1,9 +1,9 @@
-import type { Meta, StoryObj } from "storybook-framework-qwik";
-import { Heading, type HeadingProps } from "./heading";
+import type { Meta, StoryObj } from '@storybook/html';
+import { render as qwikRender } from '@builder.io/qwik';
+import { Heading, type HeadingProps } from './heading';
 
 const meta: Meta<HeadingProps> = {
-  component: Heading,
-  title: "Content/Headings",
+  title: 'Content/Headings',
   parameters: {
     docs: {
       description: {
@@ -25,10 +25,14 @@ const meta: Meta<HeadingProps> = {
       options: ['light', 'dark'],
     },
     text: {
-      control: { type: 'text'},
-    }
+      control: { type: 'text' },
+    },
   },
-  render: (props: HeadingProps) => <Heading {...props}>{props.text}</Heading>,
+  render: (props: HeadingProps) => {
+    const container = document.createElement('div');
+    qwikRender(container, <Heading {...props}>{props.text}</Heading>);
+    return container;
+  },
 };
 
 type Story = StoryObj<HeadingProps>;

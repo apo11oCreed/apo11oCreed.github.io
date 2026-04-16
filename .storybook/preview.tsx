@@ -1,19 +1,22 @@
-import { Parameters } from "storybook-framework-qwik";
+import type { Preview } from '@storybook/html';
+import '../src/global.css';
 
-import "../src/global.css";
-
-export const parameters: Parameters = {
-  a11y: {
-    config: {},
+const preview: Preview = {
+  parameters: {
+    a11y: {
+      config: {},
+      options: {
+        checks: { 'color-contrast': { options: { noScroll: true } } },
+        restoreScroll: true,
+      },
+    },
     options: {
-      checks: { "color-contrast": { options: { noScroll: true } } },
-      restoreScroll: true,
+      showRoots: true,
+    },
+    docs: {
+      iframeHeight: '200px',
     },
   },
-  options: {
-    showRoots: true,
-  },
-  docs: {
-    iframeHeight: "200px",
-  },
 };
+
+export default preview;
