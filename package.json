@@ -38,7 +38,7 @@
     "@builder.io/qwik-city": "^1.19.2",
     "@eslint/js": "^10",
     "@jest/globals": "^30.2.0",
-    "@storybook/addon-actions": "^8",
+    "@storybook/addon-actions": "^9",
     "@storybook/addon-essentials": "^8",
     "@storybook/addon-links": "^10",
     "@storybook/blocks": "^8",
