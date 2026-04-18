@@ -44,7 +44,7 @@
     "@storybook/blocks": "^8",
     "@storybook/builder-vite": "^8",
     "@storybook/html": "^8",
-    "@storybook/html-vite": "^8",
+    "@storybook/html-vite": "^10",
     "@testing-library/jest-dom": "^6.9.1",
     "@types/jest": "^30.0.0",
     "@types/node": "25.5.2",
