@@ -47,7 +47,7 @@
     "@storybook/html-vite": "^10",
     "@testing-library/jest-dom": "^6.9.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "25.5.2",
+    "@types/node": "25.8.0",
     "eslint": "^9.0.0",
     "eslint-plugin-qwik": "^1.17.2",
     "globals": "17.4.0",
