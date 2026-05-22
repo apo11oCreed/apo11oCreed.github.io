@@ -1,0 +1,66 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`Project Component (Bun) should match snapshot for basic project 1`] = `
+"<div class="project">
+  <div class="details">
+    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
+    
+    <p>This is a test project for snapshot testing with Bun</p>
+    <ul class="stack">
+      <li>Qwik</li><li>TypeScript</li><li>Bun</li>
+    </ul>
+  </div>
+</div>"
+`;
+
+exports[`Project Component (Bun) should match snapshot for project with image 1`] = `
+"<div class="project">
+  <div class="details">
+    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
+    <div class="image"><img src="test-image.jpg" alt="test" /></div>
+    <p>This is a test project for snapshot testing with Bun</p>
+    <ul class="stack">
+      <li>Qwik</li><li>TypeScript</li><li>Bun</li>
+    </ul>
+  </div>
+</div>"
+`;
+
+exports[`Project Component (Bun) should match snapshot for project with different stack 1`] = `
+"<div class="project">
+  <div class="details">
+    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
+    
+    <p>This is a test project for snapshot testing with Bun</p>
+    <ul class="stack">
+      <li>Vue</li><li>JavaScript</li><li>Vitest</li><li>Bun</li>
+    </ul>
+  </div>
+</div>"
+`;
+
+exports[`Project Component (Bun) should match snapshot for project with long description 1`] = `
+"<div class="project">
+  <div class="details">
+    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
+    
+    <p>This is a very long description that demonstrates how the component handles larger amounts of text content and ensures that the layout remains consistent across different content lengths and provides a comprehensive overview of the project capabilities when using Bun for testing.</p>
+    <ul class="stack">
+      <li>Qwik</li><li>TypeScript</li><li>Bun</li>
+    </ul>
+  </div>
+</div>"
+`;
+
+exports[`Project Component (Bun) should match snapshot for project with special characters in name 1`] = `
+"<div class="project">
+  <div class="details">
+    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test & Development <Project></a></h3>
+    
+    <p>Project with "quotes" and special chars tested with Bun</p>
+    <ul class="stack">
+      <li>Qwik</li><li>TypeScript</li><li>Bun</li>
+    </ul>
+  </div>
+</div>"
+`;

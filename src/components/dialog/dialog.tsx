@@ -1,99 +1,62 @@
-import { 
-  component$, 
-  useStyles$, 
-  useSignal, 
-  useOnDocument,
-  useVisibleTask$,
-  $,
-  Slot,
+import { component$, useStyles$,
   type Signal,
   type QRL
 } from '@builder.io/qwik';
 import { dialogStyles } from './styles';
-
+import styles from './styles.module.css';
 export interface DialogProps {
-  isOpen: Signal<boolean>;
-  size?: 'small' | 'medium' | 'large';
-  title?: string;
-  // closeOnBackdrop?: boolean;
-  closeOnEscape?: boolean;
-  onClose$?: QRL<() => void>;
+  onKeyDown$?: QRL<(event: KeyboardEvent) => void>;
+  dialogRef: Signal<HTMLDialogElement | undefined>;
+  content: any; // Adjust this type based on your content structure
+  close: QRL<() => void>;
 }
 
 export const Dialog = component$<DialogProps>(({ 
-  isOpen, 
-  size = 'medium',
-  title,
-  // closeOnBackdrop = true,
-  closeOnEscape = true,
-  onClose$
+dialogRef,
+content,
+close
 }) => {
+
   useStyles$(dialogStyles);
-  const dialogRef = useSignal<HTMLDialogElement>();
-
-  const handleClose = $(() => {
-    isOpen.value = false;
-    if (onClose$) {
-      onClose$();
-    }
-  });
-
-  // Handle ESC key to close dialog
-  useOnDocument('keydown', $((event: KeyboardEvent) => {
-    if (closeOnEscape && isOpen.value && event.key === 'Escape') {
-      handleClose();
-    }
-  }));
-
-  // Focus management - focus first focusable element when dialog opens
-  // eslint-disable-next-line qwik/no-use-visible-task
-  useVisibleTask$(({ track }) => {
-    track(() => isOpen.value);
-    
-    if (isOpen.value && dialogRef.value) {
-      dialogRef.value.showModal();
-      const firstFocusable = dialogRef.value.querySelector(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      ) as HTMLElement;
-      
-      if (firstFocusable) {
-        requestAnimationFrame(() => firstFocusable.focus());
-      }
-
-      // Prevent body scroll when dialog is open
-      document.body.style.overflow = 'hidden';
-    } else if (!isOpen.value && dialogRef.value) {
-      dialogRef.value.close();
-      // Restore body scroll when dialog closes
-      document.body.style.overflow = '';
-    }
-  });
-
-  if (!isOpen.value) {
-    return null;
-  }
 
   return (
       <dialog 
+      id="componentDialog"
         ref={dialogRef}
-        class={`dialog-content dialog-${size}`}
-        role="dialog"
+        class={styles.fullscreenOverlay}
         aria-modal="true"
-        aria-labelledby={title ? "dialogTitle" : undefined}
+        aria-labelledby={content.value ? "dialogTitle" : undefined}
+        onKeyDown$={(event) => {
+            if (event.key === 'Escape') {
+                close();
+            }
+        }}
+        onClick$={(event) => {
+          // Close when clicking the backdrop (dialog element itself)
+          if (event.target === event.currentTarget) {
+              close();
+          }
+      }}
       >
-        <div class="dialog-header">
-          {title && <h2 id="dialogTitle">{title}</h2>}
+        <div class={styles.dialogContent}>
           <button 
-            class="dialog-close" 
-            onClick$={handleClose}
-            aria-label="Close dialog"
-            autofocus
-          >
-            ×
+          class={`material-symbols-outlined ${styles.closeButton}`}
+              type="button"
+              aria-label="Close fullscreen view"
+              onClick$={() => close()}>
+              close
           </button>
-        </div>
-        <div class="dialog-body">
-          <Slot />
+        {content.value && (
+            <content.value.Component
+                alt={content.value.alt}
+                style={{ 
+                    maxWidth: '100%', 
+                    maxHeight: '100%', 
+                    objectFit: 'contain',
+                    display: 'block'
+                }}
+            />
+        )}
         </div>
       </dialog>
   );

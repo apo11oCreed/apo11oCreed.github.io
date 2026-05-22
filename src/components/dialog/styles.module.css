@@ -16,19 +16,8 @@
   }
 }
 
-dialog {
-  height: auto;
-  width: 50vw;
-}
-
-@media (max-width: 768px) {
-  dialog {
-    width: 100vw !important;
-  }
-}
-
 /* Dialog Content */
-.dialog-content {
+.dialogContent{
   background: var(--background-color);
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -83,62 +72,37 @@ dialog {
   flex: 1;
 }
 
-.dialog-close {
-  background: none;
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255, 255, 255, 0.9);
   border: none;
-  font-size: 2rem;
-  line-height: 1;
-  color: var(--text-color);
-  cursor: pointer;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
-  flex-shrink: 0;
-  margin-left: 1rem;
+  cursor: pointer;
+  z-index: 10000;
+  transition: background 0.2s;
 }
 
-.dialog-close:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+.closeButton:hover {
+  background: rgba(255, 255, 255, 1);
 }
 
-.dialog-close:focus {
-  outline: 2px solid var(--primary-color);
-  outline-offset: 2px;
+.closeButton span {
+  font-size: 1.5rem;
+  color: #000;
 }
 
 /* Dialog Body */
-.dialog-body {
+.dialogBody {
   padding: 1.5rem;
   overflow-y: auto;
   flex: 1;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .dialog-backdrop {
-    padding: 0.5rem;
-  }
-
-  .dialog-content {
-    max-height: 95vh;
-  }
-
-  .dialog-header {
-    padding: 1rem;
-  }
-
-  .dialog-body {
-    padding: 1rem;
-  }
-
-  .dialog-header h2 {
-    font-size: 1.25rem;
-  }
 }
 
 /* Dark Mode Support */
@@ -150,8 +114,32 @@ dialog {
   .dialog-header {
     border-bottom-color: rgba(255, 255, 255, 0.1);
   }
+}
 
-  .dialog-close:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+/*  NEW STYLES */
+
+.fullscreenOverlay {
+    border: none;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    touch-action: manipulation;
+}
+
+.fullscreenOverlay::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.fullscreenOverlay[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreenOverlay img {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    touch-action: manipulation;
 }

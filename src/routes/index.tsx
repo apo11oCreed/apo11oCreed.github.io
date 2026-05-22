@@ -7,7 +7,6 @@ import { Heading } from "~/components/heading/heading";
 export default component$(() => {
   const filteredProjects = useSignal<Project[]>([...projects]);
   const selectedFilter = useSignal<string>('all');
-  // const isDialogOpen = useSignal(false);
   
   const handleFilterChange = $((event: any) => {
     const filterValue = event.target.value;

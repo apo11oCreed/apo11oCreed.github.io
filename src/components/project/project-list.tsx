@@ -3,6 +3,7 @@ import { useFullscreenImage } from '~/utilities';
 import type { Project } from '~/data/projects';
 import { Heading } from '~/components/heading/heading';
 import { Figure } from '~/components/figure/figure';
+import { Dialog } from '~/components/dialog/dialog';
 import styles from './styles.module.css';
 
 // Import all project images with JSX optimization
@@ -118,7 +119,10 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                                         class="material-symbols-outlined" 
                                         type="button"
                                         aria-label={`View ${project.name} in fullscreen`}
-                                        onClick$={() => openFullscreen(project.img || '')}>
+                                        onClick$={() => {
+                                            console.log("Show Dialog");
+                                            openFullscreen(project.img || '')
+                                            }}>
                                         open_in_full
                                     </button>
                                     <Figure 
@@ -150,44 +154,8 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                     );
                 })}
             </ul>
-            
-            <dialog 
-                ref={dialogRef} 
-                class={styles.fullscreenOverlay}
-                onKeyDown$={(event) => {
-                    if (event.key === 'Escape') {
-                        closeFullscreen();
-                    }
-                }}
-                onClick$={(event) => {
-                    // Close when clicking the backdrop (dialog element itself)
-                    if (event.target === event.currentTarget) {
-                        closeFullscreen();
-                    }
-                }}
-            >
-                <div class={styles.dialogContent}>
-                    <button 
-                        class={`${styles.closeButton} material-symbols-outlined`} 
-                        type="button"
-                        aria-label="Close fullscreen view"
-                        onClick$={() => closeFullscreen()}>
-                        close
-                    </button>
-                    
-                    {fullscreenImageData.value && (
-                        <fullscreenImageData.value.Component
-                            alt={fullscreenImageData.value.alt}
-                            style={{ 
-                                maxWidth: '100%', 
-                                maxHeight: '100%', 
-                                objectFit: 'contain',
-                                display: 'block'
-                            }}
-                        />
-                    )}
-                </div>
-            </dialog>
+
+            <Dialog dialogRef={dialogRef} content={fullscreenImageData} close={closeFullscreen} />
         </>
     );
 });
