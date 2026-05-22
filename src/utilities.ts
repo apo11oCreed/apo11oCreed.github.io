@@ -8,6 +8,7 @@ export interface FullscreenImageHook {
 }
 
 export const useFullscreenImage = (): FullscreenImageHook => {
+  console.log('useFullscreenImage hook initialized');
   const fullscreenImage = useSignal<string | null>(null);
   const dialogRef = useSignal<HTMLDialogElement>();
   
@@ -15,7 +16,9 @@ export const useFullscreenImage = (): FullscreenImageHook => {
     fullscreenImage.value = imageName;
     
     requestAnimationFrame(() => {
+      console.log('test',dialogRef);
       if (dialogRef.value) {
+        console.log('Opening dialog for image:', imageName);
         dialogRef.value.showModal();
       }
     });
