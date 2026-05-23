@@ -1,13 +1,13 @@
-figure {
+.figure {
   margin: 1rem 0;
 }
 
-figure img {
+.figure img {
   max-width: 100%;
   height: auto;
 }
 
-figure figcaption {
+.figure figcaption {
   font-size: 0.875rem;
   margin-top: 0.5rem;
   font-style: italic;
