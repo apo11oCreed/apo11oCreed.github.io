@@ -16,9 +16,7 @@ export const useFullscreenImage = (): FullscreenImageHook => {
     fullscreenImage.value = imageName;
     
     requestAnimationFrame(() => {
-      console.log('test',dialogRef);
       if (dialogRef.value) {
-        console.log('Opening dialog for image:', imageName);
         dialogRef.value.showModal();
       }
     });

@@ -87,6 +87,8 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
         
         const ImageComponent = imageMap[imageName];
         const project = projects.find(p => p.img === imageName);
+
+        console.log(typeof(ImageComponent), 'for image:', imageName); // Debug log
         
         return ImageComponent ? {
             Component: ImageComponent,
@@ -120,7 +122,6 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                                         type="button"
                                         aria-label={`View ${project.name} in fullscreen`}
                                         onClick$={() => {
-                                            console.log("Show Dialog");
                                             openFullscreen(project.img || '')
                                             }}>
                                         open_in_full
