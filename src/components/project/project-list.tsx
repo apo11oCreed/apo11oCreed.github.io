@@ -87,8 +87,6 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
         
         const ImageComponent = imageMap[imageName];
         const project = projects.find(p => p.img === imageName);
-
-        console.log(typeof(ImageComponent), 'for image:', imageName); // Debug log
         
         return ImageComponent ? {
             Component: ImageComponent,

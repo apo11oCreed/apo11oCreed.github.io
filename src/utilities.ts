@@ -8,7 +8,6 @@ export interface FullscreenImageHook {
 }
 
 export const useFullscreenImage = (): FullscreenImageHook => {
-  console.log('useFullscreenImage hook initialized');
   const fullscreenImage = useSignal<string | null>(null);
   const dialogRef = useSignal<HTMLDialogElement>();
   
