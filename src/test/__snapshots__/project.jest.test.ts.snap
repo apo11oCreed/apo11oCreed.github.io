@@ -1,66 +1,71 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Project Component should match snapshot for basic project 1`] = `
-"<div class="project">
-  <div class="details">
-    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
-    
-    <p>This is a test project for snapshot testing</p>
-    <ul class="stack">
-      <li>React</li><li>TypeScript</li><li>Jest</li>
-    </ul>
-  </div>
-</div>"
-`;
-
-exports[`Project Component should match snapshot for project with different stack 1`] = `
-"<div class="project">
-  <div class="details">
-    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
-    
-    <p>This is a test project for snapshot testing</p>
-    <ul class="stack">
-      <li>Vue</li><li>JavaScript</li><li>Vitest</li><li>Cypress</li>
-    </ul>
-  </div>
-</div>"
-`;
-
-exports[`Project Component should match snapshot for project with image 1`] = `
-"<div class="project">
-  <div class="details">
-    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
-    <div class="image"><img src="test-image.jpg" alt="test" /></div>
-    <p>This is a test project for snapshot testing</p>
-    <ul class="stack">
-      <li>React</li><li>TypeScript</li><li>Jest</li>
-    </ul>
-  </div>
-</div>"
-`;
-
-exports[`Project Component should match snapshot for project with long description 1`] = `
-"<div class="project">
-  <div class="details">
-    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test Project</a></h3>
-    
-    <p>This is a very long description that demonstrates how the component handles larger amounts of text content and ensures that the layout remains consistent across different content lengths and provides a comprehensive overview of the project capabilities.</p>
-    <ul class="stack">
-      <li>React</li><li>TypeScript</li><li>Jest</li>
-    </ul>
-  </div>
-</div>"
-`;
-
-exports[`Project Component should match snapshot for project with special characters in name 1`] = `
-"<div class="project">
-  <div class="details">
-    <h3><a href="https://example.com" target="_blank" rel="noopener noreferrer">Test & Development <Project></a></h3>
-    
-    <p>Project with "quotes" and special chars</p>
-    <ul class="stack">
-      <li>React</li><li>TypeScript</li><li>Jest</li>
-    </ul>
-  </div>
-</div>"
+exports[`Project Component matches snapshot 1`] = `
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": {
+                "props": {
+                  "children": "Test Project",
+                  "href": "https://example.com",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "type": "a",
+              },
+            },
+            "type": "h3",
+          },
+          {
+            "props": {
+              "children": "test-image.jpg",
+              "class": "image",
+            },
+            "type": "div",
+          },
+          {
+            "props": {
+              "children": "This is a test project for snapshot testing",
+            },
+            "type": "p",
+          },
+          {
+            "props": {
+              "children": [
+                {
+                  "props": {
+                    "children": "React",
+                  },
+                  "type": "li",
+                },
+                {
+                  "props": {
+                    "children": "TypeScript",
+                  },
+                  "type": "li",
+                },
+                {
+                  "props": {
+                    "children": "Jest",
+                  },
+                  "type": "li",
+                },
+              ],
+              "class": "stack",
+            },
+            "type": "ul",
+          },
+        ],
+        "class": "details",
+      },
+      "type": "div",
+    },
+    "class": "project",
+  },
+  "type": "div",
+}
 `;

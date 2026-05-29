@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dialog Component matches snapshot 1`] = `
+{
+  "props": {
+    "aria-labelledby": "dialogTitle",
+    "aria-modal": "true",
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "aria-label": "Close fullscreen view",
+              "children": "close",
+              "class": "material-symbols-outlined closeButton",
+              "onClick$": [Function],
+              "type": "button",
+            },
+            "type": "button",
+          },
+          {
+            "props": {
+              "alt": "Test",
+              "style": {
+                "display": "block",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "objectFit": "contain",
+              },
+            },
+            "type": [Function],
+          },
+        ],
+        "class": "dialogContent",
+      },
+      "type": "div",
+    },
+    "class": "fullscreenOverlay",
+    "id": "componentDialog",
+    "onClick$": [Function],
+    "onKeyDown$": [Function],
+    "ref": {
+      "value": undefined,
+    },
+  },
+  "type": "dialog",
+}
+`;

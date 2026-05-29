@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Figure Component matches snapshot 1`] = `
+{
+  "props": {
+    "children": [
+      {
+        "props": {},
+        "type": [Function],
+      },
+      {
+        "props": {
+          "children": [
+            "Test Caption",
+            {
+              "props": {
+                "children": {
+                  "props": {
+                    "content": "Test Author",
+                    "itemProp": "name",
+                  },
+                  "type": "meta",
+                },
+                "itemProp": "author",
+                "itemScope": true,
+                "itemType": "https://schema.org/Person",
+              },
+              "type": "span",
+            },
+          ],
+          "itemProp": "caption",
+        },
+        "type": "figcaption",
+      },
+      {
+        "props": {
+          "children": "https://example.com/image.jpg",
+          "itemProp": "contentUrl",
+          "style": {
+            "display": "none",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "class": "figure",
+    "itemScope": true,
+    "itemType": "https://schema.org/ImageObject",
+  },
+  "type": "figure",
+}
+`;

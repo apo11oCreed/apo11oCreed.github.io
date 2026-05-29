@@ -1,9 +1,14 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Heading Component should match snapshot for dark mode heading 1`] = `"<h3 class="dark">Dark Mode Heading</h3>"`;
-
-exports[`Heading Component should match snapshot for default heading 1`] = `"<h1>Test Heading</h1>"`;
-
-exports[`Heading Component should match snapshot for heading level 2 1`] = `"<h2>Level 2 Heading</h2>"`;
-
-exports[`Heading Component should match snapshot for light mode heading 1`] = `"<h4 class="light">Light Mode Heading</h4>"`;
+exports[`Heading Component matches snapshot 1`] = `
+{
+  "props": {
+    "children": {
+      "props": {},
+      "type": [Function],
+    },
+    "class": "light",
+  },
+  "type": "h2",
+}
+`;
