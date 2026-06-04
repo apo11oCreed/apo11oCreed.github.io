@@ -3,6 +3,7 @@ import { component$ } from '@builder.io/qwik';
 import type { JSX } from "@builder.io/qwik/jsx-runtime";
 import { useStylesScoped$ } from '@builder.io/qwik';
 import styles from './styles.module.css?inline';
+import { Heading } from '~/components/heading/heading';
 
 interface ProjectProps {
   name: string;
@@ -20,7 +21,9 @@ export const Project = component$<ProjectProps>(({ name, description, url, stack
   return (
     <div class="project">
       <div class="details">
-        <h3><a href={url} target="_blank" rel="noopener noreferrer">{name}</a></h3>
+        <Heading level={3}>
+          <a href={url} target="_blank" rel="noopener noreferrer">{name}</a>
+        </Heading>
         {img && <div class="image">{img}</div>}
         <p>{description}</p>
         <ul class="stack">
