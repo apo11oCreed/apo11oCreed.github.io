@@ -107,7 +107,7 @@ export default component$(() => {
           </form>
           <ProjectList projects={filteredProjects.value} key={selectedFilter.value} />
         </section>
-        <section>
+        <section class="skills-technologies">
           <Heading level={2}>Skills &amp; Technologies</Heading>
           <ul>
             <li>JavaScript (<abbr title="Ecmascript 6">ES6</abbr>+), TypeScript</li>
