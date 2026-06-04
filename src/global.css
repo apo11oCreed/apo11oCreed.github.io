@@ -101,15 +101,6 @@
     z-index: 0;
   }
 
-  section.intro figure {
-    order: 1;
-  }
-
-  section.intro .content-text {
-    order: 0;
-    z-index: 1;
-  }
-
   section.intro .content-text {
     max-width: 60ch;
   }
