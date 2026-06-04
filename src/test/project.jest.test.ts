@@ -146,7 +146,7 @@ describe('Project Component', () => {
 	});
 
 	it('matches snapshot', () => {
-		const node = Project({
+		const node = (Project as unknown as (props: ProjectProps) => unknown)({
 			name: 'Test Project',
 			description: 'This is a test project for snapshot testing',
 			url: 'https://example.com',

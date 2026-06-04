@@ -28,7 +28,7 @@ describe('Figure Component', () => {
 	});
 
 	it('matches snapshot', () => {
-		const node = Figure({
+		const node = (Figure as unknown as (props: FigureProps) => unknown)({
 			caption: 'Test Caption',
 			contentUrl: 'https://example.com/image.jpg',
 			author: 'Test Author',

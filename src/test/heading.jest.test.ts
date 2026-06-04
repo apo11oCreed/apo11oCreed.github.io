@@ -114,7 +114,7 @@ describe('Heading Component', () => {
 	});
 
 	it('matches snapshot', () => {
-		const node = Heading({
+		const node = (Heading as unknown as (props: HeadingProps) => unknown)({
 			level: 2,
 			mode: 'light',
 			text: 'Snapshot Heading',
