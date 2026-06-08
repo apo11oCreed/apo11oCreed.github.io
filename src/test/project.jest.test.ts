@@ -151,7 +151,7 @@ describe('Project Component', () => {
 			description: 'This is a test project for snapshot testing',
 			url: 'https://example.com',
 			stack: ['React', 'TypeScript', 'Jest'],
-			img: 'test-image.jpg',
+			imgFilename: 'test-image.jpg',
 			imgAlt: 'test',
 			caption: 'Example caption',
 		});
