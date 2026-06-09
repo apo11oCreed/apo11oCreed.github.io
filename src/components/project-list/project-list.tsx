@@ -1,9 +1,9 @@
 import { component$, useComputed$, $ } from '@builder.io/qwik';
 import { useFullscreenImage } from '~/utilities';
 import type { Project } from '~/data/projects';
-import { Project as ProjectComponent } from './project';
+import { Project as ProjectComponent } from '~/components/project/project';
 import { Dialog } from '~/components/dialog/dialog';
-import { imageMap } from './image-map';
+import { imageMap } from '~/components/project/image-map';
 import styles from './styles.module.css';
 
 interface ProjectPropsList {

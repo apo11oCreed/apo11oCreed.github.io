@@ -1,7 +1,7 @@
 import { component$, useOnWindow, useSignal, $ } from "@builder.io/qwik";
 import gsap from "gsap";
 import { projects, type Project } from "~/data/projects";
-import { ProjectList } from "~/components/project/project-list";
+import { ProjectList } from "~/components/project-list/project-list";
 import { Heading } from "~/components/heading/heading";
 
 export default component$(() => {
