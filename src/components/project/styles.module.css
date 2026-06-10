@@ -31,7 +31,7 @@
     gap: 0.5rem;
 }
 
-.techStack li {
+.techStack span {
     background: var(--secondary-color);
     padding: 0.3rem 0.6rem;
     border-radius: 12px;
@@ -42,7 +42,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .techStack li {
+    .techStack span {
         --text-color: #000;
     }
 }

@@ -3,6 +3,7 @@ import { component$ } from '@builder.io/qwik';
 import type { QRL } from '@builder.io/qwik';
 import styles from './styles.module.css';
 import { Heading } from '~/components/heading/heading';
+import { Badge } from '~/components/badge/badge';
 import { Figure } from '~/components/figure/figure';
 import { imageMap, getFullImageUrl } from './image-map';
 
@@ -60,7 +61,7 @@ export const Project = component$<ProjectProps>(({ name, description, credit, ur
       <Heading level={4}>Technologies Used:</Heading>
       <ul class={styles.techStack}>
         {stack.map(tech => (
-          <li key={tech}>{tech}</li>
+          <li key={tech}><Badge text={tech} /></li>
         ))}
       </ul>
     </>
