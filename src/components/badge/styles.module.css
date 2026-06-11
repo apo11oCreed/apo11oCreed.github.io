@@ -1,8 +1,29 @@
-.badge {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+@layer base, component, utility, darkmode;
+
+@layer base {
+    .badge {
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        font-size: 0.8rem;
+        line-height: 1;
+        list-style: none;
+        padding: 0.45rem 1rem;
+        margin: 0;
+    }
+}
+
+@layer utility {
+    .tech {
+        background: var(--secondary-color);
+        color: var(--text-color);
+    }
+}
+
+@layer darkmode {
+    @media (prefers-color-scheme: dark) {
+        .tech {
+            --text-color: #000;
+        }
+    }
 }

@@ -7,7 +7,7 @@ interface BadgeProps {
 
 export const Badge = component$<BadgeProps>(({ text }) => {
     return (
-        <span class={styles.badge}>
+        <span class={`${styles.badge} ${styles.tech}`}>
             {text}
         </span>
     );
