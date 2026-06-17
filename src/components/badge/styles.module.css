@@ -2,20 +2,23 @@
 
 @layer base {
     .badge {
-        border: none;
+        border: 1px solid var(--primary-color);
         border-radius: 1rem;
+        color: var(--primary-color);
         display: flex;
         font-size: 0.8rem;
         line-height: 1;
         list-style: none;
         padding: 0.45rem 1rem;
         margin: 0;
+        width: fit-content;
     }
 }
 
 @layer utility {
     .tech {
         background: var(--secondary-color);
+        border: none;
         color: var(--text-color);
     }
 }
