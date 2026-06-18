@@ -40,7 +40,7 @@ export const ProjectList = component$<ProjectPropsList>(({ projects }) => {
                             <ProjectComponent
                                 name={project.name}
                                 description={project.description}
-                                credit={project.credit}
+                                engagementContext={project.engagementContext}
                                 url={project.url}
                                 stack={project.stack}
                                 caption={project.caption}

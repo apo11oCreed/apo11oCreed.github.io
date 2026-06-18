@@ -5,13 +5,14 @@ import styles from './styles.module.css';
 import { Heading } from '~/components/heading/heading';
 import { Badge } from '~/components/badge/badge';
 import { Figure } from '~/components/figure/figure';
+import { EngagementContext } from '~/components/engagementContext/engagementContext';
 import { imageMap, getFullImageUrl } from './image-map';
 
 interface ProjectProps {
   name: string;
   caption?: string;
   description: string;
-  credit?: string;
+  engagementContext?: string;
   url: string | null;
   stack: string[];
   imgFilename?: string;
@@ -19,7 +20,7 @@ interface ProjectProps {
   onOpenFullscreen$?: QRL<() => void>;
 }
 
-export const Project = component$<ProjectProps>(({ name, description, credit, url, stack, imgFilename, imgAlt, caption, onOpenFullscreen$ }) => {
+export const Project = component$<ProjectProps>(({ name, description, engagementContext, url, stack, imgFilename, imgAlt, caption, onOpenFullscreen$ }) => {
   const projectUrl = url ?? '#';
   const ImageComponent = imgFilename ? imageMap[imgFilename] : null;
   const contentUrl = imgFilename ? getFullImageUrl(imgFilename) : undefined;
@@ -51,12 +52,8 @@ export const Project = component$<ProjectProps>(({ name, description, credit, ur
         </div>
       )}
       <p>{description}</p>
-      {credit && (
-        <p>
-          <small>
-            <em>{credit}</em>
-          </small>
-        </p>
+      {engagementContext && (
+        <EngagementContext text={engagementContext} />
       )}
       <Heading level={4}>Technologies Used:</Heading>
       <ul class={styles.techStack}>

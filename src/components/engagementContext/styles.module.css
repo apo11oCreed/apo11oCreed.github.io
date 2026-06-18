@@ -1,0 +1,4 @@
+.wrapper {
+  margin: 0.5rem 0 0;
+  color: var(--text-color-muted, var(--text-color));
+}
