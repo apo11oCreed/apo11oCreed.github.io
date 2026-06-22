@@ -1,4 +1,21 @@
-.wrapper {
-  margin: 0.5rem 0 0;
-  color: var(--text-color-muted, var(--text-color));
+.wrapper:has(small) {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.wrapper:has(small):before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px solid oklch(from var(--primary-color) calc(l + 0.1) c h);
+    margin-left: 1rem;
+}
+
+.wrapper em {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
