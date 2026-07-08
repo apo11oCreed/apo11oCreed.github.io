@@ -62,7 +62,7 @@
     "typescript-eslint": "8.58.2",
     "typescript-plugin-css-modules": "latest",
     "undici": "^8.1.0",
-    "vite": "8.0.5",
+    "vite": "8.0.16",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.0.18"
   },
